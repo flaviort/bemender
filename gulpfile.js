@@ -71,7 +71,7 @@ gulp.task("build", ['minifyScripts', 'minifyCss'], function() {
 
 gulp.task('serve', ['watchFiles'], function(){
   browserSync.init({
-		proxy: "localhost/sites/mender/",
+		proxy: "localhost/sites/bemender/",
 		port: 8000
 	});
 
