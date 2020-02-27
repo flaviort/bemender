@@ -113,7 +113,7 @@
 				</a>
 
 				<p class="text-small">
-					© 2020 Mender, Inc.
+					© 2020 Mender App, LLC.
 				</p>
 				
 				<div class="cf"></div>
