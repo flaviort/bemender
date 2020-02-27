@@ -12,12 +12,12 @@
 		<!-- KEYWORDS -->
 		<meta name="keywords" content="mender, bemender, hire, get hired, hire someone">
 
-		<title>Mender | Hire - Get Hired on a trusted platform.</title>
+		<title>Mender | Hire or Get Hired on a Secure Platform.</title>
 
 		<!-- FACEBOOK -->
 		<meta property="og:locale" content="en_US" />
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="Mender | Hire - Get Hired on a trusted platform." />
+		<meta property="og:title" content="Mender | Hire or Get Hired on a Secure Platform." />
 		<meta property="og:description" content="In the era of instant-everything, it’s crazy that you still have to waste an entire afternoon researching, calling and comparing local pros whenever you need one. So we set out to make it easier. Today, we are Menders!" />
 		<meta property="og:url" content="https://bemender.com/" />
 		<meta property="og:site_name" content="Mender | Hire - Get Hired on a trusted platform." />
@@ -27,9 +27,9 @@
 		<meta property="og:image:height" content="630" />
 
 		<!-- TWITTER -->
-		<meta name="twitter:card" content="Mender | Hire - Get Hired on a trusted platform." />
+		<meta name="twitter:card" content="Mender | Hire or Get Hired on a Secure Platform." />
 		<meta name="twitter:url" content="https://bemender.com/" />
-		<meta name="twitter:title" content="Mender | Hire - Get Hired on a trusted platform." />
+		<meta name="twitter:title" content="Mender | Hire or Get Hired on a Secure Platform." />
 		<meta name="twitter:description" content="In the era of instant-everything, it’s crazy that you still have to waste an entire afternoon researching, calling and comparing local pros whenever you need one. So we set out to make it easier. Today, we are Menders!" />
 		<meta name="twitter:image" content="assets/img/og-image.jpg" />
 
