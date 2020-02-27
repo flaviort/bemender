@@ -87,7 +87,7 @@
 							
 							<h1 class="text-giant wow fadeInUp">
 								<strong>
-									Launc <br />
+									Launch <br />
 									Coming <span></span>
 									Soon!
 								</strong>
