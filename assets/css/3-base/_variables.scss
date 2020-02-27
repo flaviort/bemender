@@ -1,0 +1,296 @@
+/*----------------------------------------
+------------------------------------------
+	## CONTAINER SIZES
+------------------------------------------
+----------------------------------------*/
+
+.container {
+	max-width: 1320px;
+	@media #{$mq-xl-max} { max-width: 90%; }
+	@media #{$mq-md-max} { max-width: 95%; }
+	@media #{$mq-xs-max} { max-width: 100%; }
+} // END CONTAINER
+
+.container-big {
+	max-width: 1600px;
+	@media #{$mq-xxl-max} { max-width: 90%; }
+	@media #{$mq-md-max} { max-width: 95%; }
+	@media #{$mq-xs-max} { max-width: 100%; }
+} // END CONTAINER BIG
+
+/*----------------------------------------
+------------------------------------------
+	## FONT FAMILIES / WEIGHTS / SIZES
+------------------------------------------
+----------------------------------------*/
+
+@font-face {
+    font-family: 'Visby Round CF';
+    src: url('../fonts/VisbyRoundCF-Bold.woff2') format('woff2'),
+        url('../fonts/VisbyRoundCF-Bold.woff') format('woff'),
+        url('../fonts/VisbyRoundCF-Bold.svg#VisbyRoundCF-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visby Round CF';
+    src: url('../fonts/VisbyRoundCF-Regular.woff2') format('woff2'),
+        url('../fonts/VisbyRoundCF-Regular.woff') format('woff'),
+        url('../fonts/VisbyRoundCF-Regular.svg#VisbyRoundCF-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$visby: 'Visby Round CF', sans-serif;
+
+$regular: normal;
+$bold: bold;
+
+/*----------------------------------------
+------------------------------------------
+	## COLORS
+------------------------------------------
+----------------------------------------*/
+
+$white: 			#fff;
+$almost-white: 		#eee;
+$gray-light:		#aaa;
+$gray-medium:		#777;
+$gray-dark:			#333;
+$black:				#111;
+
+$purple-dark:		#491266;
+$purple-medium: 	#623e77;
+$purple-light:		#7c5196;
+$purple-lighter:	#bf8cde;
+
+/*----------------------------------------
+------------------------------------------
+	## FONT SIZES
+------------------------------------------
+----------------------------------------*/
+
+.text-giant {
+	font-size: 90px;
+	line-height: 1;
+
+	@media #{$mq-xl-max} {
+		font-size: 82px;
+	}
+
+	@media #{$mq-lg-max} {
+		font-size: 76px;
+	}
+
+	@media #{$mq-md-max} {
+		font-size: 70px;
+	}
+
+	@media #{$mq-sm-max} {
+		font-size: 60px;
+	}
+
+	@media #{$mq-xs-max} {
+		font-size: 50px;
+		line-height: 1.2;
+	}
+
+	@media #{$mq-xxs-max} {
+		font-size: 40px;
+	}
+} // END TEXT GIANT
+
+.text-x-large {
+	font-size: 70px;
+	line-height: 1.2;
+
+	@media #{$mq-xl-max} {
+		font-size: 64px;
+	}
+
+	@media #{$mq-lg-max} {
+		font-size: 60px;
+	}
+
+	@media #{$mq-md-max} {
+		font-size: 54px;
+	}
+
+	@media #{$mq-sm-max} {
+		font-size: 48px;
+	}
+
+	@media #{$mq-xs-max} {
+		font-size: 40px;
+	}
+
+	@media #{$mq-xxs-max} {
+		font-size: 34px;
+	}
+
+	@media #{$mq-xxxs-max} {
+		font-size: 30px;
+	}
+} // END TEXT X LARGE
+
+.text-large {
+	font-size: 50px;
+	line-height: 1.2;
+
+	@media #{$mq-lg-max} {
+		font-size: 44px;
+	}
+
+	@media #{$mq-md-max} {
+		font-size: 40px;
+	}
+
+	@media #{$mq-sm-max} {
+		font-size: 34px;
+	}
+
+	@media #{$mq-xs-max} {
+		font-size: 28px;
+	}
+
+	@media #{$mq-xxs-max} {
+		font-size: 22px;
+	}
+} // END TEXT LARGE
+
+.text-x-medium {
+	font-size: 30px;
+	line-height: 1;
+
+	@media #{$mq-lg-max} {
+		font-size: 28px;
+	}
+
+	@media #{$mq-md-max} {
+		font-size: 24px;
+	}
+
+	@media #{$mq-sm-max} {
+		font-size: 22px;
+	}
+
+	@media #{$mq-xs-max} {
+		font-size: 18px;
+	}
+} // END TEXT X MEDIUM
+
+.text-medium {
+	font-size: 22px;
+	line-height: 1.8;
+
+	@media #{$mq-lg-max} {
+		font-size: 20px;
+	}
+
+	@media #{$mq-md-max} {
+		font-size: 18px;
+	}
+
+	@media #{$mq-xs-max} {
+		font-size: 16px;
+	}
+} // END TEXT MEDIUM
+
+.text-small {
+	font-size: 18px;
+	line-height: 1.4;
+
+	@media #{$mq-md-max} {
+		font-size: 16px;
+	}
+
+	@media #{$mq-xs-max} {
+		font-size: 14px;
+	}
+} // END TEXT SMALL
+
+.text-x-small {
+	font-size: 14px;
+	line-height: 1;
+
+	@media #{$mq-xs-max} {
+		font-size: 12px;
+	}
+} // END TEXT X SMALL
+
+.text-xx-small {
+	font-size: 12px;
+	line-height: 1;
+} // END TEXT XX SMALL
+
+h1, h2, h3, h4, span, p, a, li, button, input, div {
+	font-family: $visby, sans-serif;
+	font-weight: $regular;
+
+	b, strong, * b, * strong {
+		font-family: inherit;
+		font-weight: $bold;
+	} // END B / STRONG
+} // END FONTS
+
+/*----------------------------------------
+------------------------------------------
+	## BUTTONS
+------------------------------------------
+----------------------------------------*/
+
+.white-bt {
+	display: inline-block;
+	line-height: 1;
+	cursor: pointer;
+	border: none;
+	border-radius: 50px;
+	background-color: $white;
+	padding: 30px 70px;
+	color: $purple-medium;
+	font-weight: $bold;
+	transition: .3s;
+	box-shadow: inset 0 0 0 2px $white;
+
+	@media #{$mq-lg-max} {
+		padding: 25px 60px;
+	}
+
+	@media #{$mq-md-max} {
+		padding: 20px 50px;
+	}
+
+	@media #{$mq-sm-max} {
+		padding: 20px 40px;
+	}
+
+	@media #{$mq-xs-max} {
+		padding: 15px 30px;
+	}
+
+	&:hover,
+	&:focus {
+		background-color: transparent;
+		color: $white;
+	} // END HOVER / FOCUS
+} // END WHITE BT
+
+.purple-bt {
+	display: inline-block;
+	line-height: 1;
+	cursor: pointer;
+	border: none;
+	border-radius: 50px;
+	background-color: $purple-light;
+	padding: 25px 60px;
+	color: $white;
+	font-weight: $bold;
+	transition: .3s;
+
+	&:hover,
+	&:focus {
+		background-color: $white;
+		color: $purple-medium;
+	} // END HOVER / FOCUS
+} // END PURPLE BT

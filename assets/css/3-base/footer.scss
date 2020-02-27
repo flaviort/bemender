@@ -1,0 +1,344 @@
+/*----------------------------------------
+------------------------------------------
+	## FOOTER
+------------------------------------------
+----------------------------------------*/
+
+#footer {
+	z-index: 8;
+	background-color: $purple-medium;
+	margin-top: 70px;
+
+	@media #{$mq-xs-max} {
+		margin-top: 50px;
+	}
+
+	&:before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 175px;
+		background-color: $white;
+		z-index: 0;
+		content: "";
+
+		@media #{$mq-sm-max} {
+			content: none;
+			display: none;
+		}
+	} // END BEFORE
+
+	&:after {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 178px;
+		background: transparent url(../img/bottom-bg-top.png) center top no-repeat;
+		z-index: 1;
+		content: "";
+
+		@media #{$mq-xxl-max} {
+			background-position: 20% 0;
+		}
+
+		@media #{$mq-md-max} {
+			background-position: 15% 0;
+		}
+
+		@media #{$mq-sm-max} {
+			content: none;
+			display: none;
+		}
+	} // END AFTER
+
+	.container {
+		position: relative;
+		z-index: 3;
+
+		@media #{$mq-sm-max} {
+			text-align: center;
+		}
+
+		.top-row {
+			padding-top: 50px;
+
+			@media #{$mq-xs-max} {
+				padding-top: 40px;
+			}
+
+			.social {
+				display: block;
+
+				li {
+					display: inline-block;
+
+					a {
+						display: inline-block;
+						margin-left: 20px;
+
+						img,
+						svg {
+							display: block;
+							width: 25px;
+							height: 25px;
+
+							path {
+								fill: $white;
+								transition: fill .3s;
+							} // END PATH
+						} // END IMG / SVG
+
+						&:hover,
+						&:focus {
+							img,
+							svg {
+								path {
+									fill: $purple-lighter;
+								} // END PATH
+							} // END IMG / SVG
+						} // EBD HOVER / FOCUS
+					} // END A
+				} // END LI
+			} // END SOCIAL
+
+			.logo {
+				display: inline-block;
+				padding: 25px 0 10px 10px;
+
+				@media #{$mq-sm-max} {
+					padding: 0;
+					margin: 40px auto 0 auto;
+					padding-left: 10px;
+				}
+
+				@media #{$mq-xs-max} {
+					margin-top: 30px;
+					padding-left: 5px;
+				}
+
+				img,
+				svg {
+					@media #{$mq-sm-max} {
+						width: 200px;
+						height: auto;
+					}
+
+					@media #{$mq-xs-max} {
+						width: 175px;
+					}
+
+					path {
+						fill: $white;
+						transition: fill .3s;
+					} // END PATH
+				} // END IMG / SVG
+
+				&:hover,
+				&:focus {
+					img,
+					svg {
+						path {
+							fill: $purple-lighter;
+						} // END PATH
+					} // END IMG / SVG
+				} // END HOVER / FOCUS
+			} // END LOGO
+		} // END TOP ROW
+
+		.middle-row {
+			padding-top: 20px;
+			padding-bottom: 20px;
+
+			@media #{$mq-sm-max} {
+				padding-top: 10px;
+				padding-bottom: 0;
+			}
+			
+			.inside-left {
+				display: flex;
+				align-items: center;
+
+				@media #{$mq-sm-max} {
+					display: block;
+					text-align: center;
+				}
+
+				p {
+					font-weight: $bold;
+					color: $purple-lighter;
+					padding-left: 100px;
+
+					@media #{$mq-lg-max} {
+						padding: 0;
+					}
+				} // END P
+			} // END INSIDE LEFT
+
+			.inside-middle {
+				@media #{$mq-sm-max} {
+					padding-top: 40px;
+					padding-bottom: 30px;
+				}
+
+				@media #{$mq-xs-max} {
+					padding-top: 30px;
+					padding-bottom: 20px;
+				}
+
+				a {
+					display: inline-block;
+					padding-bottom: 10px;
+					color: $purple-lighter;
+					transition: color .3s;
+					text-decoration: none;
+
+					&:hover,
+					&:focus {
+						color: $white;
+					} // END HOVER / FOCUS
+				} // END A
+			} // END INSIDE MIDDLE
+
+			.inside-right {
+				text-align: right;
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+
+				@media #{$mq-sm-max} {
+					display: block;
+					text-align: center;
+				}
+
+				a {
+					@media #{$mq-xxl-max} {
+						display: block;
+						padding-left: 0;
+						padding-right: 0;
+						text-align: center;
+						width: 100%;
+					}
+				} // END A
+			} // END INSIDE RIGHT
+
+			&.temp {
+				.inside-left {
+					p {
+						padding-left: 0
+					} // END P
+				} // END INSIDE LEFT
+
+				.inside-middle {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+
+					.social {
+						display: block;
+						margin: 0 auto;
+						text-align: center;
+
+						li {
+							display: inline-block;
+
+							a {
+								display: inline-block;
+								margin-left: 20px;
+
+								img,
+								svg {
+									display: block;
+									width: 25px;
+									height: 25px;
+
+									path {
+										fill: $white;
+										transition: fill .3s;
+									} // END PATH
+								} // END IMG / SVG
+
+								&:hover,
+								&:focus {
+									img,
+									svg {
+										path {
+											fill: $purple-lighter;
+										} // END PATH
+									} // END IMG / SVG
+								} // EBD HOVER / FOCUS
+							} // END A
+						} // END LI
+					} // END SOCIAL
+				} // END INSIDE MIDDLE
+			} // END TEMP
+		} // END MIDDLE ROW
+
+		.bot-row {
+			padding-bottom: 30px;
+
+			@media #{$mq-sm-max} {
+				padding-top: 30px;
+			}
+
+			.line {
+				display: block;
+				width: 100%;
+				height: 1px;
+				margin: 20px 0;
+				background-color: $purple-light;
+
+				@media #{$mq-sm-max} {
+					display: none;
+				}
+			} // END LINE
+
+			a {
+				color: $purple-lighter;
+				display: inline-block;
+				vertical-align: middle;
+				margin-right: 20px;
+				text-transform: none;
+				transition: color .3s;
+
+				@media #{$mq-sm-max} {
+					margin: 0 20px;
+				}
+
+				@media #{$mq-xs-max} {
+					margin: 0 15px;
+				}
+
+				&:hover,
+				&:focus {
+					color: $white;
+				} // END HOVER / FOCUS
+			} // END A
+
+			p {
+				float: right;
+				text-align: right;
+				color: $purple-lighter;
+
+				@media #{$mq-sm-max} {
+					float: none;
+					text-align: center;
+					display: block;
+					margin-top: 30px;
+				}
+
+				@media #{$mq-xs-max} {
+					margin-top: 20px;
+				}
+			} // END P
+
+			&.temp {
+				 p {
+				 	float: none;
+				 	text-align: center;
+				 } // END P
+			} // END TEMP
+		} // END BOT ROW
+	} // END CONTAINER
+} // END FOOTER

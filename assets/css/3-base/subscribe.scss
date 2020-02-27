@@ -1,0 +1,118 @@
+/*----------------------------------------
+------------------------------------------
+	## SUBSCRIBE
+------------------------------------------
+----------------------------------------*/
+
+#subscribe {
+	text-align: center;
+	overflow: visible;
+	z-index: 9;
+
+	.bg {
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 0;
+		width: 300px;
+		height: auto;
+		opacity: .5;
+		pointer-events: none;
+
+		@media #{$mq-lg-max} {
+			display: none;
+		}
+
+		path {
+			fill: $almost-white;
+		} // END PATH
+	} // END BG
+
+	.text-large {
+		display: none;
+		color: $purple-dark;
+		text-align: center;
+		margin-bottom: 30px;
+		padding: 0 15px;
+
+		@media #{$mq-xs-max} {
+			display: block;
+		}
+	} // END TEXT LARGE
+
+	form {
+		.line {
+			position: relative;
+			height: 80px;
+			border-radius: 20px;
+			overflow: hidden;
+			display: block;
+			width: 85%;
+			margin: 0 auto;
+			box-shadow: 0 0 20px rgba(0,0,0,.2);
+
+			@media #{$mq-md-max} {
+				width: 100%;
+			}
+
+			@media #{$mq-xs-max} {
+				height: auto;
+				overflow: visible;
+				box-shadow: none;
+				border-radius: none;
+			}
+
+			.input {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				height: 100%;
+				text-align: center;
+				padding-right: 90px;
+				border: none;
+				background-color: $white;
+				color: $gray-medium;
+
+				@media #{$mq-xs-max} {
+					padding: 0 20px;
+					box-shadow: 0 0 20px rgba(0,0,0,.2);
+					height: 60px;
+					border-radius: 10px;
+				}
+			} // END INPUT
+
+			label {
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 80px;
+				height: 100%;
+				display: flex;
+				background-color: $purple-dark;
+				color: $white;
+				font-weight: $bold;
+				z-index: 2;
+				cursor: pointer;
+				border: none;
+				align-items: center;
+				justify-content: center;
+				transition: background-color .3s;
+
+				@media #{$mq-xs-max} {
+					position: relative;
+					width: 100%;
+					height: 60px;
+					border-radius: 10px;
+					margin-top: 10px;
+				}
+
+				&:hover,
+				&:focus {
+					background-color: $purple-light;
+				} // END HOVER / FOCUS
+			} // END LABEL
+		} // END LINE
+	} // END FORM
+} // END SUBSCRIBE
