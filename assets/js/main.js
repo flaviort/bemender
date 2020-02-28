@@ -96,6 +96,7 @@ function register($form) {
 			$('#mc-embedded-subscribe-post').val('SUBMIT')
 			if (data.result === 'success') {
 				$.fancybox.open({src:'#subs-success'});
+				$('#mc-embedded-subscribe-form input[type="email"]').val('');
 			}
 			else {
 				$.fancybox.open({src:'#subs-error'});
