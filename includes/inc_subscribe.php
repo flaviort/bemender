@@ -36,11 +36,11 @@
 	<div class="wrap">
 		
 		<p class="text-x-large">
-			Error
+			Success!
 		</p>
 
 		<p class="text-medium">
-			An error occurred while processing your request. Please try again.
+			Thank you for signing up. You will be the first to know about new releases & special projects. Stay Tuned!
 		</p>
 
 		<button class="white-bt text-medium" onclick="$.fancybox.close()">
