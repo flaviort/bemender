@@ -258,6 +258,24 @@ h1, h2, h3, h4, span, p, a, li, button, input, div {
     background-color: #fff;
     color: #623e77; }
 
+.white-bt {
+  display: inline-block;
+  line-height: 1;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 0 0 2px #fff;
+          box-shadow: inset 0 0 0 2px #fff;
+  padding: 25px 60px;
+  color: #fff;
+  font-weight: bold;
+  -webkit-transition: .3s;
+  transition: .3s; }
+  .white-bt:hover {
+    background-color: #fff;
+    color: #7c5196; }
+
 /*----------------------------------------
 ------------------------------------------
 	## GENERAL
@@ -536,6 +554,47 @@ br {
           margin-top: 10px; } }
       #subscribe form .line label:hover, #subscribe form .line label:focus {
         background-color: #7c5196; }
+
+#subs-success,
+#subs-error {
+  border-radius: 20px;
+  text-align: center;
+  background-color: #623e77; }
+  @media only screen and (max-width: 767px) {
+    #subs-success,
+    #subs-error {
+      width: calc(100% - 40px); } }
+  #subs-success .wrap,
+  #subs-error .wrap {
+    width: 600px;
+    max-width: 100%;
+    padding: 50px; }
+    @media only screen and (max-width: 992px) {
+      #subs-success .wrap,
+      #subs-error .wrap {
+        width: 100%;
+        margin: 0 auto; } }
+    @media only screen and (max-width: 575px) {
+      #subs-success .wrap,
+      #subs-error .wrap {
+        padding: 30px; } }
+    #subs-success .wrap .text-x-large,
+    #subs-error .wrap .text-x-large {
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: bold; }
+    #subs-success .wrap p.text-medium,
+    #subs-error .wrap p.text-medium {
+      display: block;
+      margin: 10px auto 30px auto;
+      text-align: center;
+      color: #fff; }
+    #subs-success .wrap button,
+    #subs-error .wrap button {
+      text-transform: uppercase; }
+  #subs-success .fancybox-close-small,
+  #subs-error .fancybox-close-small {
+    display: none; }
 
 /*----------------------------------------
 ------------------------------------------
@@ -1504,7 +1563,13 @@ body.home .wrap {
         display: flex;
         -webkit-box-align: center;
             -ms-flex-align: center;
-                align-items: center; }
+                align-items: center;
+        padding-top: 100px;
+        padding-bottom: 100px; }
+        @media only screen and (max-width: 1360px) {
+          body.home .wrap #provider .container .left {
+            padding-top: 50px;
+            padding-bottom: 50px; } }
         @media only screen and (max-width: 992px) {
           body.home .wrap #provider .container .left {
             padding-top: 30px;

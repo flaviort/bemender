@@ -95,10 +95,10 @@ function register($form) {
 		success: function (data) {
 			$('#mc-embedded-subscribe-post').val('SUBMIT')
 			if (data.result === 'success') {
-				$.fancybox.open('<div id="after-div"><div class="middle-block"><p class="">sim!</p><p class="">Teste teste teste.</p><button class="purple-button" onclick="$.fancybox.close();">Close</button></div></div>');
+				$.fancybox.open({src:'#subs-success'});
 			}
 			else {
-				$.fancybox.open('<div id="after-div"><div class="middle-block"><p class="">nopz!</p><p class="">Teste teste teste.</p><button class="purple-button" onclick="$.fancybox.close();">Close</button></div></div>');
+				$.fancybox.open({src:'#subs-error'});
 			}
 		}
 	});

@@ -116,3 +116,50 @@
 		} // END LINE
 	} // END FORM
 } // END SUBSCRIBE
+
+#subs-success,
+#subs-error {
+	border-radius: 20px;
+	text-align: center;
+	background-color: $purple-medium;
+
+	@media #{$mq-sm-max} {
+		width: calc(100% - 40px);
+	}
+
+	.wrap {
+		width: 600px;
+		max-width: 100%;
+		padding: 50px;
+
+		@media #{$mq-md-max} {
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		@media #{$mq-xs-max} {
+			padding: 30px;
+		}
+		
+		.text-x-large {
+			color: $white;
+			text-transform: uppercase;
+			font-weight: $bold;
+		} // END TEXT X LARGE
+
+		p.text-medium {
+			display: block;
+			margin: 10px auto 30px auto;
+			text-align: center;
+			color: $white;
+		} // END P / TEXT MEDIUM
+
+		button {
+			text-transform: uppercase;
+		} // END BUTTON
+	} // END WRAP
+
+	.fancybox-close-small {
+		display: none;
+	} // END FANCYBOX CLOSE SMALL
+} // END SUB SUCCESS / ERROR
