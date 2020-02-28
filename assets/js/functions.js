@@ -63,9 +63,43 @@ $( document ).ready(function() {
 
 	// SUBSCRIBE TEXT
 	if ($(window).width() > 575 ) {
-    	$("#subscribe input[type='email']").attr("placeholder","Subscribe your email and stay in touch!");
+		$("#subscribe input[type='email']").attr("placeholder","Subscribe your email and stay in touch!");
 	} else {
 		$("#subscribe input[type='email']").attr("placeholder","Type your email here");
 	}
-	
+
+	// NEWSLETTER
+	var $form = $('#mc-embedded-subscribe-form')
+	if ($form.length > 0) {
+		$('form input[type="submit"]').bind('click', function (event) {
+			if (event) {
+				event.preventDefault();
+				register($form);
+			}
+		})
+	}
+
 });
+
+// NEWSLETTER
+function register($form) {
+	$('#mc-embedded-subscribe-post').val('Sending...');
+	$.ajax({
+		type: $form.attr('method'),
+		url: $form.attr('action'),
+		data: $form.serialize(),
+		cache: false,
+		dataType: 'json',
+		contentType: 'application/json; charset=utf-8',
+		error: function (err) { alert('Could not connect to the registration server. Please try again later.') },
+		success: function (data) {
+			$('#mc-embedded-subscribe-post').val('SUBMIT')
+			if (data.result === 'success') {
+				$.fancybox.open('<div id="after-div"><div class="middle-block"><p class="">sim!</p><p class="">Teste teste teste.</p><button class="purple-button" onclick="$.fancybox.close();">Close</button></div></div>');
+			}
+			else {
+				$.fancybox.open('<div id="after-div"><div class="middle-block"><p class="">nopz!</p><p class="">Teste teste teste.</p><button class="purple-button" onclick="$.fancybox.close();">Close</button></div></div>');
+			}
+		}
+	});
+};

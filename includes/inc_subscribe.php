@@ -12,16 +12,20 @@
 				</h2>
 
 				<!-- FORM -->
-				<form action="" class="wow fadeInUp">
-					<div class="line">
-						
-						<input type="email" required="" placeholder="Subscribe your email and stay in touch!" class="text-medium input">
-						
-						<input type="submit" id="send-subs" style="display: none">
-						<label for="send-subs" class="text-medium">Go</label>
+				
+			    <form action="https://bemender.us19.list-manage.com/subscribe/post-json?u=93391a835fd7b89d9704cf15e&amp;id=b9f477c2b0" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate wow fadeInUp">
+			    	<div class="line">
 
-					</div><!-- END LINE -->
+						<input type="email" name="EMAIL" placeholder="Subscribe your email and stay in touch!" required="" class="text-medium input" id="mce-EMAIL">
+
+						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe-post" class="button" style="display: none;">
+						<label for="mc-embedded-subscribe-post" class="text-medium">Go</label>
+
+					</div>
 				</form><!-- END FORM -->
+
+			    <!-- SUBSCRIBE RESULT -->
+			    <div id="subscribe-result"></div>
 				
 			</div><!-- END COL -->
 		</div><!-- END ROW -->
