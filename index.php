@@ -84,6 +84,10 @@
 							<div class="wow fadeIn phone layer" data-wow-duration="3s">
 								<img src="assets/img/home-phone.png" alt="Mender App" class="rellax" data-rellax-speed="3" data-rellax-tablet-speed="2" data-rellax-xs-speed="0">
 							</div>
+
+							<h1 class="logo wow fadeInUp">
+								<img src="assets/img/svg/logo.svg" alt="Mender" class="svg">
+							</h1>
 							
 							<h1 class="text-giant wow fadeInUp">
 								<strong>
