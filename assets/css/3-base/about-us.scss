@@ -83,11 +83,7 @@ body.about-us {
 
 				.left {
 					.person {
-						right: -50px;
-
-						@media #{$mq-xl-max} {
-							right: -100px;
-						}
+						right: -100px;
 
 						@media #{$mq-md-max} {
 							display: none;
@@ -97,11 +93,7 @@ body.about-us {
 
 				.right {
 					.person {
-						left: -50px;
-
-						@media #{$mq-xl-max} {
-							left: -100px;
-						}
+						left: -100px;
 
 						@media #{$mq-md-max} {
 							display: none;
