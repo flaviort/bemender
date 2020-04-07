@@ -1,0 +1,261 @@
+body.internal {
+	#banner {
+		height: 826px;
+		padding-top: 70px;
+		overflow: visible;
+
+		@media #{$mq-xl-max} {
+			height: 750px;
+		}
+
+		@media #{$mq-md-max} {
+			padding-top: 50px;
+		}
+
+		@media #{$mq-sm-max} {
+			height: auto;
+			background: url(../img/anima/bg.jpg) 250px 0 no-repeat;
+			background-size: contain;
+			padding-top: 40px;
+		}
+
+		@media #{$mq-xs-max} {
+			background-size: unset;
+			background-position: 100px -400px;
+		}
+
+		.anima {
+			position: absolute;
+			height: 100%;
+			right: 0;
+			top: 0;
+			width: 70%;
+			z-index: 0;
+
+			@media #{$mq-xl-max} {
+				width: 100%;
+			}
+
+			@media #{$mq-sm-max} {
+				display: none;
+			}
+
+			.cloud-01 {
+				position: absolute;
+				z-index: 1;
+				top: 150px;
+				left: 0;
+
+				@media #{$mq-xl-max} {
+					left: 50px;
+					top: 100px;
+				}
+
+				@media #{$mq-md-max} {
+					display: none;
+				}
+			} // END CLOUD 01
+
+			.cloud-02 {
+				position: absolute;
+				z-index: 1;
+				top: 100px;
+				left: 300px;
+
+				@media #{$mq-xl-max} {
+					left: 400px;
+					top: 50px;
+				}
+			} // END CLOUD 02
+
+			.cloud-03 {
+				position: absolute;
+				z-index: 1;
+				top: 250px;
+				right: 200px;
+
+				@media #{$mq-xl-max} {
+					top: 200px;
+					right: 250px;
+				}
+
+				@media #{$mq-md-max} {
+					display: none;
+				}
+			} // END CLOUD 03
+
+			.cloud-04 {
+				position: absolute;
+				z-index: 1;
+				top: 170px;
+				right: 50px;
+
+				@media #{$mq-xl-max} {
+					right: 90px;
+					top: 120px;
+				}
+			} // END CLOUD 04
+
+			.bg {
+				position: absolute;
+				top: -30px;
+				right: 0;
+				z-index: 0;
+
+				@media #{$mq-xxl-max} {
+					right: -100px;
+				}
+
+				@media #{$mq-xl-max} {
+					right: -150px;
+				}
+
+				@media #{$mq-lg-max} {
+					right: -250px;
+				}
+			} // END BG
+
+			.trees {
+				position: absolute;
+				bottom: 70px;
+				left: 5vw;
+				z-index: 2;
+
+				@media #{$mq-xl-max} {
+					left: auto;
+					right: 15vw;
+					bottom: 50px;
+				}
+
+				@media #{$mq-md-max} {
+					right: -10vw;
+				}
+			} // END TREES
+		} // END ANIMA
+
+		.mobile {
+			display: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 0;
+			width: 100%;
+
+			@media #{$mq-xs-max} {
+				display: block;
+			}
+
+			.cloud-01 {
+				position: absolute;
+				top: 70px;
+				right: -150px;
+				max-width: 80%;
+			} // END CLOUD 01
+
+			.cloud-02 {
+				position: absolute;
+				top: 150px;
+				right: -40px;
+				max-width: 70%;
+			} // END CLOUD 02
+		} // END MOBILE
+
+		.container {
+			position: relative;
+			z-index: 2;
+
+			.phone {
+				position: absolute;
+				right: 0;
+				bottom: -250px;
+				z-index: 3;
+
+				@media #{$mq-xxl-max} {
+					right: -150px;
+					bottom: -400px;
+				}
+
+				@media #{$mq-xl-max} {
+					bottom: -300px;
+					right: -100px;
+					width: 650px;
+				}
+
+				@media #{$mq-md-max} {
+					width: 570px;
+					right: -50px;
+				}
+
+				@media #{$mq-sm-max} {
+					display: none;
+				}
+			} // END PHONE
+
+			.logo {
+				display: block;
+				margin-bottom: 50px;
+
+				@media #{$mq-md-max} {
+					margin-bottom: 30px;
+				}
+
+				@media #{$mq-xs-max} {
+					margin-bottom: 20px;
+				}
+
+				img,
+				svg {
+					@media #{$mq-md-max} {
+						width: 250px;
+					}
+
+					@media #{$mq-sm-max} {
+						width: 200px;
+						height: 80px;
+					}
+				} // END IMG / SVG
+			} // END LOGO
+
+			.text-large {
+				color: $gray-medium;
+				display: block;
+				margin: 150px 0 10px 10px;
+
+				@media #{$mq-md-max} {
+					margin-top: 70px;
+					margin-left: 5px;
+				}
+
+				@media #{$mq-xxs-max} {
+					padding-left: 15px;
+				}
+			} // END TEXT LARGE
+
+			.text-giant {
+				color: $purple-dark;
+
+				@media #{$mq-sm-max} {
+					padding-bottom: 70px;
+				}
+
+				@media #{$mq-xs-max} {
+					padding-bottom: 50px;
+				}
+
+				@media #{$mq-xxs-max} {
+					padding-left: 15px
+				}
+
+				br {
+					display: none;
+
+					@media #{$mq-md-max} {
+						display: block;
+					}
+				} // END BR
+			} // END TEXT GIANT
+
+		} // END CONTAINER
+	} // END BANNER
+	
+} // END BODY / INTERNAL

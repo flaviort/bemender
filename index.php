@@ -85,9 +85,9 @@
 								<img src="assets/img/home-phone.png" alt="Mender App" class="rellax" data-rellax-speed="3" data-rellax-tablet-speed="2" data-rellax-xs-speed="0">
 							</div>
 
-							<h1 class="logo wow fadeInUp">
+							<a href="./" class="logo wow fadeInUp">
 								<img src="assets/img/svg/logo.svg" alt="Mender" class="svg">
-							</h1>
+							</a>
 							
 							<h1 class="text-giant wow fadeInUp">
 								<strong>
@@ -345,41 +345,7 @@
 			</section><!-- END SECTION / MORE -->
 
 			<!-- SECTION / PROVIDER -->
-			<section id="provider">
-				<div class="container container-big">
-					<div class="row">
-						
-						<!-- COL / LEFT -->
-						<div class="col-md-6 left">
-							<div class="wrap">
-
-								<h2 class="text-large wow fadeInUp">
-									<strong>
-										Do you have a licensed business that does bigger jobs, or are you a small company with a service to provide?
-									</strong>
-								</h2>
-
-								<p class="text-medium wow fadeInUp">
-									Join our expanding network of professional providers.
-								</p>
-
-								<a href="#" class="white-bt text-medium wow zoomIn">
-									COMING SOON
-								</a>
-							
-							</div><!-- END WRAP -->
-						</div><!-- END COL / LEFT -->
-
-						<!-- COL / RIGHT -->
-						<div class="col-md-6 right">
-						
-							<img src="assets/img/people.png" alt="Providers" class="wow fadeIn">
-
-						</div><!-- END COL / RIGHT -->
-
-					</div><!-- END ROW -->
-				</div><!-- END CONTAINER -->
-			</section><!-- END SECTION / PROVIDER -->
+			<?php include('includes/inc_provider.php'); ?>
 
 			<!-- SECTION / WHERE -->
 			<?php include('includes/inc_where.php'); ?>
