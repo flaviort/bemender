@@ -1848,7 +1848,23 @@ body.about-us .wrap {
     body.about-us .wrap #content .numbers {
       position: relative;
       z-index: 2;
-      padding-top: 50px; }
+      padding-top: 50px;
+      /*
+				.middle,
+				.right {
+					.text-medium {
+						padding-left: 50px;
+
+						@media only screen and (max-width: 992px) {
+							padding-left: 35px;
+						}
+
+						@media only screen and (max-width: 420px) {
+							padding-left: 20px;
+						}
+					} // END TEXT MEDIUM
+				} // END MIDDLE / RIGHT
+				*/ }
       @media only screen and (max-width: 992px) {
         body.about-us .wrap #content .numbers {
           padding-top: 0; } }
@@ -1934,17 +1950,6 @@ body.about-us .wrap {
         body.about-us .wrap #content .numbers .right .person {
           position: absolute;
           top: 0; }
-      body.about-us .wrap #content .numbers .middle .text-medium,
-      body.about-us .wrap #content .numbers .right .text-medium {
-        padding-left: 50px; }
-        @media only screen and (max-width: 992px) {
-          body.about-us .wrap #content .numbers .middle .text-medium,
-          body.about-us .wrap #content .numbers .right .text-medium {
-            padding-left: 35px; } }
-        @media only screen and (max-width: 420px) {
-          body.about-us .wrap #content .numbers .middle .text-medium,
-          body.about-us .wrap #content .numbers .right .text-medium {
-            padding-left: 20px; } }
     body.about-us .wrap #content .how-it {
       position: relative;
       z-index: 2;

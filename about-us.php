@@ -131,11 +131,11 @@
 							<div class="col-md-4 middle wow fadeInUp" data-wow-delay=".2s">
 
 								<p class="text-giant">
-									+2583
+									Easy
 								</p>
 
 								<p class="text-medium">
-									Hires
+									To Use
 								</p>
 
 							</div><!-- END COL / MIDDLE -->
@@ -146,11 +146,11 @@
 								<img src="assets/img/about-us-top-woman.png" alt="Woman" class="person">
 
 								<p class="text-giant">
-									+2583
+									Mobile
 								</p>
 
 								<p class="text-medium">
-									Users
+									Friendly
 								</p>
 
 							</div><!-- END COL / RIGHT -->
