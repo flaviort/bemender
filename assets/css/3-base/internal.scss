@@ -66,6 +66,10 @@ body.internal {
 					left: 400px;
 					top: 50px;
 				}
+
+				@media #{$mq-md-max} {
+					top: 200px;
+				}
 			} // END CLOUD 02
 
 			.cloud-03 {
@@ -89,6 +93,7 @@ body.internal {
 				z-index: 1;
 				top: 170px;
 				right: 50px;
+				display: none;
 
 				@media #{$mq-xl-max} {
 					right: 90px;
@@ -167,7 +172,7 @@ body.internal {
 			.phone {
 				position: absolute;
 				right: 0;
-				bottom: -250px;
+				bottom: -350px;
 				z-index: 3;
 
 				@media #{$mq-xxl-max} {
@@ -189,11 +194,63 @@ body.internal {
 				@media #{$mq-sm-max} {
 					display: none;
 				}
+
+				&.users {
+					right: 200px;
+					bottom: -300px;
+					z-index: 3;
+
+					@media #{$mq-xxl-max} {
+						right: -50px;
+					}
+
+					@media #{$mq-xl-max} {
+						bottom: -250px;
+						width: 550px;
+					}
+
+					@media #{$mq-md-max} {
+						width: 450px;
+						right: 50px;
+					}
+
+					@media #{$mq-sm-max} {
+						display: none;
+					}
+				} // END USERS
+
+				&.providers {
+					right: 200px;
+					bottom: -230px;
+					z-index: 3;
+
+					@media #{$mq-xxl-max} {
+						right: 100px;
+					}
+
+					@media #{$mq-xl-max} {
+						bottom: -200px;
+						right: 0;
+						width: 500px;
+					}
+
+					@media #{$mq-md-max} {
+						width: 400px;
+						right: -50px;
+						bottom: -300px;
+					}
+
+					@media #{$mq-sm-max} {
+						display: none;
+					}
+				} // END PROVEIDERS
 			} // END PHONE
 
 			.logo {
-				display: block;
+				display: inline-block;
 				margin-bottom: 50px;
+				position: relative;
+				z-index: 99;
 
 				@media #{$mq-md-max} {
 					margin-bottom: 30px;
@@ -253,7 +310,11 @@ body.internal {
 						display: block;
 					}
 				} // END BR
-			} // END TEXT GIANT
+
+				.block {
+					display: block;
+				} // END BLOCK
+ 			} // END TEXT GIANT
 
 		} // END CONTAINER
 	} // END BANNER

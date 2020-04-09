@@ -68,12 +68,16 @@ body.home {
 				.cloud-02 {
 					position: absolute;
 					z-index: 1;
-					top: 100px;
-					left: 300px;
+					top: 30px;
+					left: 400px;
 
 					@media #{$mq-xl-max} {
 						left: 400px;
 						top: 50px;
+					}
+
+					@media #{$mq-md-max} {
+						top: 0;
 					}
 				} // END CLOUD 02
 
@@ -100,8 +104,8 @@ body.home {
 					right: 50px;
 
 					@media #{$mq-xl-max} {
-						right: 90px;
-						top: 120px;
+						right: 70px;
+						top: 150px;
 					}
 				} // END CLOUD 04
 
@@ -256,7 +260,7 @@ body.home {
 
 					@media #{$mq-sm-max} {
 						bottom: auto;
-						top: 40px;
+						top: 140px;
 						right: -170px;
 						transform: rotate(-30deg);
 					}
@@ -267,7 +271,7 @@ body.home {
 				} // END PHONE
 
 				.logo {
-					display: block;
+					display: inline-block;
 					margin-bottom: 50px;
 
 					@media #{$mq-md-max} {

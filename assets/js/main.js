@@ -79,6 +79,19 @@ $( document ).ready(function() {
 		})
 	}
 
+	/*------------------------------------------------------
+	--------------------------------------------------------
+		## FSMENU
+	--------------------------------------------------------
+	------------------------------------------------------*/
+
+	// HAMBURGER MENU
+	$("#menu-top #open-fs").click(function(){
+		$("#menu-top").toggleClass('open');
+		$("#fsmenu").toggleClass('opacity');
+		$("body").toggleClass('no-scroll');
+	});
+
 });
 
 // NEWSLETTER

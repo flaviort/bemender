@@ -41,7 +41,13 @@
 
 	<!-- BODY -->
 	<body class="home">
-			<div class="wrap">
+		<div class="wrap">
+
+			<!-- FSMENU -->
+			<?php include('includes/inc_fsmenu.php'); ?>
+
+			<!-- MENU TOP -->
+			<?php include('includes/inc_menu-top.php'); ?>
 			
 			<!-- SECTION / BANNER -->
 			<section id="banner">

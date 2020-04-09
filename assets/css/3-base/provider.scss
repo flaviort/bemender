@@ -5,6 +5,33 @@
 		background-image: none;
 	}
 
+	&.user {
+		&:before,
+		&:after {
+			height: 100px;
+
+			@media #{$mq-xxl-max} {
+				height: 70px;
+			}
+
+			@media #{$mq-xl-max} {
+				height: 30px;
+			}
+
+			@media #{$mq-lg-max} {
+				height: 10px;
+			}
+		} // END BEFORE / AFTER
+
+		.container {
+			.right {
+				@media #{$mq-sm-max} {
+					display: none;
+				}
+			} // END RIGHT
+		} // END CONTAINER
+	} // END USER
+
 	&:before,
 	&:after {
 		position: absolute;
