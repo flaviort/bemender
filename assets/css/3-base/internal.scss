@@ -243,7 +243,25 @@ body.internal {
 					@media #{$mq-sm-max} {
 						display: none;
 					}
-				} // END PROVEIDERS
+				} // END PROVIDERS
+
+				&.contact {
+					bottom: -170px;
+					right: 100px;
+
+					@media #{$mq-xl-max} {
+						bottom: -150px;
+						right: -200px;
+					}
+
+					@media #{$mq-lg-max} {
+						bottom: -70px;
+					}
+
+					@media #{$mq-md-max} {
+						bottom: -200px;
+					}
+				} // END CONTACT
 			} // END PHONE
 
 			.logo {
@@ -303,6 +321,14 @@ body.internal {
 					padding-left: 15px
 				}
 
+				&.contact {
+					br {
+						@media #{$mq-lg-max} {
+							display: block;
+						}
+					} // END BR
+				} // END CONTACT
+
 				br {
 					display: none;
 
@@ -315,6 +341,28 @@ body.internal {
 					display: block;
 				} // END BLOCK
  			} // END TEXT GIANT
+
+ 			.text-medium {
+				color: $gray-medium;
+				display: block;
+				margin-top: 30px;
+				max-width: 40%;
+
+				@media #{$mq-sm-max} {
+					margin-top: -70px;
+					padding-bottom: 70px;
+				}
+
+				@media #{$mq-xs-max} {
+					margin-top: -40px;
+					padding-bottom: 50px;
+					max-width: 90%;
+				}
+
+				@media #{$mq-xxs-max} {
+					padding-left: 15px;
+				}
+ 			} // END TEXT MEDIUM
 
 		} // END CONTAINER
 	} // END BANNER

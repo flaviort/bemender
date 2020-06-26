@@ -1,0 +1,47 @@
+/*----------------------------------------
+------------------------------------------
+	## TERMS OF USE
+------------------------------------------
+----------------------------------------*/
+
+body.terms-of-use {
+	.wrap {
+		overflow: hidden;
+
+		#content {
+			z-index: 3;
+
+			@media #{$mq-sm-max} {
+				padding-top: 70px;
+			}
+
+			@media #{$mq-xs-max} {
+				padding-top: 50px;
+			}
+
+			.text-large {
+				display: block;
+				margin: 100px 0 30px 0;
+				color: $purple-medium;
+				font-weight: $bold;
+
+				@media #{$mq-md-max} {
+					margin: 70px 0 20px 0;
+				}
+
+				@media #{$mq-sm-max} {
+					margin-top: 50px;
+				}
+
+				@media #{$mq-xs-max} {
+					margin-top: 40px;
+				}
+			} // END TEXT LARGE
+
+			.text-medium {
+				color: $gray-medium;
+			} // END TEXT MEDIUM
+
+		} // END CONTENT
+	} // END WRAP
+} // END BODY / TERMS OF USE

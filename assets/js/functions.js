@@ -79,6 +79,25 @@ $( document ).ready(function() {
 		})
 	}
 
+	// RELLAX
+	var rellax = new Rellax('.rellax', {
+		center: true,
+		breakpoints: [768, 993, 1201]
+	});
+
+	// MARQUEE
+	if ($(window).width() > 575 ) {
+		$('.marquee').marquee({
+			duplicated: true,
+			duration: 12000
+		});
+	} else {
+		$('.marquee').marquee({
+			duplicated: true,
+			duration: 5000
+		});
+	}
+
 	/*------------------------------------------------------
 	--------------------------------------------------------
 		## FSMENU

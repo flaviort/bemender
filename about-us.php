@@ -273,7 +273,6 @@
 		<footer>
 			<script src="assets/js/framework.js"></script>
 			<script src="assets/js/functions.js"></script>
-			<script src="assets/js/home.js"></script>
 		 </footer>
 
 	</body><!-- END BODY -->
