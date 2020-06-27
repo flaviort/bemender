@@ -276,6 +276,26 @@ h1, h2, h3, h4, span, p, a, li, button, input, div {
     background-color: #fff;
     color: #7c5196; }
 
+.hollow-gray-bt {
+  display: inline-block;
+  line-height: 1;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 0 0 2px #aaa;
+          box-shadow: inset 0 0 0 2px #aaa;
+  padding: 25px 60px;
+  color: #777;
+  font-weight: bold;
+  -webkit-transition: .3s;
+  transition: .3s; }
+  .hollow-gray-bt:hover {
+    background-color: #333;
+    -webkit-box-shadow: inset 0 0 0 2px #333;
+            box-shadow: inset 0 0 0 2px #333;
+    color: #fff; }
+
 .hollow-purple-bt {
   display: inline-block;
   line-height: 1;
@@ -3059,3 +3079,527 @@ body.terms-of-use .wrap {
           margin-top: 40px; } }
     body.terms-of-use .wrap #content .text-medium {
       color: #777; }
+
+/*----------------------------------------
+------------------------------------------
+	## SIGN USER
+------------------------------------------
+----------------------------------------*/
+body.sign-user.forgot #banner .container .phone {
+  bottom: -400px; }
+
+body.sign-user #banner {
+  height: auto; }
+  body.sign-user #banner .anima {
+    height: 150%; }
+    @media only screen and (max-width: 992px) {
+      body.sign-user #banner .anima {
+        height: 130%; } }
+    @media only screen and (max-width: 992px) {
+      body.sign-user #banner .anima .bg {
+        height: 600px; } }
+  body.sign-user #banner .container .phone {
+    bottom: -500px;
+    z-index: 0; }
+    @media only screen and (max-width: 1200px) {
+      body.sign-user #banner .container .phone {
+        right: -170px;
+        bottom: -450px; } }
+    @media only screen and (max-width: 992px) {
+      body.sign-user #banner .container .phone {
+        display: none; } }
+  body.sign-user #banner .container .select {
+    padding-left: 5px;
+    position: relative;
+    z-index: 2; }
+    @media only screen and (max-width: 575px) {
+      body.sign-user #banner .container .select {
+        margin-top: 50px; } }
+    body.sign-user #banner .container .select p {
+      display: inline-block;
+      vertical-align: middle;
+      padding-right: 20px;
+      margin-top: 0;
+      padding-bottom: 0; }
+      @media only screen and (max-width: 575px) {
+        body.sign-user #banner .container .select p {
+          padding-left: 10px;
+          padding-bottom: 10px; } }
+    body.sign-user #banner .container .select .line {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative; }
+      @media only screen and (max-width: 575px) {
+        body.sign-user #banner .container .select .line {
+          display: block;
+          width: 100%; } }
+      body.sign-user #banner .container .select .line select {
+        display: block;
+        width: 300px;
+        padding: 20px;
+        color: #777;
+        border-radius: 10px;
+        border: 1px solid #aaa;
+        background-color: #fff;
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+        cursor: pointer; }
+        @media only screen and (max-width: 575px) {
+          body.sign-user #banner .container .select .line select {
+            width: 100%; } }
+      body.sign-user #banner .container .select .line img,
+      body.sign-user #banner .container .select .line svg {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        z-index: 2;
+        pointer-events: none; }
+        body.sign-user #banner .container .select .line img path,
+        body.sign-user #banner .container .select .line svg path {
+          fill: #aaa; }
+  body.sign-user #banner .container .text-large {
+    margin-top: 30px;
+    position: relative;
+    z-index: 2; }
+  body.sign-user #banner .container .text-giant {
+    margin-left: 5px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 2; }
+    body.sign-user #banner .container .text-giant.sign-up {
+      margin-left: 0;
+      padding-top: 30px; }
+    @media only screen and (max-width: 575px) {
+      body.sign-user #banner .container .text-giant {
+        padding-bottom: 30px;
+        margin-top: -10px; } }
+
+body.sign-user #content {
+  z-index: 4; }
+  body.sign-user #content .left form {
+    display: block;
+    width: 100%; }
+    body.sign-user #content .left form.sign-up .line .input {
+      padding-left: 30px; }
+    body.sign-user #content .left form .line {
+      position: relative;
+      display: block;
+      margin-bottom: 20px;
+      width: 100%;
+      text-align: center; }
+      body.sign-user #content .left form .line img,
+      body.sign-user #content .left form .line svg {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+        left: 20px;
+        display: block;
+        width: 20px;
+        height: 20px;
+        z-index: 2;
+        pointer-events: none; }
+        body.sign-user #content .left form .line img path,
+        body.sign-user #content .left form .line svg path {
+          fill: #aaa; }
+      body.sign-user #content .left form .line .input {
+        display: block;
+        width: 100%;
+        padding: 20px 20px 20px 60px;
+        color: #777;
+        border: 1px solid #aaa;
+        border-radius: 10px;
+        background-color: #fff;
+        text-align: left; }
+        body.sign-user #content .left form .line .input.password {
+          padding-right: 200px; }
+      body.sign-user #content .left form .line .forgot {
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+        z-index: 2;
+        color: #623e77;
+        text-decoration: underline;
+        font-weight: bold;
+        text-transform: lowercase;
+        line-height: 1;
+        -webkit-transition: .3s;
+        transition: .3s; }
+        body.sign-user #content .left form .line .forgot:hover {
+          color: #7c5196; }
+      body.sign-user #content .left form .line .or-line {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: #aaa;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+        z-index: 0; }
+        @media only screen and (max-width: 575px) {
+          body.sign-user #content .left form .line .or-line {
+            width: 80%;
+            margin: 0 auto;
+            left: 0;
+            right: 0; } }
+      body.sign-user #content .left form .line .or {
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+        color: #777;
+        text-transform: uppercase;
+        z-index: 2;
+        position: relative;
+        background-color: #fff;
+        padding: 50px 20px; }
+        @media only screen and (max-width: 575px) {
+          body.sign-user #content .left form .line .or {
+            padding: 40px 20px; } }
+    body.sign-user #content .left form .purple-bt {
+      display: block;
+      width: 100%;
+      text-align: center; }
+      body.sign-user #content .left form .purple-bt:hover {
+        background-color: #491266;
+        color: #fff; }
+    body.sign-user #content .left form .back {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 50px; }
+      @media only screen and (max-width: 575px) {
+        body.sign-user #content .left form .back {
+          padding-top: 30px; } }
+    body.sign-user #content .left form .login-buttons {
+      position: relative;
+      display: block;
+      width: 100%;
+      margin-top: -20px; }
+      body.sign-user #content .left form .login-buttons .login-bt {
+        display: block;
+        width: calc(50% - 10px);
+        padding: 20px;
+        border-radius: 50px;
+        text-align: center;
+        cursor: pointer;
+        -webkit-transition: background-color .3s;
+        transition: background-color .3s; }
+        body.sign-user #content .left form .login-buttons .login-bt.google {
+          float: left;
+          -webkit-box-shadow: inset 0 0 0 1px #aaa;
+                  box-shadow: inset 0 0 0 1px #aaa; }
+          @media only screen and (max-width: 575px) {
+            body.sign-user #content .left form .login-buttons .login-bt.google {
+              float: none;
+              display: block;
+              margin-bottom: 10px;
+              width: 100%; } }
+          body.sign-user #content .left form .login-buttons .login-bt.google:hover {
+            background-color: #eee; }
+        body.sign-user #content .left form .login-buttons .login-bt.facebook {
+          float: right;
+          background-color: #3b4db3; }
+          @media only screen and (max-width: 575px) {
+            body.sign-user #content .left form .login-buttons .login-bt.facebook {
+              float: none;
+              display: block;
+              margin-bottom: 10px;
+              width: 100%; } }
+          body.sign-user #content .left form .login-buttons .login-bt.facebook:hover {
+            background-color: #455bd6; }
+          body.sign-user #content .left form .login-buttons .login-bt.facebook img path,
+          body.sign-user #content .left form .login-buttons .login-bt.facebook svg path {
+            fill: #fff; }
+    body.sign-user #content .left form .final {
+      display: block;
+      margin-top: 40px;
+      padding-bottom: 30px; }
+      @media only screen and (max-width: 575px) {
+        body.sign-user #content .left form .final {
+          margin-top: 30px;
+          text-align: center; } }
+      body.sign-user #content .left form .final.forgot {
+        text-align: center; }
+      body.sign-user #content .left form .final p {
+        color: #777;
+        display: inline-block;
+        vertical-align: top; }
+        body.sign-user #content .left form .final p a {
+          color: #623e77;
+          font-weight: bold;
+          display: inline-block;
+          vertical-align: top; }
+          body.sign-user #content .left form .final p a:before {
+            height: 2px;
+            background-color: #623e77; }
+
+/*----------------------------------------
+------------------------------------------
+	## SIGN PROVIDER
+------------------------------------------
+----------------------------------------*/
+body.sign-provider.forgot #banner .container .phone {
+  bottom: -400px; }
+
+body.sign-provider #banner {
+  height: auto; }
+  body.sign-provider #banner .anima {
+    height: 150%; }
+    @media only screen and (max-width: 992px) {
+      body.sign-provider #banner .anima {
+        height: 130%; } }
+    @media only screen and (max-width: 992px) {
+      body.sign-provider #banner .anima .bg {
+        height: 600px; } }
+  body.sign-provider #banner .container .phone {
+    bottom: -500px;
+    z-index: 0; }
+    @media only screen and (max-width: 1200px) {
+      body.sign-provider #banner .container .phone {
+        right: -170px;
+        bottom: -450px; } }
+    @media only screen and (max-width: 992px) {
+      body.sign-provider #banner .container .phone {
+        display: none; } }
+  body.sign-provider #banner .container .select {
+    padding-left: 5px;
+    position: relative;
+    z-index: 2; }
+    @media only screen and (max-width: 575px) {
+      body.sign-provider #banner .container .select {
+        margin-top: 50px; } }
+    body.sign-provider #banner .container .select p {
+      display: inline-block;
+      vertical-align: middle;
+      padding-right: 20px;
+      margin-top: 0;
+      padding-bottom: 0; }
+      @media only screen and (max-width: 575px) {
+        body.sign-provider #banner .container .select p {
+          padding-left: 10px;
+          padding-bottom: 10px; } }
+    body.sign-provider #banner .container .select .line {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative; }
+      @media only screen and (max-width: 575px) {
+        body.sign-provider #banner .container .select .line {
+          display: block;
+          width: 100%; } }
+      body.sign-provider #banner .container .select .line select {
+        display: block;
+        width: 300px;
+        padding: 20px;
+        color: #777;
+        border-radius: 10px;
+        border: 1px solid #aaa;
+        background-color: #fff;
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+        cursor: pointer; }
+        @media only screen and (max-width: 575px) {
+          body.sign-provider #banner .container .select .line select {
+            width: 100%; } }
+      body.sign-provider #banner .container .select .line img,
+      body.sign-provider #banner .container .select .line svg {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        z-index: 2;
+        pointer-events: none; }
+        body.sign-provider #banner .container .select .line img path,
+        body.sign-provider #banner .container .select .line svg path {
+          fill: #aaa; }
+  body.sign-provider #banner .container .text-large {
+    margin-top: 30px;
+    position: relative;
+    z-index: 2; }
+  body.sign-provider #banner .container .text-giant {
+    margin-left: 5px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 2; }
+    body.sign-provider #banner .container .text-giant.sign-up {
+      margin-left: 0;
+      padding-top: 30px; }
+    @media only screen and (max-width: 575px) {
+      body.sign-provider #banner .container .text-giant {
+        padding-bottom: 30px;
+        margin-top: -10px; } }
+
+body.sign-provider #content {
+  z-index: 4; }
+  body.sign-provider #content .left form {
+    display: block;
+    width: 100%; }
+    body.sign-provider #content .left form.sign-up .line .input {
+      padding-left: 30px; }
+    body.sign-provider #content .left form .line {
+      position: relative;
+      display: block;
+      margin-bottom: 20px;
+      width: 100%;
+      text-align: center; }
+      body.sign-provider #content .left form .line img,
+      body.sign-provider #content .left form .line svg {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+        left: 20px;
+        display: block;
+        width: 20px;
+        height: 20px;
+        z-index: 2;
+        pointer-events: none; }
+        body.sign-provider #content .left form .line img path,
+        body.sign-provider #content .left form .line svg path {
+          fill: #aaa; }
+      body.sign-provider #content .left form .line .input {
+        display: block;
+        width: 100%;
+        padding: 20px 20px 20px 60px;
+        color: #777;
+        border: 1px solid #aaa;
+        border-radius: 10px;
+        background-color: #fff;
+        text-align: left; }
+        body.sign-provider #content .left form .line .input.password {
+          padding-right: 200px; }
+      body.sign-provider #content .left form .line .forgot {
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+        z-index: 2;
+        color: #623e77;
+        text-decoration: underline;
+        font-weight: bold;
+        text-transform: lowercase;
+        line-height: 1;
+        -webkit-transition: .3s;
+        transition: .3s; }
+        body.sign-provider #content .left form .line .forgot:hover {
+          color: #7c5196; }
+      body.sign-provider #content .left form .line .or-line {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: #aaa;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+        z-index: 0; }
+        @media only screen and (max-width: 575px) {
+          body.sign-provider #content .left form .line .or-line {
+            width: 80%;
+            margin: 0 auto;
+            left: 0;
+            right: 0; } }
+      body.sign-provider #content .left form .line .or {
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+        color: #777;
+        text-transform: uppercase;
+        z-index: 2;
+        position: relative;
+        background-color: #fff;
+        padding: 50px 20px; }
+        @media only screen and (max-width: 575px) {
+          body.sign-provider #content .left form .line .or {
+            padding: 40px 20px; } }
+    body.sign-provider #content .left form .purple-bt {
+      display: block;
+      width: 100%;
+      text-align: center; }
+      body.sign-provider #content .left form .purple-bt:hover {
+        background-color: #491266;
+        color: #fff; }
+    body.sign-provider #content .left form .back {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 50px; }
+      @media only screen and (max-width: 575px) {
+        body.sign-provider #content .left form .back {
+          padding-top: 30px; } }
+    body.sign-provider #content .left form .login-buttons {
+      position: relative;
+      display: block;
+      width: 100%;
+      margin-top: -20px; }
+      body.sign-provider #content .left form .login-buttons .login-bt {
+        display: block;
+        width: calc(50% - 10px);
+        padding: 20px;
+        border-radius: 50px;
+        text-align: center;
+        cursor: pointer;
+        -webkit-transition: background-color .3s;
+        transition: background-color .3s; }
+        body.sign-provider #content .left form .login-buttons .login-bt.google {
+          float: left;
+          -webkit-box-shadow: inset 0 0 0 1px #aaa;
+                  box-shadow: inset 0 0 0 1px #aaa; }
+          @media only screen and (max-width: 575px) {
+            body.sign-provider #content .left form .login-buttons .login-bt.google {
+              float: none;
+              display: block;
+              margin-bottom: 10px;
+              width: 100%; } }
+          body.sign-provider #content .left form .login-buttons .login-bt.google:hover {
+            background-color: #eee; }
+        body.sign-provider #content .left form .login-buttons .login-bt.facebook {
+          float: right;
+          background-color: #3b4db3; }
+          @media only screen and (max-width: 575px) {
+            body.sign-provider #content .left form .login-buttons .login-bt.facebook {
+              float: none;
+              display: block;
+              margin-bottom: 10px;
+              width: 100%; } }
+          body.sign-provider #content .left form .login-buttons .login-bt.facebook:hover {
+            background-color: #455bd6; }
+          body.sign-provider #content .left form .login-buttons .login-bt.facebook img path,
+          body.sign-provider #content .left form .login-buttons .login-bt.facebook svg path {
+            fill: #fff; }
+    body.sign-provider #content .left form .final {
+      display: block;
+      margin-top: 40px;
+      padding-bottom: 30px; }
+      @media only screen and (max-width: 575px) {
+        body.sign-provider #content .left form .final {
+          margin-top: 30px;
+          text-align: center; } }
+      body.sign-provider #content .left form .final.forgot {
+        text-align: center; }
+      body.sign-provider #content .left form .final p {
+        color: #777;
+        display: inline-block;
+        vertical-align: top; }
+        body.sign-provider #content .left form .final p a {
+          color: #623e77;
+          font-weight: bold;
+          display: inline-block;
+          vertical-align: top; }
+          body.sign-provider #content .left form .final p a:before {
+            height: 2px;
+            background-color: #623e77; }
