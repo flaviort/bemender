@@ -71,7 +71,7 @@ $( document ).ready(function() {
 	// NEWSLETTER
 	var $form = $('#mc-embedded-subscribe-form')
 	if ($form.length > 0) {
-		$('form input[type="submit"]').bind('click', function (event) {
+		$('#subscribe form input[type="submit"]').bind('click', function (event) {
 			if (event) {
 				event.preventDefault();
 				register($form);

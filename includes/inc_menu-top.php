@@ -25,6 +25,18 @@
 							</a>
 						</li>
 
+						<li class="wow fadeInUp" data-wow-delay=".6s">
+							<a href="contact.php" class="text-medium hvr-underline-from-left">
+								Contact
+							</a>
+						</li>
+
+						<li class="wow fadeInUp" data-wow-delay=".8s">
+							<a href="user-sign-in.php" class="text-medium">
+								Sign In
+							</a>
+						</li>
+
 					</ul><!-- END UL -->
 				</nav><!-- END NAV / MENU -->
 
