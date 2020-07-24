@@ -97,24 +97,46 @@
 							
 							<h1 class="text-giant wow fadeInUp">
 								<strong>
-									Launch <br />
-									Coming <span></span>
-									Soon!
+									Hire or <br />
+									Get Hired
 								</strong>
 							</h1>
 
 							<h2 class="text-large wow fadeInUp" data-wow-delay=".2s">
-								Hire or Get Hired <br />
-								on a Secure <span></span>
+								on a Secure <br />
 								Platform.
 							</h2>
 
+							<!-- SEARCH FORM -->
+							<div class="search-form">
+								<form action="">
+
+									<!-- LINE -->
+									<div class="line">
+
+										<input type="text" placeholder="What's on your to-do list?" class="text-small input input-what" id="search-what" required>
+
+										<div class="sep"></div>
+
+										<input type="text" placeholder="Zip Code" class="text-small input input-zip" id="search-zipcode" required>
+
+										<input type="submit" id="search-send" style="display: none;">
+										<label for="search-send" class="text-medium button-go">
+											Go
+										</label>
+
+										<div class="cf"></div>
+										
+									</div><!-- END LINE -->
+
+									<!-- HIDDEN FORM -->
+									<?php include('includes/inc_hidden-form.php'); ?>
+
+								</form><!-- END FORM -->
+							</div><!-- END SEARCH FORM -->
+
 							<!-- DETAILS -->
 							<div class="details">
-								
-								<p class="text-xx-small wow fadeInUp" data-wow-delay=".4s">
-									Available Soon On
-								</p>
 
 								<a href="#" class="wow fadeInUp" data-wow-delay=".6s">
 									<img src="assets/img/google-play.png" alt="Android App on Google Play">
