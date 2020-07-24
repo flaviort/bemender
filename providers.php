@@ -76,7 +76,7 @@
 						<div class="col-12">
 
 							<div class="wow fadeIn phone layer providers" data-wow-duration="3s">
-								<img src="assets/img/providers.png" alt="Providers">
+								<img src="assets/img/providers-top.png" alt="Providers">
 							</div>
 
 							<a href="./" class="logo wow fadeInUp">
