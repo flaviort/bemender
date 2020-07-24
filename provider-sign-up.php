@@ -40,7 +40,7 @@
 	</head><!-- END HEAD -->
 
 	<!-- BODY -->
-	<body class="internal providers">
+	<body class="internal sign-provider">
 		<div class="wrap">
 
 			<!-- FSMENU -->
@@ -75,22 +75,38 @@
 					<div class="row">
 						<div class="col-12">
 
-							<div class="wow fadeIn phone layer providers" data-wow-duration="3s">
-								<img src="assets/img/providers.png" alt="Providers">
+							<div class="wow fadeIn phone layer" data-wow-duration="3s">
+								<img src="assets/img/providers.png" alt="Mender App" class="rellax" data-rellax-speed="3" data-rellax-tablet-speed="2" data-rellax-xs-speed="0">
 							</div>
 
 							<a href="./" class="logo wow fadeInUp">
 								<img src="assets/img/svg/logo.svg" alt="Mender" class="svg">
 							</a>
 
-							<h1 class="text-large wow fadeInUp">
-								Providers
-							</h1>
+							<!-- SELECT -->
+							<div class="select wow fadeInUp">
+								
+								<p class="text-medium">
+									I'm a
+								</p>
+
+								<!-- LINE -->
+								<div class="line">
+									
+									<select id="user-or-provider">
+										<option value="user-sign-up">User</option>
+										<option value="provider-sign-up" selected>Provider</option>
+									</select>
+
+									<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg">
+
+								</div><!-- END LINE -->
+
+							</div><!-- END SELECT -->
 							
-							<h1 class="text-giant wow fadeInUp">
+							<h1 class="text-giant sign-up wow fadeInUp">
 								<strong>
-									Become a <span class="block"></span>
-									Provider
+									Sign up today!
 								</strong>
 							</h1>
 
@@ -101,75 +117,53 @@
 
 			<!-- SECTION / CONTENT -->
 			<section id="content">
+				<div class="container container-big">
+					<div class="row">
 
-				<!-- HOW IT -->
-				<div class="how-it">
-					<div class="container container-big">
-						<div class="row">
+						<!-- COL / LEFT -->
+						<div class="col-lg-6 left">
+							<form action="" class="sign-up">
 
-							<!-- COL / LEFT -->
-							<div class="col-md-push-7 col-md-5 left">
+								<div class="line wow fadeInUp">
+									<input type="text" class="text-medium input" required placeholder="Full Name *">
+								</div>
 
-								<p class="text-x-large wow fadeInUp">
-									Competitive market?
-								</p>
+								<div class="line wow fadeInUp">
+									<input type="email" class="text-medium input" required placeholder="Email Address *">
+								</div>
 
-								<p class="text-large wow fadeInUp">
-									Mender can help you!
-								</p>
+								<div class="line wow fadeInUp">
+									<input type="text" class="text-medium input" placeholder="Phone Number">
+								</div>
 
-							</div><!-- END COL / LEFT -->
-							
-							<!-- COL / RIGHT -->
-							<div class="col-md-pull-5 col-md-7 right">
+								<div class="line wow fadeInUp">
+									<input type="text" class="text-medium input" required placeholder="ZIPCode *">
+								</div>
+
+								<div class="line wow fadeInUp">
+									<input type="password" class="text-medium input password" placeholder="Password">
+								</div>
+
+								<input type="submit" id="send-provider" style="display: none;">
+								<label for="send-provider" class="purple-bt text-medium wow fadeInUp">Sign up</label>
+
+								<!-- FINAL -->
+								<div class="final wow fadeInUp">
+									<p class="text-medium">
+										Already have an account? <a href="provider-sign-in.php" class="text-medium hvr-underline-from-left">Sign in</a>
+									</p>
+								</div><!-- END FINAL -->
+
+							</form><!-- END FORM -->
+						</div><!-- END COL / LEFT -->
+
+						<!-- COL / RIGHT -->
+						<div class="col-lg-6 right">
 								
-								<p class="text-medium wow fadeInUp">
-									In this competitive market, many online posting services sites became overwhelming and even potentially dangerous when posting your skills and abilities.<br /><br />
+						</div><!-- END COL / RIGHT -->
 
-									Nowadays, when placing ads on untrusted classifieds the possibility of engaging with spammers or cyber-attacks is eminent. There is also the unknown when opening your house or office doors to an unknown provider – <strong>do you know who is providing your services?</strong>
-								</p>
-
-							</div><!-- END COL / RIGHT -->
-
-						</div><!-- END ROW -->
-					</div><!-- END CONTAINER -->
-				</div><!-- END HOW IT -->
-
-				<!-- SECTION / PROVIDER -->
-				<?php include('includes/inc_provider.php'); ?>
-
-				<!-- GET IT DONE -->
-				<div class="get-it-done">
-					<div class="container container-big">
-						<div class="row">
-
-							<!-- COL / LEFT -->
-							<div class="col-md-5 left">
-
-								<p class="text-x-large wow fadeInUp">
-									Get it done <br />
-									with Mender!
-								</p>
-
-								<div class="line"></div>
-
-							</div><!-- END COL / LEFT -->
-							
-							<!-- COL / RIGHT -->
-							<div class="col-md-7 right">
-								
-								<p class="text-medium wow fadeInUp">
-									At <strong>Mender App</strong>, users who need help can count on providers who are background checked by the leading background check company in the market - FCRA. Each provider undergoes screening and orientation to ensure the highest level of people are selected.<br /><br />
-
-									That way, the users know they can trust you. <strong>Mender App</strong> also provides an open chat channel within the app for communication and helps avoid unexpected situations when arriving on the job site. Also, Mender allows providers to track earnings by the day, weekly, monthly, and yearly to use for taxes and accounting purposes.
-								</p>
-
-							</div><!-- END COL / RIGHT -->
-
-						</div><!-- END ROW -->
-					</div><!-- END CONTAINER -->
-				</div><!-- END GET IT DONE -->
-
+					</div><!-- END ROW -->
+				</div><!-- END CONTAINER -->
 			</section><!-- END SECTION / CONTENT -->
 
 			<!-- SECTION / WHERE -->
@@ -187,6 +181,7 @@
 		<footer>
 			<script src="assets/js/framework.js"></script>
 			<script src="assets/js/functions.js"></script>
+			<script src="assets/js/user-provider.js"></script>
 		 </footer>
 
 	</body><!-- END BODY -->
