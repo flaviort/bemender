@@ -67,5 +67,80 @@ $( document ).ready(function() {
 		autoplay: true,
 		path: 'assets/animations/how-03.json'
 	});
+
+	$('#search-what').keypress(function(e) {
+		e.preventDefault();
+	});
+
+	// SERVICES SLIDER
+	$('.services-slider').slick({
+		autoplay: false,
+		initialSlide: 0,
+		adaptiveHeight: true,
+		draggable: false,
+		speed: 700,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		fade: true,
+		swipe: false,
+		arrows: false,
+		infinite: false,
+		dots: false,
+		swipeToSlide: false
+	}); // END SERVICES SLIDER
+
+	$("#service-01").click(function() {
+		$('.services-slider').slick('slickGoTo', 1);
+	});
+
+	$("#service-02").click(function() {
+		$('.services-slider').slick('slickGoTo', 2);
+	});
+
+	$("#service-03").click(function() {
+		$('.services-slider').slick('slickGoTo', 3);
+	});
+
+	$("#service-04").click(function() {
+		$('.services-slider').slick('slickGoTo', 4);
+	});
+
+	$("#service-05").click(function() {
+		$('.services-slider').slick('slickGoTo', 5);
+	});
+
+	$("#service-06").click(function() {
+		$('.services-slider').slick('slickGoTo', 6);
+	});
+
+	$("#service-07").click(function() {
+		$('.services-slider').slick('slickGoTo', 7);
+	});
+
+	$("#service-08").click(function() {
+		$('.services-slider').slick('slickGoTo', 8);
+	});
+
+	$("#service-09").click(function() {
+		$('.services-slider').slick('slickGoTo', 9);
+	});
+
+	$(".back-button").click(function() {
+		$('.services-slider').slick('slickGoTo', 0);
+	});
+
+	$("#search-what").click(function() {
+		$("#banner .hidden-form").addClass("active");
+	});
+
+	$("#banner .hidden-form .close-services, #banner .hidden-form .close-services-inside").click(function() {
+		$("#banner .hidden-form").removeClass("active");
+	});
+
+	$("#banner .hidden-form .select-service").click(function() {
+		$("#banner .hidden-form").removeClass("active");
+		$("#search-zipcode").focus();
+		$('.services-slider').slick('slickGoTo', 0);
+	});
 	
 });
