@@ -57,14 +57,14 @@
 					<!-- COL -->
 					<div class="col-sm-6">
 						
-						<a href="#" class="text-medium">
+						<a href="about-us.php" class="text-medium">
 							About Us
 						</a>
 
 						<br />
 
-						<a href="#" class="text-medium">
-							How it Works
+						<a href="contact.php" class="text-medium">
+							Contact
 						</a>
 
 					</div><!-- END COL -->
@@ -72,14 +72,14 @@
 					<!-- COL -->
 					<div class="col-sm-6">
 
-						<a href="#" class="text-medium">
-							Login User
+						<a href="users.php" class="text-medium">
+							Users
 						</a>
 
 						<br />
 
-						<a href="#" class="text-medium">
-							Login Provider
+						<a href="providers.php" class="text-medium">
+							Providers
 						</a>
 						
 					</div><!-- END COL -->

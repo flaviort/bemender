@@ -106,9 +106,15 @@ $( document ).ready(function() {
 
 	// HAMBURGER MENU
 	$("#menu-top #open-fs").click(function(){
-		$("#menu-top").toggleClass('open');
-		$("#fsmenu").toggleClass('opacity');
-		$("body").toggleClass('no-scroll');
+		$("#menu-top").addClass('open');
+		$("#fsmenu").addClass('opacity');
+		$("body").addClass('no-scroll');
+	});
+
+	$("#close-fs").click(function(){
+		$("#menu-top").removeClass('open');
+		$("#fsmenu").removeClass('opacity');
+		$("body").removeClass('no-scroll');
 	});
 
 });

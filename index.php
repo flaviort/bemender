@@ -60,17 +60,8 @@
 					<img src="assets/img/anima/cloud-02.png" alt="Clouds" class="cloud-02 wow fadeInRight layer" data-wow-delay=".2s" data-wow-duration="4s">
 					<img src="assets/img/anima/cloud-01.png" alt="Clouds" class="cloud-03 wow fadeInRight layer" data-wow-delay=".3s" data-wow-duration="3s">
 					<img src="assets/img/anima/cloud-02.png" alt="Clouds" class="cloud-04 wow fadeInRight layer" data-wow-delay=".4s" data-wow-duration="2s">
-					
-					<div class="man wow fadeInLeft layer" data-wow-duration="3s">
-						<div id="man"></div>
-					</div>
 
-					<div class="woman wow fadeInRight layer" data-wow-duration="4s">
-						<div id="woman"></div>
-					</div>
-
-					<!--img src="assets/img/anima/man.png" alt="Man" class="man wow fadeInLeft layer" data-wow-duration="3s">
-					<img src="assets/img/anima/woman.png" alt="Woman" class="woman wow fadeInRight layer" data-wow-duration="4s"-->
+					<img src="assets/img/people.png" alt="People" class="people wow fadeInLeft layer" data-wow-duration="3s">
 
 					<img src="assets/img/anima/trees.png" alt="Trees" class="trees wow fadeIn layer" data-wow-duration="3.5s">
 
@@ -90,10 +81,6 @@
 							<div class="wow fadeIn phone layer" data-wow-duration="3s">
 								<img src="assets/img/home-phone.png" alt="Mender App" class="rellax" data-rellax-speed="3" data-rellax-tablet-speed="2" data-rellax-xs-speed="0">
 							</div>
-
-							<a href="./" class="logo wow fadeInUp">
-								<img src="assets/img/svg/logo.svg" alt="Mender" class="svg">
-							</a>
 							
 							<h1 class="text-giant wow fadeInUp">
 								<strong>
@@ -108,7 +95,7 @@
 							</h2>
 
 							<!-- SEARCH FORM -->
-							<div class="search-form">
+							<div class="search-form wow fadeInUp" data-wow-delay=".4s">
 								<form action="">
 
 									<!-- LINE -->
@@ -148,7 +135,7 @@
 
 							</div><!-- END DETAILS -->
 
-							<img src="assets/img/mobile.png" alt="Man delivering package to a woman" class="mob wow fadeIn">
+							<img src="assets/img/people.png" alt="People" class="mob wow fadeIn">
 
 						</div><!-- END COL -->
 					</div><!-- END ROW -->
@@ -382,7 +369,7 @@
 			<?php include('includes/inc_subscribe.php'); ?>
 
 			<!-- SECTION / FOOTER -->
-			<?php include('includes/inc_temp-footer.php'); ?>
+			<?php include('includes/inc_footer.php'); ?>
 
 		</div><!-- END WRAP -->
 

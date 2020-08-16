@@ -48,12 +48,26 @@ body.sign-provider {
 			} // END PHONE
 
 			.select {
+				padding-top: 200px;
 				padding-left: 5px;
 				position: relative;
 				z-index: 2;
 
+				@media #{$mq-md-max} {
+					padding-top: 180px;
+				}
+
+				@media #{$mq-sm-max} {
+					padding-top: 150px;
+				}
+
 				@media #{$mq-xs-max} {
+					padding-top: 100px;
 					margin-top: 50px;
+				}
+
+				@media #{$mq-xxs-max} {
+					padding-top: 80px;
 				}
 
 				p {

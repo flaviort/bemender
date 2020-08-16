@@ -79,10 +79,6 @@
 								<img src="assets/img/contact-man.png" alt="Mender App" class="rellax" data-rellax-speed="3" data-rellax-tablet-speed="2" data-rellax-xs-speed="0">
 							</div>
 
-							<a href="./" class="logo wow fadeInUp">
-								<img src="assets/img/svg/logo.svg" alt="Mender" class="svg">
-							</a>
-
 							<h1 class="text-large wow fadeInUp">
 								Contact us
 							</h1>
@@ -409,7 +405,7 @@
 			<?php include('includes/inc_subscribe.php'); ?>
 
 			<!-- SECTION / FOOTER -->
-			<?php include('includes/inc_temp-footer.php'); ?>
+			<?php include('includes/inc_footer.php'); ?>
 
 		</div><!-- END WRAP -->
 

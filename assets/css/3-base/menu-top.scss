@@ -5,11 +5,12 @@
 ----------------------------------------*/
 
 #menu-top {
-	z-index: 8;
+	z-index: 10;
 	position: absolute;
 	top: 100px;
 	text-align: right;
 	width: 100%;
+	overflow: visible;
 
 	@media #{$mq-md-max} {
 		top: 80px;
@@ -17,8 +18,6 @@
 
 	@media #{$mq-sm-max} {
 		top: 50px;
-		right: 0;
-		width: 60%;
 	}
 
 	&.open {
@@ -36,66 +35,122 @@
 		} // END OPEN FS
 	} // END OPEN
 
-	.menu {
-		@media #{$mq-sm-max} {
-			display: none;
-		}
+	.col-12 {
+		position: relative;
 
-		li {
+		#logo-top {
+			position: absolute;
+			top: -30px;
+			left: 0;
 			display: inline-block;
-			margin-left: 50px;
 
-			@media #{$mq-md-max} {
-				margin-left: 30px;
+			@media #{$mq-sm-max} {
+				top: -10px;
+				left: 15px;
 			}
 
-			a {
+			@media #{$mq-xs-max} {
+				top: -15px;
+			}
+
+			img,
+			svg {
+				width: 290px;
+
+				@media #{$mq-md-max} {
+					width: 250px;
+				}
+
+				@media #{$mq-sm-max} {
+					width: 200px;
+					height: 80px;
+				}
+			} // END IMG / SVG
+		} // END LOGO TOP
+
+		.menu {
+			@media #{$mq-md-max} {
+				display: none;
+			}
+
+			li {
 				display: inline-block;
-				color: $white;
-				font-weight: $bold;
+				margin-left: 50px;
 
-				&:before {
-					background-color: $white;
-				} // END BEFORE
-			} // END A
-		} // END LI
-	} // END MENU
+				@media #{$mq-xxl-max} {
+					margin-left: 30px;
+				}
 
-	#open-fs {
-		display: none;
-		width: 50px;
-		height: 50px;
-		text-align: center;
-		position: relative;
-		border-radius: 50%;
-		box-shadow: inset 0 0 0 2px $white;
-		background-color: transparent;
-		border: none;
-		float: right;
+				@media #{$mq-xl-max} {
+					margin-left: 20px;
+				}
 
-		@media #{$mq-sm-max} {
-			display: block;
-		}
+				&.last {
+					a {
+						background-color: $white;
+						color: $purple-medium;
+						padding: 10px 30px;
+						cursor: pointer;
+						line-height: 1;
+						border-radius: 50px;
+						transform: translateY(4px);
+						transition: .3s;
 
-		svg,
-		img {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			display: block;
-			width: 20px;
-			height: 20px;
-			transition: opacity .3s;
+						&:hover,
+						&:focus {
+							background-color: $purple-dark;
+							color: $white;
+						} // END HOVER / FOCUS
+					} // END A
+				} // END LAST
 
-			path {
-				fill: $white;
-			} // END PATH
-		} // END IMG / SVG
+				&.logged-in {
+					display: none;
+				} // END LOGGED IN
 
-		.close {
-			opacity: 0;
-		} // END CLOSE
-	} // END OPEN FS
-	
+				a {
+					display: inline-block;
+					color: $white;
+					font-weight: $bold;
+
+					&:before {
+						background-color: $white;
+					} // END BEFORE
+				} // END A
+			} // END LI
+		} // END MENU
+
+		#open-fs {
+			display: none;
+			width: 50px;
+			height: 50px;
+			text-align: center;
+			position: relative;
+			border-radius: 50%;
+			box-shadow: inset 0 0 0 2px $white;
+			background-color: transparent;
+			border: none;
+			float: right;
+
+			@media #{$mq-md-max} {
+				display: block;
+			}
+
+			svg,
+			img {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				display: block;
+				width: 20px;
+				height: 20px;
+				transition: opacity .3s;
+
+				path {
+					fill: $white;
+				} // END PATH
+			} // END IMG / SVG
+		} // END OPEN FS
+	} // END COL 12
 } // END MENU TOP

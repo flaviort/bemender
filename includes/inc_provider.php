@@ -1,4 +1,4 @@
-<section id="provider">
+<section id="inc-provider">
 	<div class="container container-big">
 		<div class="row">
 						
@@ -16,8 +16,8 @@
 						Join our expanding network of professional providers.
 					</p>
 
-					<a href="#" class="white-bt text-medium wow zoomIn">
-						COMING SOON
+					<a href="contact.php" class="white-bt text-medium wow zoomIn">
+						Contact us now
 					</a>
 							
 				</div><!-- END WRAP -->

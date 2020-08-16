@@ -129,24 +129,31 @@ body.home {
 					}
 				} // END BG
 
-				.man {
+				.people {
 					position: absolute;
 					bottom: -50px;
-					left: 7vw;
+					left: 10vw;
 					z-index: 4;
+					height: 700px;
 
 					@media #{$mq-xxl-max} {
-						left: 10vw;
+						left: auto;
+						right: 40px;
 					}
 
 					@media #{$mq-xl-max} {
-						left: auto;
-						right: 25vw;
-						bottom: -100px;
+						height: 630px;
+						bottom: -60px;
+					}
+
+					@media #{$mq-lg-max} {
+						height: 580px;
+						bottom: 0;
+						right: 20px;
 					}
 
 					@media #{$mq-md-max} {
-						right: 5vw;
+						right: -100px;
 					}
 
 					> div {
@@ -154,39 +161,7 @@ body.home {
 						width: 542px;
 						height: 780px;
 					} // END > DIV
-				} // END MAN
-
-				.woman {
-					position: absolute;
-					bottom: 0;
-					left: 25vw;
-					z-index: 3;
-
-					@media #{$mq-xxl-max} {
-						left: 33vw;
-					}
-
-					@media #{$mq-xl-max} {
-						left: auto;
-						right: 10vw;
-						bottom: -50px;
-					}
-
-					@media #{$mq-md-max} {
-						right: -10vw;
-						bottom: -100px;
-					}
-
-					> div {
-						display: block;
-						width: 359px;
-						height: 754px;
-
-						@media #{$mq-md-max} {
-							height: 800px;
-						}
-					} // END > DIV
-				} // END WOMAN
+				} // END PEOPLE
 
 				.trees {
 					position: absolute;
@@ -277,33 +252,17 @@ body.home {
 					}
 				} // END PHONE
 
-				.logo {
-					display: inline-block;
-					margin-bottom: 50px;
+				.text-giant {
+					padding-top: 200px;
+					color: $purple-dark;
 
-					@media #{$mq-md-max} {
-						margin-bottom: 30px;
+					@media #{$mq-sm-max} {
+						padding-top: 150px;
 					}
 
 					@media #{$mq-xs-max} {
-						margin-bottom: 20px;
+						padding-top: 130px;
 					}
-
-					img,
-					svg {
-						@media #{$mq-md-max} {
-							width: 250px;
-						}
-
-						@media #{$mq-sm-max} {
-							width: 200px;
-							height: 80px;
-						}
-					} // END IMG / SVG
-				} // END LOGO
-
-				.text-giant {
-					color: $purple-dark;
 
 					@media #{$mq-xxs-max} {
 						padding-left: 15px

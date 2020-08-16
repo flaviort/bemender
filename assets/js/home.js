@@ -4,8 +4,7 @@ $( document ).ready(function() {
 	if ($(window).width() > 767 ) {
 		window.setTimeout(function() {
 			$("#banner").mousemove(function(e) {
-				parallaxIt(e, $('#banner .anima .man'), -3);
-				parallaxIt(e, $('#banner .anima .woman'), -4);
+				parallaxIt(e, $('#banner .anima .people'), 3);
 				parallaxIt(e, $('#banner .anima .trees'), -2);
 				parallaxIt(e, $('#banner .anima .cloud-01'), -5);
 				parallaxIt(e, $('#banner .anima .cloud-02'), -6);
@@ -28,22 +27,6 @@ $( document ).ready(function() {
 	};
 
 	// ANIMATIONS
-	var man = bodymovin.loadAnimation({
-		wrapper: document.getElementById('man'),
-		animType: 'svg',
-		loop: true,
-		autoplay: true,
-		path: 'assets/animations/man.json'
-	});
-	
-	var woman = bodymovin.loadAnimation({
-		wrapper: document.getElementById('woman'),
-		animType: 'svg',
-		loop: true,
-		autoplay: true,
-		path: 'assets/animations/woman.json'
-	});
-
 	var how01 = bodymovin.loadAnimation({
 		wrapper: document.getElementById('how-01'),
 		animType: 'svg',
@@ -70,6 +53,14 @@ $( document ).ready(function() {
 
 	$('#search-what').keypress(function(e) {
 		e.preventDefault();
+	});
+
+	$('#search-what').attr('readonly','readonly');
+
+	$('#search-what').click(function() {
+		$('html,body').animate({
+        	scrollTop: $("#hidden-form").offset().top
+		}, 'slow');
 	});
 
 	// SERVICES SLIDER
@@ -141,6 +132,7 @@ $( document ).ready(function() {
 		$("#banner .hidden-form").removeClass("active");
 		$("#search-zipcode").focus();
 		$('.services-slider').slick('slickGoTo', 0);
+		$('#search-what').val($(this).children('p').text().trim());
 	});
 	
 });

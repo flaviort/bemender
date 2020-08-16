@@ -3,7 +3,7 @@
 @import 'base';
 @import 'fsmenu';
 @import 'menu-top';
-@import 'provider';
+@import 'inc-provider';
 @import 'where';
 @import 'subscribe';
 @import 'footer';
@@ -18,3 +18,5 @@
 
 @import 'sign-user';
 @import 'sign-provider';
+@import 'dashboard-user';
+@import 'dashboard-provider';

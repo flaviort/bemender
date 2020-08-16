@@ -79,10 +79,6 @@
 								<img src="assets/img/users.png" alt="Mender App" class="rellax" data-rellax-speed="3" data-rellax-tablet-speed="2" data-rellax-xs-speed="0">
 							</div>
 
-							<a href="./" class="logo wow fadeInUp">
-								<img src="assets/img/svg/logo.svg" alt="Mender" class="svg">
-							</a>
-
 							<!-- SELECT -->
 							<div class="select wow fadeInUp">
 								
@@ -140,7 +136,8 @@
 								</div>
 
 								<input type="submit" id="send-user" style="display: none;">
-								<label for="send-user" class="purple-bt text-medium wow fadeInUp">Sign in</label>
+								<!--label for="send-user" class="purple-bt text-medium wow fadeInUp">Sign in</label-->
+								<a href="dashboard-user-history.php" class="purple-bt text-medium wow fadeInUp">Sign in</a>
 
 								<div class="line wow fadeInUp">
 									<div class="or-line"></div>
@@ -190,7 +187,7 @@
 			<?php include('includes/inc_subscribe.php'); ?>
 
 			<!-- SECTION / FOOTER -->
-			<?php include('includes/inc_temp-footer.php'); ?>
+			<?php include('includes/inc_footer.php'); ?>
 
 		</div><!-- END WRAP -->
 

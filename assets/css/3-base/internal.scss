@@ -226,18 +226,19 @@ body.internal {
 
 					@media #{$mq-xxl-max} {
 						right: 100px;
+						width: 500px;
 					}
 
 					@media #{$mq-xl-max} {
 						bottom: -200px;
 						right: 0;
-						width: 500px;
+						width: 450px;
 					}
 
 					@media #{$mq-md-max} {
 						width: 400px;
-						right: -50px;
-						bottom: -300px;
+						right: 0;
+						bottom: -200px;
 					}
 
 					@media #{$mq-sm-max} {
@@ -264,41 +265,26 @@ body.internal {
 				} // END CONTACT
 			} // END PHONE
 
-			.logo {
-				display: inline-block;
-				margin-bottom: 50px;
-				position: relative;
-				z-index: 99;
-
-				@media #{$mq-md-max} {
-					margin-bottom: 30px;
-				}
-
-				@media #{$mq-xs-max} {
-					margin-bottom: 20px;
-				}
-
-				img,
-				svg {
-					@media #{$mq-md-max} {
-						width: 250px;
-					}
-
-					@media #{$mq-sm-max} {
-						width: 200px;
-						height: 80px;
-					}
-				} // END IMG / SVG
-			} // END LOGO
-
 			.text-large {
 				color: $gray-medium;
 				display: block;
-				margin: 150px 0 10px 10px;
+				margin: 300px 0 10px 10px;
+
+				@media #{$mq-xl-max} {
+					margin-top: 270px;
+				}
 
 				@media #{$mq-md-max} {
-					margin-top: 70px;
+					margin-top: 230px;
 					margin-left: 5px;
+				}
+
+				@media #{$mq-sm-max} {
+					margin-top: 150px;
+				}
+
+				@media #{$mq-xs-max} {
+					margin-top: 130px;
 				}
 
 				@media #{$mq-xxs-max} {

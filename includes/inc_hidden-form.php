@@ -1,4 +1,4 @@
-<div class="hidden-form">
+<div class="hidden-form" id="hidden-form">
 
 	<!-- CLOSE -->
 	<div class="close-services">

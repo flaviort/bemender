@@ -79,10 +79,6 @@
 								<img src="assets/img/providers.png" alt="Providers">
 							</div>
 
-							<a href="./" class="logo wow fadeInUp">
-								<img src="assets/img/svg/logo.svg" alt="Mender" class="svg">
-							</a>
-
 							<h1 class="text-large wow fadeInUp">
 								Providers
 							</h1>
@@ -179,7 +175,7 @@
 			<?php include('includes/inc_subscribe.php'); ?>
 
 			<!-- SECTION / FOOTER -->
-			<?php include('includes/inc_temp-footer.php'); ?>
+			<?php include('includes/inc_footer.php'); ?>
 
 		</div><!-- END WRAP -->
 
