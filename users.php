@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html lang="en">
 
 	<head>
@@ -253,43 +253,7 @@
 				</section><!-- END SECTION / HOW IT WORKS -->
 
 				<!-- SECTION / PROVIDER -->
-				<section id="provider" class="user">
-					<div class="container container-big">
-						<div class="row">
-
-							<!-- COL / LEFT -->
-							<div class="col-md-6 left">
-								<div class="wrap">
-
-									<h2 class="text-large wow fadeInUp">
-										<strong>
-											Not a User Yet? <br />
-											Create your account right now <br />
-											and start to hire!
-										</strong>
-									</h2>
-
-									<p class="text-medium wow fadeInUp">
-										<strong>Mender App</strong> was created to simply your life.
-									</p>
-
-									<a href="#" class="white-bt text-medium wow zoomIn">
-										COMING SOON
-									</a>
-											
-								</div><!-- END WRAP -->
-							</div><!-- END COL / LEFT -->
-
-							<!-- COL / RIGHT -->
-							<div class="col-md-6 right">
-										
-								<img src="assets/img/user-bot.png" alt="Provider" class="wow fadeIn">
-
-							</div><!-- END COL / RIGHT -->
-
-						</div><!-- END ROW -->
-					</div><!-- END CONTAINER -->
-				</section><!-- END SECTION / PROVIDER -->
+				<?php include('includes/inc_provider.php'); ?>
 
 			</section><!-- END SECTION / OUR HISTORY -->
 

@@ -1,0 +1,28 @@
+/*----------------------------------------
+------------------------------------------
+	## SERVICE
+------------------------------------------
+----------------------------------------*/
+
+body.service {
+	.wrap {
+		overflow: hidden;
+
+		#content {
+			z-index: 3;
+
+			@media #{$mq-sm-max} {
+				padding-top: 70px;
+			}
+
+			@media #{$mq-xs-max} {
+				padding-top: 50px;
+			}
+
+			#choose {
+				position: relative;
+				z-index: 2;
+			} // END CHOOSE
+		} // END CONTENT
+	} // END WRAP
+} // END BODY / SERVICE
