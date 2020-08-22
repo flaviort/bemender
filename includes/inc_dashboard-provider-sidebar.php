@@ -55,14 +55,23 @@
 				</a>
 			</li>
 
-			<!--li>
-				<a href="dashboard-user-need-help.php" class="<?= ($activePage == 'dashboard-user-need-help') ? 'active':''; ?>">
+			<li>
+				<a href="#" class="<?= ($activePage == 'dashboard-user-need-help') ? 'active':''; ?>">
 					<img src="assets/img/svg/icon-need-help.svg" alt="Need Help" class="svg">
 					<p class="text-medium">
 						Need Help
 					</p>
 				</a>
-			</li-->
+			</li>
+
+			<li>
+				<a href="dashboard-user-history.php">
+					<img src="assets/img/svg/icon-user.svg" alt="Switch to user" class="svg">
+					<p class="text-medium">
+						Switch to user
+					</p>
+				</a>
+			</li>
 
 			<li>
 				<a href="provider-sign-in.php">

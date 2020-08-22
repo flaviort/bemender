@@ -55,23 +55,23 @@
 				</a>
 			</li>
 
-			<!--li>
-				<a href="dashboard-user-become-a-provider.php" class="<?= ($activePage == 'dashboard-user-become-a-provider') ? 'active':''; ?>">
-					<img src="assets/img/svg/icon-become-a-provider.svg" alt="Become a Provider" class="svg">
-					<p class="text-medium">
-						Become a Provider
-					</p>
-				</a>
-			</li>
-
 			<li>
-				<a href="dashboard-user-need-help.php" class="<?= ($activePage == 'dashboard-user-need-help') ? 'active':''; ?>">
+				<a href="#" class="<?= ($activePage == 'dashboard-user-need-help') ? 'active':''; ?>">
 					<img src="assets/img/svg/icon-need-help.svg" alt="Need Help" class="svg">
 					<p class="text-medium">
 						Need Help
 					</p>
 				</a>
-			</li-->
+			</li>
+
+			<li>
+				<a href="dashboard-provider-profile.php">
+					<img src="assets/img/svg/icon-user.svg" alt="Switch to Provider" class="svg">
+					<p class="text-medium">
+						Switch to Provider
+					</p>
+				</a>
+			</li>
 
 			<li>
 				<a href="user-sign-in.php">
