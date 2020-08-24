@@ -357,3 +357,13 @@ h1, h2, h3, h4, span, p, a, li, button, input, div {
 		color: $white;
 	} // END HOVER / FOCUS
 } // END HOLLOW PURPLE BT
+
+/*----------------------------------------
+------------------------------------------
+	## ANIMATIONS
+------------------------------------------
+----------------------------------------*/
+
+@keyframes spin {
+	100% { transform: translate(-50%, -50%) rotate(360deg); }
+}

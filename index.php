@@ -108,9 +108,12 @@
 										<input type="text" placeholder="Zip Code" class="text-small input input-zip" id="search-zipcode" required>
 
 										<input type="submit" id="search-send" style="display: none;">
-										<label for="search-send" class="text-medium button-go">
+										<!--label for="search-send" class="text-medium button-go">
 											Go
-										</label>
+										</label-->
+										<a href="hire.php" class="text-medium button-go">
+											Go
+										</a>
 
 										<div class="cf"></div>
 										

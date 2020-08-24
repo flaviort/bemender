@@ -1,24 +1,29 @@
+// BREAKPOINTS AND VARIABLES
 @import 'breakpoints';
 @import 'variables';
 @import 'base';
-@import 'fsmenu';
-@import 'menu-top';
-@import 'inc-provider';
-@import 'where';
-@import 'subscribe';
-@import 'footer';
-@import 'internal';
-@import 'dropzone';
 
-@import 'home';
+// LAYOUT PARTS AND DETAILS
+@import 'dropzone';
+@import 'footer';
+@import 'fsmenu';
+@import 'inc-provider';
+@import 'internal';
+@import 'menu-top';
+@import 'subscribe';
+@import 'where';
+
+// ALL PAGES
 @import 'about-us';
-@import 'users';
-@import 'providers';
 @import 'contact';
-@import 'terms-of-use';
-@import 'sign-user';
-@import 'sign-provider';
-@import 'dashboard-user';
 @import 'dashboard-provider';
-@import 'service';
+@import 'dashboard-user';
+@import 'hire';
+@import 'home';
+@import 'providers';
 @import 'provider-details';
+@import 'users';
+@import 'service';
+@import 'sign-provider';
+@import 'sign-user';
+@import 'terms-of-use';
