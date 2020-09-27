@@ -40,7 +40,7 @@
 	</head><!-- END HEAD -->
 
 	<!-- BODY -->
-	<body class="internal sign-provider forgot">
+	<body class="internal sign-user">
 		<div class="wrap">
 
 			<!-- FSMENU -->
@@ -76,37 +76,18 @@
 						<div class="col-12">
 
 							<div class="wow fadeIn phone layer" data-wow-duration="3s">
-								<img src="assets/img/providers.png" alt="Mender App" class="rellax" data-rellax-speed="3" data-rellax-tablet-speed="2" data-rellax-xs-speed="0">
+								<img src="assets/img/users.png" alt="Mender App" class="rellax" data-rellax-speed="3" data-rellax-tablet-speed="2" data-rellax-xs-speed="0">
 							</div>
 
-							<!-- SELECT -->
-							<div class="select wow fadeInUp">
-								
-								<p class="text-medium">
-									I'm a
-								</p>
-
-								<!-- LINE -->
-								<div class="line">
-									
-									<select id="user-or-provider">
-										<option value="user-forgot">User</option>
-										<option value="provider-forgot" selected>Provider</option>
-									</select>
-
-									<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg">
-
-								</div><!-- END LINE -->
-
-							</div><!-- END SELECT -->
+							<div class="select"></div>
 
 							<h1 class="text-large wow fadeInUp">
-								Forgot you password?
+								Glad to see you!
 							</h1>
 							
 							<h1 class="text-giant contact wow fadeInUp">
 								<strong>
-									Reset it here!
+									Welcome back.
 								</strong>
 							</h1>
 
@@ -129,19 +110,42 @@
 									<input type="email" class="text-medium input" required placeholder="Email Address">
 								</div>
 
-								<input type="submit" id="send-provider" style="display: none;">
-								<label for="send-provider" class="purple-bt text-medium wow fadeInUp">Submit</label>
-
-								<div class="back">
-									<a href="provider-sign-in.php" class="hollow-gray-bt text-medium">
-										Back to login
-									</a>
+								<div class="line wow fadeInUp">
+									<img src="assets/img/svg/icon-password.svg" alt="Password" class="svg">
+									<input type="password" class="text-medium input password" placeholder="Password">
+									<a href="forgot-password.php" class="forgot text-medium-small">Forgot password?</a>
 								</div>
 
+								<input type="submit" id="send-user" style="display: none;">
+								<!--label for="send-user" class="purple-bt text-medium wow fadeInUp">Sign in</label-->
+								<a href="dashboard-user-history.php" class="purple-bt text-medium wow fadeInUp">Sign in</a>
+
+								<div class="line wow fadeInUp">
+									<div class="or-line"></div>
+									<p class="text-medium or">
+										or
+									</p>
+								</div>
+
+								<!-- LOGIN BUTTONS -->
+								<div class="login-buttons wow fadeInUp">
+									
+									<a href="#" class="login-bt google">
+										<img src="assets/img/svg/login-google.svg" alt="Google" class="svg">
+									</a>
+
+									<a href="#" class="login-bt facebook">
+										<img src="assets/img/svg/login-facebook.svg" alt="Facebook" class="svg">
+									</a>
+
+									<div class="cf"></div>
+
+								</div><!-- END LOGIN BUTTONS -->
+
 								<!-- FINAL -->
-								<div class="final forgot wow fadeInUp">
+								<div class="final wow fadeInUp">
 									<p class="text-medium">
-										Don't have an account? <a href="provider-sign-up.php" class="text-medium hvr-underline-from-left">Sign up</a>
+										Don't have an account? <a href="sign-up.php" class="text-medium hvr-underline-from-left">Sign up</a>
 									</p>
 								</div><!-- END FINAL -->
 

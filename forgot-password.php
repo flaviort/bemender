@@ -40,7 +40,7 @@
 	</head><!-- END HEAD -->
 
 	<!-- BODY -->
-	<body class="internal sign-provider">
+	<body class="internal sign-user forgot">
 		<div class="wrap">
 
 			<!-- FSMENU -->
@@ -76,33 +76,18 @@
 						<div class="col-12">
 
 							<div class="wow fadeIn phone layer" data-wow-duration="3s">
-								<img src="assets/img/providers.png" alt="Mender App" class="rellax" data-rellax-speed="3" data-rellax-tablet-speed="2" data-rellax-xs-speed="0">
+								<img src="assets/img/users.png" alt="Mender App" class="rellax" data-rellax-speed="3" data-rellax-tablet-speed="2" data-rellax-xs-speed="0">
 							</div>
 
-							<!-- SELECT -->
-							<div class="select wow fadeInUp">
-								
-								<p class="text-medium">
-									I'm a
-								</p>
+							<div class="select"></div>
 
-								<!-- LINE -->
-								<div class="line">
-									
-									<select id="user-or-provider">
-										<option value="user-sign-up">User</option>
-										<option value="provider-sign-up" selected>Provider</option>
-									</select>
-
-									<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg">
-
-								</div><!-- END LINE -->
-
-							</div><!-- END SELECT -->
+							<h1 class="text-large wow fadeInUp">
+								Forgot you password?
+							</h1>
 							
-							<h1 class="text-giant sign-up wow fadeInUp">
+							<h1 class="text-giant contact wow fadeInUp">
 								<strong>
-									Sign up today!
+									Reset it here!
 								</strong>
 							</h1>
 
@@ -118,35 +103,26 @@
 
 						<!-- COL / LEFT -->
 						<div class="col-lg-6 left">
-							<form action="" class="sign-up">
+							<form action="">
 
 								<div class="line wow fadeInUp">
-									<input type="text" class="text-medium input" required placeholder="Full Name *">
+									<img src="assets/img/svg/icon-user.svg" alt="Email Address" class="svg">
+									<input type="email" class="text-medium input" required placeholder="Email Address">
 								</div>
 
-								<div class="line wow fadeInUp">
-									<input type="email" class="text-medium input" required placeholder="Email Address *">
-								</div>
+								<input type="submit" id="send-user" style="display: none;">
+								<label for="send-user" class="purple-bt text-medium wow fadeInUp">Submit</label>
 
-								<div class="line wow fadeInUp">
-									<input type="text" class="text-medium input" placeholder="Phone Number">
+								<div class="back">
+									<a href="sign-in.php" class="hollow-gray-bt text-medium">
+										Back to login
+									</a>
 								</div>
-
-								<div class="line wow fadeInUp">
-									<input type="text" class="text-medium input" required placeholder="ZIPCode *">
-								</div>
-
-								<div class="line wow fadeInUp">
-									<input type="password" class="text-medium input password" placeholder="Password">
-								</div>
-
-								<input type="submit" id="send-provider" style="display: none;">
-								<label for="send-provider" class="purple-bt text-medium wow fadeInUp">Sign up</label>
 
 								<!-- FINAL -->
-								<div class="final wow fadeInUp">
+								<div class="final forgot wow fadeInUp">
 									<p class="text-medium">
-										Already have an account? <a href="provider-sign-in.php" class="text-medium hvr-underline-from-left">Sign in</a>
+										Don't have an account? <a href="sign-up.php" class="text-medium hvr-underline-from-left">Sign up</a>
 									</p>
 								</div><!-- END FINAL -->
 

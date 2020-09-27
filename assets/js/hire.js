@@ -28,13 +28,29 @@ $( document ).ready(function() {
 		slidesToScroll: 1,
 		fade: true,
 		swipe: false,
-		arrows: true,
-		prevArrow: $('.slider-nav .back'),
-		nextArrow: $('.slider-nav .next'),
+		arrows: false,
+		// prevArrow: $('.slider-nav .back'),
+		// nextArrow: $('.slider-nav .next'),
 		infinite: false,
 		dots: false,
 		swipeToSlide: false
 	}); // END MAIN SLIDER
+
+	$('.back-to-list').click(function() {
+		$('.main-slider').slick('slickGoTo', 0);
+	});
+
+	$('.hire-slide').click(function() {
+		$('.main-slider').slick('slickGoTo', 1);
+	});
+
+	$('.schedule-slide').click(function() {
+		$('.main-slider').slick('slickGoTo', 2);
+	});
+
+	$('.multiple-slide').click(function() {
+		$('.main-slider').slick('slickGoTo', 3);
+	});
 
 	// TIME / HOUR FADE
 	$('#by-time').click(function() {
@@ -199,3 +215,85 @@ $( document ).ready(function() {
 function show_dp(){
 	$("#datepicker").datepicker('show');
 };
+
+$(window).resize(function() {
+	$('.main-slider').slick('resize');
+});
+
+// DROPZONE
+Dropzone.autoDiscover = false;
+var that = $("#upload-zone");
+var myDropzone = new Dropzone('#upload-zone', {
+	addRemoveLinks: true,
+	uploadMultiple: true,
+	maxFiles: 5,
+	autoProcessQueue: true,
+	acceptedFiles: "image/*, application/pdf",
+	init: function(){
+
+		this.on('maxfilesexceeded', function(file){
+			this.removeFile(file);
+		});
+
+		this.on("maxfilesexceeded", function(file){
+			alert("You've reached the max quantity (5 files)");
+		});
+		
+		this.on("successmultiple", function(file, data) {
+			$(that).addClass("dz-success");
+			$('.main-slider').slick('resize');
+		});
+		
+		this.on("reset", function(file) {
+			$(that).removeClass("dz-success");
+			$('.main-slider').slick('resize');
+		});
+
+		this.on("addedfile", function(file) {
+			$('.main-slider').slick('resize');
+		});
+
+		this.on("removedfile", function(file) {
+			$('.main-slider').slick('resize');
+		});
+
+	},
+}); // END DROPZONE
+
+var that2 = $("#upload-zone2");
+var myDropzone = new Dropzone('#upload-zone2', {
+	addRemoveLinks: true,
+	uploadMultiple: true,
+	maxFiles: 5,
+	autoProcessQueue: true,
+	acceptedFiles: "image/*, application/pdf",
+	init: function(){
+
+		this.on('maxfilesexceeded', function(file){
+			this.removeFile(file);
+		});
+
+		this.on("maxfilesexceeded", function(file){
+			alert("You've reached the max quantity (5 files)");
+		});
+		
+		this.on("successmultiple", function(file, data) {
+			$(that2).addClass("dz-success");
+			$('.main-slider').slick('resize');
+		});
+		
+		this.on("reset", function(file) {
+			$(that2).removeClass("dz-success");
+			$('.main-slider').slick('resize');
+		});
+
+		this.on("addedfile", function(file) {
+			$('.main-slider').slick('resize');
+		});
+
+		this.on("removedfile", function(file) {
+			$('.main-slider').slick('resize');
+		});
+
+	},
+}); // END DROPZONE

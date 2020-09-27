@@ -69,40 +69,65 @@
 		} // END LOGO TOP
 
 		.menu {
-			@media #{$mq-md-max} {
+			@media #{$mq-lg-max} {
 				display: none;
 			}
 
 			li {
 				display: inline-block;
-				margin-left: 50px;
+				margin-left: 30px;
 
 				@media #{$mq-xxl-max} {
-					margin-left: 30px;
-				}
-
-				@media #{$mq-xl-max} {
 					margin-left: 20px;
 				}
 
-				&.last {
-					a {
-						background-color: $white;
-						color: $purple-medium;
-						padding: 10px 30px;
-						cursor: pointer;
-						line-height: 1;
-						border-radius: 50px;
-						transform: translateY(4px);
-						transition: .3s;
+				.white-button {
+					background-color: $white;
+					color: $purple-medium;
+					padding: 10px 30px;
+					cursor: pointer;
+					line-height: 1;
+					border-radius: 50px;
+					transform: translateY(4px);
+					transition: .3s;
 
-						&:hover,
-						&:focus {
-							background-color: $purple-dark;
-							color: $white;
-						} // END HOVER / FOCUS
-					} // END A
-				} // END LAST
+					&:hover,
+					&:focus {
+						background-color: $purple-dark;
+						color: $white;
+					} // END HOVER / FOCUS
+				} // END WHITE BUTTON
+
+				&.or {
+					margin-left: 10px;
+					margin-right: -20px;
+
+					@media #{$mq-xxl-max} {
+						margin-right: -10px;
+					}
+
+					p {
+						color: $white;
+					} // END P
+				} // END OR
+
+				.hollow-button {
+					background-color: transparent;
+					box-shadow: inset 0 0 0 1px $white;
+					color: $white;
+					padding: 10px 30px;
+					cursor: pointer;
+					line-height: 1;
+					border-radius: 50px;
+					transform: translateY(4px);
+					transition: .3s;
+
+					&:hover,
+					&:focus {
+						background-color: $white;
+						color: $purple-dark;
+					} // END HOVER / FOCUS
+				} // END HOLLOW BUTTON
 
 				&.logged-in {
 					display: none;
@@ -132,7 +157,7 @@
 			border: none;
 			float: right;
 
-			@media #{$mq-md-max} {
+			@media #{$mq-lg-max} {
 				display: block;
 			}
 

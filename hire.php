@@ -86,6 +86,10 @@
 									Here is <br />
 									your service
 								</h1>
+
+								<a href="./" class="text-medium hvr-underline-from-left back-home">
+									Back
+								</a>
 								
 								<!-- BOX -->
 								<div class="box">
@@ -176,568 +180,1561 @@
 					<div class="container container-big">
 						<div class="row">
 							<div class="col-12">
-								<form action="">
-								
-									<!-- MAIN SLIDER -->
-									<div class="main-slider">
-										
-										<!-- SLICK SLIDE / SLIDE 01 -->
-										<div class="slick-slide slide-01">
-											
-											<!-- TITLE -->
-											<div class="title">
-												<p class="text-large">
-													<span>1.</span> Choose one option
-												</p>
-											</div><!-- END TITLE -->
 
-											<!-- LINE -->
-											<div class="line">
+								<!-- MAIN SLIDER -->
+								<div class="main-slider">
+									
+									<!-- SLICK SLIDE / PROVIDER LIST -->
+									<div class="slick-slide provider-list">
 
-												<span>
-													<input type="radio" name="time-or-hour" id="by-time" style="display: none;" checked>
-													<label for="by-time" class="hollow-gray-bt text-medium">By Time</label>
-												</span>
+										<!-- TITLE -->
+										<div class="title">
 
-												</span>
-													<input type="radio" name="time-or-hour" id="by-hour" style="display: none;">
-													<label for="by-hour" class="hollow-gray-bt text-medium">By Hour</label>
-												</span>
+											<p class="text-large">
+												<span>1.</span> Chose your Provider
+											</p>
 
-												<!-- SELECTS -->
-												<div class="selects">
+											<span class="purple-bt text-medium multiple-slide">
+												Request Multiple Quotes
+											</span>
 
-													<!-- BY TIME -->
-													<div class="wrap by-time">
+											<div class="cf"></div>
 
-														<select class="text-medium">
-															<option value="" disabled>Select the amount of time</option>
-															<option value="1 hour">1 hour</option>
-															<option value="2 hours">2 hours</option>
-															<option value="3 hours">3 hours</option>
-															<option value="4 hours">4 hours</option>
-															<option value="5 hours">5 hours</option>
-															<option value="6 hours">6 hours</option>
-															<option value="7 hours">7 hours</option>
-															<option value="8 hours">8 hours</option>
-															<option value="9 hours">9 hours</option>
-															<option value="10 hours">10 hours</option>
-															<option value="11 hours">11 hours</option>
-															<option value="12 hours">12 hours</option>
-															<option value="13 hours">13 hours</option>
-															<option value="14 hours">14 hours</option>
-															<option value="15 hours">15 hours</option>
-															<option value="16 hours">16 hours</option>
-															<option value="17 hours">17 hours</option>
-															<option value="18 hours">18 hours</option>
-															<option value="19 hours">19 hours</option>
-															<option value="20 hours">20 hours</option>
-															<option value="21 hours">21 hours</option>
-															<option value="22 hours">22 hours</option>
-															<option value="23 hours">23 hours</option>
-															<option value="24 hours">24 hours</option>
-															<option value="24+ hours">24+ hours</option>
-														</select>
+										</div><!-- END TITLE -->
 
-														<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg">
-
-													</div><!-- END BY TIME -->
-
-													<!-- BY TIME -->
-													<div class="wrap by-hour">
-														
-														<select class="text-medium">
-															<option value="" disabled>Select the hour</option>
-															<option value="00:00">00:00</option>
-															<option value="00:30">00:30</option>
-															<option value="01:00">01:00</option>
-															<option value="01:30">01:30</option>
-															<option value="02:00">02:00</option>
-															<option value="02:30">02:30</option>
-															<option value="03:00">03:00</option>
-															<option value="03:30">03:30</option>
-															<option value="04:00">04:00</option>
-															<option value="04:30">04:30</option>
-															<option value="05:00">05:00</option>
-															<option value="05:30">05:30</option>
-															<option value="06:00">06:00</option>
-															<option value="06:30">06:30</option>
-															<option value="07:00">07:00</option>
-															<option value="07:30">07:30</option>
-															<option value="08:00">08:00</option>
-															<option value="08:30">08:30</option>
-															<option value="09:00">09:00</option>
-															<option value="09:30">09:30</option>
-															<option value="10:00">10:00</option>
-															<option value="10:30">10:30</option>
-															<option value="11:00">11:00</option>
-															<option value="11:30">11:30</option>
-															<option value="12:00">12:00</option>
-															<option value="12:30">12:30</option>
-															<option value="13:00">13:00</option>
-															<option value="13:30">13:30</option>
-															<option value="14:00">14:00</option>
-															<option value="14:30">14:30</option>
-															<option value="15:00">15:00</option>
-															<option value="15:30">15:30</option>
-															<option value="16:00">16:00</option>
-															<option value="16:30">16:30</option>
-															<option value="17:00">17:00</option>
-															<option value="17:30">17:30</option>
-															<option value="18:00">18:00</option>
-															<option value="18:30">18:30</option>
-															<option value="19:00">19:00</option>
-															<option value="19:30">19:30</option>
-															<option value="20:00">20:00</option>
-															<option value="20:30">20:30</option>
-															<option value="21:00">21:00</option>
-															<option value="21:30">21:30</option>
-															<option value="22:00">22:00</option>
-															<option value="22:30">22:30</option>
-															<option value="23:00">23:00</option>
-															<option value="23:30">23:30</option>
-														</select>
-
-														<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg">
-
-													</div><!-- END BY TIME -->
-
-												</div><!-- END SELECTS -->
-
-											</div><!-- END LINE -->
-
-											<!-- TITLE -->
-											<div class="title">
-												<p class="text-large">
-													<span>2.</span> Hire or Schedule
-												</p>
-											</div><!-- END TITLE -->
-
-											<!-- LINE -->
-											<div class="line">
-
-												<span>
-													<input type="radio" name="hire-or-schedule" id="hire-now" style="display: none;">
-													<label for="hire-now" class="hollow-gray-bt text-medium">Hire now</label>
-												</span>
-
-												<span>
-													<input type="radio" name="hire-or-schedule" id="schedule" style="display: none;" checked>
-													<label for="schedule" class="schedule-bt" onclick="show_dp();">
-														
-														<p class="text-medium">
-															Schedule
-														</p>
-														
-														<input type="text" class="text-small" id="datepicker" value="12/09/2020" placeholder="Select a date">
-
-														<img src="assets/img/svg/icon-calendar.svg" alt="" class="svg">
-
-													</label>
-												</span>
+										<!-- LINE -->
+										<div class="line wow fadeInUp">
+											<div class="box">
 												
-											</div><!-- END LINE -->
+												<!-- PHOTO -->
+												<div class="photo" style="background-image: url(assets/img/cleanner.jpg);"></div>
 
-											<!-- SLIDER NAV -->
-											<div class="slider-nav">
-
-												<!-- BUTTON / NEXT -->
-												<button class="next text-medium purple-bt" id="next-to-02">
-													Next
-												</button><!-- END BUTTON / NEXT -->
-
-												<div class="cf"></div>
-												
-											</div><!-- END SLIDER NAV -->
-
-										</div><!-- END SLICK SLIDE / SLIDE 01 -->
-
-										<!-- SLICK SLIDE / SLIDE 02 -->
-										<div class="slick-slide slide-02">
-
-											<!-- ROW -->
-											<div class="row">
-
-												<!-- COL / LEFT -->
-												<div class="col-md-6 left">
-
-													<!-- TITLE -->
-													<div class="title">
-														<p class="text-large">
-															<span>3.</span> Payment Method
-														</p>
-													</div><!-- END TITLE -->
-
-													<!-- WRAP -->
-													<div class="wrap">
-														
-														<p class="text-small">
-															Select a Payment Method
-														</p>
-
-														<a href="#add-new-card" data-fancybox class="text-small hvr-underline-from-left">
-															Add New Card
-														</a>
-
-														<div class="cf"></div>
-
-														<!-- BOX -->
-														<div class="box">
-															
-															<img src="assets/img/svg/icon-master.svg" alt="Mastercard" class="svg card">
-
-															<select class="text-medium">
-																<option value="" disabled="">Please select a card to use</option>
-																<option value="XXXX XXXX XXXX 0278" selected>XXXX XXXX XXXX 0278</option>
-																<option value="XXXX XXXX XXXX 0278">XXXX XXXX XXXX 4567</option>
-																<option value="XXXX XXXX XXXX 0278">XXXX XXXX XXXX 9865</option>
-															</select>
-
-															<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
-
-														</div><!-- END BOX -->
-
-													</div><!-- END WRAP -->
-													
-												</div><!-- END COL / LEFT -->
-
-												<!-- COL / RIGHT -->
-												<div class="col-md-6 right">
-													<div class="box">
-														
-														<p class="text-x-medium">
-															Do you have a Disccount Coupon?
-														</p>
-
-														<!-- LINE -->
-														<div class="line">
-															
-															<input type="text" class="text-medium" placeholder="Enter Promo Code">
-															
-															<button class="text-medium" id="promo-code">
-																Apply
-															</button>
-
-														</div><!-- END LINE -->
-
-														<p class="coupon-alert text-small success">
-															Coupon successfully applied!
-														</p>
-
-														<p class="coupon-alert text-small error">
-															Invalid coupon!
-														</p>
-
-													</div><!-- END BOX -->
-												</div><!-- END COL / RIGHT -->
-
-											</div><!-- END ROW -->
-											
-											<!-- SLIDER NAV -->
-											<div class="slider-nav">
-
-												<!-- BUTTON / BACK -->
-												<button class="back text-medium hollow-gray-bt" id="back-to-01">
-													Previous
-												</button><!-- END BUTTON / BACK -->
-
-												<!-- BUTTON / NEXT -->
-												<button class="next text-medium purple-bt" id="next-to-03">
-													Next
-												</button><!-- END BUTTON / NEXT -->
-
-												<div class="cf"></div>
-												
-											</div><!-- END SLIDER NAV -->
-
-										</div><!-- END SLICK SLIDE / SLIDE 02 -->
-
-										<!-- SLICK SLIDE / SLIDE 03 -->
-										<div class="slick-slide slide-03">
-
-											<!-- TOP -->
-											<div class="top">
-												
-												<!-- TITLE -->
-												<div class="title">
-													<p class="text-large">
-														<span>4.</span> Confirm you location
-													</p>
-												</div><!-- END TITLE -->
-
-												<!-- LINE -->
-												<div class="line">
-
-													<img src="assets/img/svg/icon-location.svg" alt="Location" class="svg">
-
-													<input type="text" value="Rua Emilio de Meneses 1258" placeholder="Input address here" class="text-medium">
-													
-												</div><!-- END LINE -->
-
-												<div class="cf"></div>
-
-											</div><!-- END TOP -->
-
-											<!-- MAP -->
-											<div id="map">
-												<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.7807240976153!2d-49.27967958445818!3d-25.412149538412375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce6a9c1fd9c7b%3A0x86638c31b04d3834!2sR.%20Em%C3%ADlio%20de%20Menezes%2C%201258%20-%20S%C3%A3o%20Francisco%2C%20Curitiba%20-%20PR%2C%2080520-240%2C%20Brasil!5e0!3m2!1spt-BR!2sie!4v1598213406227!5m2!1spt-BR!2sie"  frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-											</div><!-- END MAP -->
-											
-											<!-- SLIDER NAV -->
-											<div class="slider-nav">
-
-												<!-- BUTTON / BACK -->
-												<button class="back text-medium hollow-gray-bt" id="back-to-02">
-													Previous
-												</button><!-- END BUTTON / BACK -->
-
-												<!-- BUTTON / NEXT -->
-												<a href="#searching-mender" data-loader class="text-medium purple-bt" id="next-to-04">
-													Next
-												</a><!-- END BUTTON / NEXT -->
-
-												<div class="cf"></div>
-												
-											</div><!-- END SLIDER NAV -->
-
-										</div><!-- END SLICK SLIDE / SLIDE 03 -->
-
-										<!-- SLICK SLIDE / SLIDE 04 -->
-										<div class="slick-slide slide-04">
-
-											<!-- TITLE -->
-											<div class="title">
-												<p class="text-large">
-													<span>5.</span> Mender found
-												</p>
-											</div><!-- END TITLE -->
-
-											<!-- LINE -->
-											<div class="line">
-												<div class="box">
-													
-													<!-- PHOTO -->
-													<div class="photo" style="background-image: url(assets/img/cleanner.jpg);"></div>
-
-													<!-- ROW -->
-													<div class="row">
-														
-														<!-- COL / LEFT -->
-														<div class="col-md-6 left">
-
-															<p class="text-large name">
-																Jane Doe
-															</p>
-
-															<div class="text-medium place">
-																San Francisco
-															</div>
-
-															<p class="text-medium age">
-																20 years
-															</p>
-
-															<a href="#mender-profile" data-fancybox class="text-medium hvr-underline-from-left">
-																More Info
-															</a>
-															
-														</div><!-- END COL / LEFT -->
-
-														<!-- COL / RIGHT -->
-														<div class="col-md-6 right">
-
-															<!-- TOP -->
-															<div class="top">
-
-																<p class="text-medium">
-																	Member since: <br />
-																	<span>2 years</span>
-																</p>
-
-															</div><!-- END TOP -->
-
-															<!-- EVALUATION -->
-															<div class="evaluation">
-
-																<p class="text-small rating">
-																	4.9
-																</p>
-
-																<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
-
-															</div><!-- END EVALUATION -->
-
-														</div><!-- END COL / RIGHT -->
-
-													</div><!-- END ROW -->
-												</div><!-- END BOX -->
-											</div><!-- END LINE -->
-											
-											<!-- SLIDER NAV -->
-											<div class="slider-nav">
-
-												<!-- BUTTON / BACK -->
-												<button class="back text-medium hollow-gray-bt" id="back-to-03">
-													Previous
-												</button><!-- END BUTTON / BACK -->
-
-												<!-- BUTTON / NEXT -->
-												<button class="text-medium purple-bt" id="hire">
-													Hire
-												</button><!-- END BUTTON / NEXT -->
-
-												<div class="cf"></div>
-												
-											</div><!-- END SLIDER NAV -->
-											
-										</div><!-- END SLICK SLIDE / SLIDE 04 -->
-
-										<!-- SLICK SLIDE / SLIDE 05 -->
-										<div class="slick-slide slide-05">
-
-											<!-- LINE -->
-											<div class="line">
-												<div class="box">
-													
-													<!-- PHOTO -->
-													<div class="photo" style="background-image: url(assets/img/cleanner.jpg);"></div>
-
-													<!-- ROW -->
-													<div class="row">
-														
-														<!-- COL / LEFT -->
-														<div class="col-md-6 left">
-
-															<p class="text-large name">
-																Jane Doe
-															</p>
-
-															<div class="text-medium place">
-																San Francisco
-															</div>
-
-															<p class="text-medium age">
-																20 years
-															</p>
-
-															<a href="#mender-profile" data-fancybox class="text-medium hvr-underline-from-left">
-																More Info
-															</a>
-															
-														</div><!-- END COL / LEFT -->
-
-														<!-- COL / RIGHT -->
-														<div class="col-md-6 right">
-
-															<!-- TOP -->
-															<div class="top">
-
-																<p class="text-medium">
-																	Member since: <br />
-																	<span>2 years</span>
-																</p>
-
-															</div><!-- END TOP -->
-
-															<!-- EVALUATION -->
-															<div class="evaluation">
-
-																<p class="text-small rating">
-																	4.9
-																</p>
-
-																<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
-
-															</div><!-- END EVALUATION -->
-
-														</div><!-- END COL / RIGHT -->
-
-													</div><!-- END ROW -->
-												</div><!-- END BOX -->
-											</div><!-- END LINE -->
-
-											<!-- HIRED SERVICE -->
-											<div class="hired-service">
+												<!-- ROW -->
 												<div class="row">
 													
 													<!-- COL / LEFT -->
-													<div class="col-md-7 col-xl-6 left">
+													<div class="col-md-6 left">
 
-														<p class="text-small">
-															Service
+														<p class="text-large name">
+															Jane Doe
 														</p>
 
-														<p class="text-x-medium">
-															Cleaning & House-Keeping
-														</p>
+														<!-- EVALUATION -->
+														<div class="evaluation">
 
-														<img src="assets/img/services/home-services/cleaning-and-housekeeping.jpg" alt="Cleaning & House-Keeping" class="service-icon">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+
+															<p class="text-small rating">
+																500 Reviews
+															</p>
+
+														</div><!-- END EVALUATION -->
+
+														<div class="text-medium price">
+															Price: $300,00
+														</div>
 														
 													</div><!-- END COL / LEFT -->
 
 													<!-- COL / RIGHT -->
-													<div class="col-md-5 col-xl-6 right">
+													<div class="col-md-6 right">
 
-														<!-- SEP -->
-														<div class="sep">
+														<a href="#mender-profile" data-fancybox class="text-medium hvr-underline-from-left more">
+															More Info
+														</a>
+
+														<!-- BUTTONS -->
+														<div class="buttons">
+
+															<span class="text-small hollow-purple-bt hire-slide">
+																Hire now
+															</span>
+
+															<span class="text-small hollow-purple-bt schedule-slide">
+																Schedule
+															</span>
 															
-															<p class="text-small">
-																Date
-															</p>
+														</div><!-- END BUTTONS -->
 
-															<p class="text-medium">
-																1 hour - Wednesday, 09 December 2020
-															</p>
-
-														</div><!-- END SEP -->
-
-														<!-- SEP -->
-														<div class="sep">
-
-															<p class="text-small">
-																Payment Method
-															</p>
-
-															<!-- WRAP -->
-															<div class="wrap">
-
-																<img src="assets/img/svg/icon-master.svg" alt="Mastercard" class="svg">
-
-																<p class="text-medium">
-																	XXXX XXXX XXXX 0278
-																</p>
-
-															</div><!-- END WRAP -->
-
-														</div><!-- END SEP -->
-														
 													</div><!-- END COL / RIGHT -->
 
 												</div><!-- END ROW -->
-											</div><!-- END HIRED SERVICE -->
+											</div><!-- END BOX -->
+										</div><!-- END LINE -->
 
-											<!-- FINAL NAV -->
-											<div class="final-nav">
-
-												<!-- BUTTON / BACK -->
-												<a href="#invoice" data-fancybox class="left text-medium purple-bt">
-													Invoice
-												</a><!-- END BUTTON / BACK -->
-
-												<!-- BUTTON / NEXT -->
-												<a href="#" class="right text-medium hollow-purple-bt">
-													Chat with Provider
-												</a><!-- END BUTTON / NEXT -->
-
-												<div class="cf"></div>
+										<!-- LINE -->
+										<div class="line wow fadeInUp">
+											<div class="box">
 												
-											</div><!-- END FINAL NAV -->
+												<!-- PHOTO -->
+												<div class="photo" style="background-image: url(assets/img/cleanner.jpg);"></div>
+
+												<!-- ROW -->
+												<div class="row">
+													
+													<!-- COL / LEFT -->
+													<div class="col-md-6 left">
+
+														<p class="text-large name">
+															Jane Doe
+														</p>
+
+														<!-- EVALUATION -->
+														<div class="evaluation">
+
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+
+															<p class="text-small rating">
+																500 Reviews
+															</p>
+
+														</div><!-- END EVALUATION -->
+
+														<div class="text-medium price">
+															Price: $300,00
+														</div>
+														
+													</div><!-- END COL / LEFT -->
+
+													<!-- COL / RIGHT -->
+													<div class="col-md-6 right">
+
+														<a href="#mender-profile" data-fancybox class="text-medium hvr-underline-from-left more">
+															More Info
+														</a>
+
+														<!-- BUTTONS -->
+														<div class="buttons">
+
+															<span class="text-small hollow-purple-bt hire-slide">
+																Hire now
+															</span>
+
+															<span class="text-small hollow-purple-bt schedule-slide">
+																Schedule
+															</span>
+															
+														</div><!-- END BUTTONS -->
+
+													</div><!-- END COL / RIGHT -->
+
+												</div><!-- END ROW -->
+											</div><!-- END BOX -->
+										</div><!-- END LINE -->
+
+										<!-- LINE -->
+										<div class="line wow fadeInUp">
+											<div class="box">
+												
+												<!-- PHOTO -->
+												<div class="photo" style="background-image: url(assets/img/cleanner.jpg);"></div>
+
+												<!-- ROW -->
+												<div class="row">
+													
+													<!-- COL / LEFT -->
+													<div class="col-md-6 left">
+
+														<p class="text-large name">
+															Jane Doe
+														</p>
+
+														<!-- EVALUATION -->
+														<div class="evaluation">
+
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+
+															<p class="text-small rating">
+																500 Reviews
+															</p>
+
+														</div><!-- END EVALUATION -->
+
+														<div class="text-medium price">
+															Price: $300,00
+														</div>
+														
+													</div><!-- END COL / LEFT -->
+
+													<!-- COL / RIGHT -->
+													<div class="col-md-6 right">
+
+														<a href="#mender-profile" data-fancybox class="text-medium hvr-underline-from-left more">
+															More Info
+														</a>
+
+														<!-- BUTTONS -->
+														<div class="buttons">
+
+															<span class="text-small hollow-purple-bt hire-slide">
+																Hire now
+															</span>
+
+															<span class="text-small hollow-purple-bt schedule-slide">
+																Schedule
+															</span>
+															
+														</div><!-- END BUTTONS -->
+
+													</div><!-- END COL / RIGHT -->
+
+												</div><!-- END ROW -->
+											</div><!-- END BOX -->
+										</div><!-- END LINE -->
+
+										<!-- LINE -->
+										<div class="line wow fadeInUp">
+											<div class="box">
+												
+												<!-- PHOTO -->
+												<div class="photo" style="background-image: url(assets/img/cleanner.jpg);"></div>
+
+												<!-- ROW -->
+												<div class="row">
+													
+													<!-- COL / LEFT -->
+													<div class="col-md-6 left">
+
+														<p class="text-large name">
+															Jane Doe
+														</p>
+
+														<!-- EVALUATION -->
+														<div class="evaluation">
+
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+
+															<p class="text-small rating">
+																500 Reviews
+															</p>
+
+														</div><!-- END EVALUATION -->
+
+														<div class="text-medium price">
+															Price: $300,00
+														</div>
+														
+													</div><!-- END COL / LEFT -->
+
+													<!-- COL / RIGHT -->
+													<div class="col-md-6 right">
+
+														<a href="#mender-profile" data-fancybox class="text-medium hvr-underline-from-left more">
+															More Info
+														</a>
+
+														<!-- BUTTONS -->
+														<div class="buttons">
+
+															<span class="text-small hollow-purple-bt hire-slide">
+																Hire now
+															</span>
+
+															<span class="text-small hollow-purple-bt schedule-slide">
+																Schedule
+															</span>
+															
+														</div><!-- END BUTTONS -->
+
+													</div><!-- END COL / RIGHT -->
+
+												</div><!-- END ROW -->
+											</div><!-- END BOX -->
+										</div><!-- END LINE -->
+
+										<!-- LINE -->
+										<div class="line wow fadeInUp">
+											<div class="box">
+												
+												<!-- PHOTO -->
+												<div class="photo" style="background-image: url(assets/img/cleanner.jpg);"></div>
+
+												<!-- ROW -->
+												<div class="row">
+													
+													<!-- COL / LEFT -->
+													<div class="col-md-6 left">
+
+														<p class="text-large name">
+															Jane Doe
+														</p>
+
+														<!-- EVALUATION -->
+														<div class="evaluation">
+
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+
+															<p class="text-small rating">
+																500 Reviews
+															</p>
+
+														</div><!-- END EVALUATION -->
+
+														<div class="text-medium price">
+															Price: $300,00
+														</div>
+														
+													</div><!-- END COL / LEFT -->
+
+													<!-- COL / RIGHT -->
+													<div class="col-md-6 right">
+
+														<a href="#mender-profile" data-fancybox class="text-medium hvr-underline-from-left more">
+															More Info
+														</a>
+
+														<!-- BUTTONS -->
+														<div class="buttons">
+
+															<span class="text-small hollow-purple-bt hire-slide">
+																Hire now
+															</span>
+
+															<span class="text-small hollow-purple-bt schedule-slide">
+																Schedule
+															</span>
+															
+														</div><!-- END BUTTONS -->
+
+													</div><!-- END COL / RIGHT -->
+
+												</div><!-- END ROW -->
+											</div><!-- END BOX -->
+										</div><!-- END LINE -->
+
+										<!-- SLIDER NAV -->
+										<div class="slider-nav">
+
+											<button class="text-medium purple-bt request-multiple">
+												Request Multiple Quotes
+											</button>
+
+											<div class="cf"></div>
 											
-										</div><!-- END SLICK SLIDE / SLIDE 05 -->
+										</div><!-- END SLIDER NAV -->
 
-									</div><!-- END MAIN SLIDER -->
+									</div><!-- END SLICK SLIDE / PROVIDER LIST -->
 
-								</form><!-- END FORM -->
+									<!-- SLICK SLIDE / HIRE NOW -->
+									<div class="slick-slide hire-now">
+
+										<!-- ROW / TOP -->
+										<div class="row top">
+											<div class="col-12">
+
+												<!-- TITLE -->
+												<div class="title">
+
+													<p class="text-large">
+														<span>2.</span> Hire now
+													</p>
+
+													<span class="text-medium hvr-underline-from-left back-to-list">
+														Back to the list
+													</span>
+
+													<div class="cf"></div>
+
+												</div><!-- END TITLE -->
+
+												<p class="text-x-medium label">
+													What are you looking for?
+												</p>
+
+											</div><!-- END COL / TOP -->
+
+										</div><!-- END ROW / TOP -->
+
+										<!-- ROW / MIDDLE -->
+										<div class="row middle">
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>Category</option>
+														<option value="Home Services" selected>Home Services</option>
+														<option value="Category B">Category B</option>
+														<option value="Category C">Category C</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+												
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>Sub Category</option>
+														<option value="Cleaning & Housekeeping" selected>Cleaning & Housekeeping</option>
+														<option value="Sub Category B">Sub Category B</option>
+														<option value="Sub Category C">Sub Category C</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+												
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Business or Residential?
+												</p>
+
+												<!-- RADIO LINE -->
+												<div class="radio-line">
+
+													<span>
+														<input type="radio" name="biz-or-res" id="biz">
+														<label for="biz" class="circle">
+															<img src="assets/img/svg/icon-check-2.svg" alt="Business" class="svg">
+														</label>
+														<label for="biz" class="text-medium">
+															Business
+														</label>
+													</span>
+
+													<span>
+														<input type="radio" name="biz-or-res" id="res">
+														<label for="res" class="circle">
+															<img src="assets/img/svg/icon-check-2.svg" alt="Residential" class="svg">
+														</label>
+														<label for="res" class="text-medium">
+															Residential
+														</label>
+													</span>
+
+												</div><!-- END INPUT LINE -->
+												
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													How urgent is it?
+												</p>
+
+												<!-- RADIO LINE -->
+												<div class="radio-line">
+
+													<span>
+														<input type="radio" name="now-or-schedule" id="now" checked>
+														<label for="now" class="circle">
+															<img src="assets/img/svg/icon-check-2.svg" alt="I need it now" class="svg">
+														</label>
+														<label for="now" class="text-medium">
+															I need it now
+														</label>
+													</span>
+
+													<span>
+														<input type="radio" name="now-or-schedule" id="schedule">
+														<label for="schedule" class="circle">
+															<img src="assets/img/svg/icon-check-2.svg" alt="I can schedule" class="svg">
+														</label>
+														<label for="schedule" class="text-medium">
+															I can schedule
+														</label>
+													</span>
+
+												</div><!-- END INPUT LINE -->
+												
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Where is the work will be performed? 
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>Where</option>
+														<option value="Indoor" selected>Indoor</option>
+														<option value="Option B">Option B</option>
+														<option value="Option C">Option C</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													How long it may take?
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>How long</option>
+														<option value="1-4 hours" selected>1-4 hours</option>
+														<option value="4-8 hours">4-8 hours</option>
+														<option value="8-12 hours">8-12 hours</option>
+														<option value="12+ hours">12+ hours</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Does it requires aditional tools?
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>Select one</option>
+														<option value="Yes" selected>Yes</option>
+														<option value="No">No</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Please describe
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<input type="text" class="text-medium" placeholder="What tools is needed?">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Doe you need extra other persons to assist in performing the work?
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>Select one</option>
+														<option value="Just one" selected>Just one</option>
+														<option value="Two">Two</option>
+														<option value="More than three">More than three</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Number of helper need?
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<input type="text" class="text-medium" placeholder="How many" value="4">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-12">
+												
+												<p class="text-x-medium label">
+													Describe on our own words as much details as possible of the service you want to get done:
+												</p>
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6 col-last">
+
+												<textarea class="text-medium" placeholder="Describe here"></textarea>
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6 col-last">
+
+												<!-- FORM -->
+												<form action="#" class="dropzone" id="upload-zone" method="post" enctype="multipart/form-data">
+								
+													<!-- MIDDLE -->
+													<div class="middle" style="pointer-events: none">
+
+														<p class="text-x-medium top">
+															Drag 5 photos here
+														</p>
+
+														<p class="text-medium down">
+															Or, if you prefer...
+														</p>
+
+														<input id="upload-files" type="file" name="file" multiple />
+														<label for="upload-files" class="button-normal text-small">
+															Select a file from your device
+														</label>
+
+													</div><!-- END MIDDLE -->
+
+												</form><!-- END FORM -->
+
+											</div><!-- END COL -->
+
+										</div><!-- END ROW -->
+										
+										<!-- SLIDER NAV -->
+										<div class="slider-nav">
+
+											<button class="text-medium hollow-gray-bt">
+												Chat with Provider
+											</button>
+
+											<a href="#quote-submitted" data-fancybox class="text-medium purple-bt">
+												Hire now
+											</a>
+
+											<div class="cf"></div>
+											
+										</div><!-- END SLIDER NAV -->
+
+									</div><!-- END SLICK SLIDE / HIRE NOW -->
+
+									<!-- SLICK SLIDE / SCHEDULE -->
+									<div class="slick-slide schedule">
+
+										<!-- ROW / TOP -->
+										<div class="row top">
+											<div class="col-12">
+
+												<!-- TITLE -->
+												<div class="title">
+
+													<p class="text-large">
+														<span>2.</span> Schedule
+													</p>
+
+													<span class="text-medium hvr-underline-from-left back-to-list">
+														Back to the list
+													</span>
+
+													<div class="cf"></div>
+
+												</div><!-- END TITLE -->
+
+												<p class="text-x-medium label">
+													What are you looking for?
+												</p>
+
+											</div><!-- END COL / TOP -->
+
+										</div><!-- END ROW / TOP -->
+
+										<!-- ROW / MIDDLE -->
+										<div class="row middle">
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>Category</option>
+														<option value="Home Services" selected>Home Services</option>
+														<option value="Category B">Category B</option>
+														<option value="Category C">Category C</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+												
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>Sub Category</option>
+														<option value="Cleaning & Housekeeping" selected>Cleaning & Housekeeping</option>
+														<option value="Sub Category B">Sub Category B</option>
+														<option value="Sub Category C">Sub Category C</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+												
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Business or Residential?
+												</p>
+
+												<!-- RADIO LINE -->
+												<div class="radio-line">
+
+													<span>
+														<input type="radio" name="biz-or-res2" id="biz2">
+														<label for="biz2" class="circle">
+															<img src="assets/img/svg/icon-check-2.svg" alt="Business" class="svg">
+														</label>
+														<label for="biz2" class="text-medium">
+															Business
+														</label>
+													</span>
+
+													<span>
+														<input type="radio" name="biz-or-res2" id="res2">
+														<label for="res2" class="circle">
+															<img src="assets/img/svg/icon-check-2.svg" alt="Residential" class="svg">
+														</label>
+														<label for="res2" class="text-medium">
+															Residential
+														</label>
+													</span>
+
+												</div><!-- END INPUT LINE -->
+												
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													How urgent is it?
+												</p>
+
+												<!-- RADIO LINE -->
+												<div class="radio-line">
+
+													<span>
+														<input type="radio" name="now-or-schedule-2" id="now2">
+														<label for="now2" class="circle">
+															<img src="assets/img/svg/icon-check-2.svg" alt="I need it now" class="svg">
+														</label>
+														<label for="now2" class="text-medium">
+															I need it now
+														</label>
+													</span>
+
+													<span>
+														<input type="radio" name="now-or-schedule-2" id="schedule2" checked>
+														<label for="schedule2" class="circle">
+															<img src="assets/img/svg/icon-check-2.svg" alt="I can schedule" class="svg">
+														</label>
+														<label for="schedule2" class="text-medium">
+															I can schedule
+														</label>
+													</span>
+
+												</div><!-- END INPUT LINE -->
+												
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Where is the work will be performed? 
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>Where</option>
+														<option value="Indoor" selected>Indoor</option>
+														<option value="Option B">Option B</option>
+														<option value="Option C">Option C</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													How long it may take?
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>How long</option>
+														<option value="1-4 hours" selected>1-4 hours</option>
+														<option value="4-8 hours">4-8 hours</option>
+														<option value="8-12 hours">8-12 hours</option>
+														<option value="12+ hours">12+ hours</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Does it requires aditional tools?
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>Select one</option>
+														<option value="Yes" selected>Yes</option>
+														<option value="No">No</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Please describe
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<input type="text" class="text-medium" placeholder="What tools is needed?">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Doe you need extra other persons to assist in performing the work?
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>Select one</option>
+														<option value="Just one" selected>Just one</option>
+														<option value="Two">Two</option>
+														<option value="More than three">More than three</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Number of helper need?
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<input type="text" class="text-medium" placeholder="How many" value="4">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-12">
+												
+												<p class="text-x-medium label">
+													Describe on our own words as much details as possible of the service you want to get done:
+												</p>
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6 col-last">
+
+												<textarea class="text-medium" placeholder="Describe here"></textarea>
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6 col-last">
+
+												<!-- FORM -->
+												<form action="#" class="dropzone" id="upload-zone2" method="post" enctype="multipart/form-data">
+								
+													<!-- MIDDLE -->
+													<div class="middle" style="pointer-events: none">
+
+														<p class="text-x-medium top">
+															Drag 5 photos here
+														</p>
+
+														<p class="text-medium down">
+															Or, if you prefer...
+														</p>
+
+														<input id="upload-files2" type="file" name="file" multiple />
+														<label for="upload-files2" class="button-normal text-small">
+															Select a file from your device
+														</label>
+
+													</div><!-- END MIDDLE -->
+
+												</form><!-- END FORM -->
+
+											</div><!-- END COL -->
+
+										</div><!-- END ROW -->
+										
+										<!-- SLIDER NAV -->
+										<div class="slider-nav">
+
+											<button class="text-medium hollow-gray-bt">
+												Chat with Provider
+											</button>
+
+											<a href="#quote-submitted" data-fancybox class="text-medium purple-bt">
+												Schedule
+											</a>
+
+											<div class="cf"></div>
+											
+										</div><!-- END SLIDER NAV -->
+
+									</div><!-- END SLICK SLIDE / SCHEDULE -->
+
+									<!-- SLICK SLIDE / MULTIPLE -->
+									<div class="slick-slide multiple">
+
+										<!-- ROW / TOP -->
+										<div class="row top">
+											<div class="col-12">
+
+												<!-- TITLE -->
+												<div class="title">
+
+													<p class="text-large">
+														<span>2.</span> Request Multiple Quotes
+													</p>
+
+													<span class="text-medium hvr-underline-from-left back-to-list">
+														Back to the list
+													</span>
+
+													<div class="cf"></div>
+
+												</div><!-- END TITLE -->
+
+												<p class="text-x-medium label">
+													What are you looking for?
+												</p>
+
+											</div><!-- END COL / TOP -->
+
+										</div><!-- END ROW / TOP -->
+
+										<!-- ROW / MIDDLE -->
+										<div class="row middle">
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>Category</option>
+														<option value="Home Services" selected>Home Services</option>
+														<option value="Category B">Category B</option>
+														<option value="Category C">Category C</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+												
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>Sub Category</option>
+														<option value="Cleaning & Housekeeping" selected>Cleaning & Housekeeping</option>
+														<option value="Sub Category B">Sub Category B</option>
+														<option value="Sub Category C">Sub Category C</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+												
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Business or Residential?
+												</p>
+
+												<!-- RADIO LINE -->
+												<div class="radio-line">
+
+													<span>
+														<input type="radio" name="biz-or-res3" id="biz3">
+														<label for="biz3" class="circle">
+															<img src="assets/img/svg/icon-check-2.svg" alt="Business" class="svg">
+														</label>
+														<label for="biz3" class="text-medium">
+															Business
+														</label>
+													</span>
+
+													<span>
+														<input type="radio" name="biz-or-res3" id="res3">
+														<label for="res3" class="circle">
+															<img src="assets/img/svg/icon-check-2.svg" alt="Residential" class="svg">
+														</label>
+														<label for="res3" class="text-medium">
+															Residential
+														</label>
+													</span>
+
+												</div><!-- END INPUT LINE -->
+												
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													How urgent is it?
+												</p>
+
+												<!-- RADIO LINE -->
+												<div class="radio-line">
+
+													<span>
+														<input type="radio" name="now-or-schedule-3" id="now3">
+														<label for="now3" class="circle">
+															<img src="assets/img/svg/icon-check-2.svg" alt="I need it now" class="svg">
+														</label>
+														<label for="now3" class="text-medium">
+															I need it now
+														</label>
+													</span>
+
+													<span>
+														<input type="radio" name="now-or-schedule-3" id="schedule3">
+														<label for="schedule3" class="circle">
+															<img src="assets/img/svg/icon-check-2.svg" alt="I can schedule" class="svg">
+														</label>
+														<label for="schedule3" class="text-medium">
+															I can schedule
+														</label>
+													</span>
+
+												</div><!-- END INPUT LINE -->
+												
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Where is the work will be performed? 
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>Where</option>
+														<option value="Indoor" selected>Indoor</option>
+														<option value="Option B">Option B</option>
+														<option value="Option C">Option C</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													How long it may take?
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>How long</option>
+														<option value="1-4 hours" selected>1-4 hours</option>
+														<option value="4-8 hours">4-8 hours</option>
+														<option value="8-12 hours">8-12 hours</option>
+														<option value="12+ hours">12+ hours</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Does it requires aditional tools?
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>Select one</option>
+														<option value="Yes" selected>Yes</option>
+														<option value="No">No</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Please describe
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<input type="text" class="text-medium" placeholder="What tools is needed?">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Doe you need extra other persons to assist in performing the work?
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<select class="text-medium">
+														<option value="" disabled>Select one</option>
+														<option value="Just one" selected>Just one</option>
+														<option value="Two">Two</option>
+														<option value="More than three">More than three</option>
+													</select>
+
+													<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6">
+
+												<p class="text-x-medium label">
+													Number of helper need?
+												</p>
+
+												<!-- INPUT LINE -->
+												<div class="input-line">
+
+													<input type="text" class="text-medium" placeholder="How many" value="4">
+
+												</div><!-- END INPUT LINE -->
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-12">
+												
+												<p class="text-x-medium label">
+													Describe on our own words as much details as possible of the service you want to get done:
+												</p>
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6 col-last">
+
+												<textarea class="text-medium" placeholder="Describe here"></textarea>
+
+											</div><!-- END COL -->
+
+											<!-- COL -->
+											<div class="col-md-6 col-last">
+
+												<!-- FORM -->
+												<form action="#" class="dropzone" id="upload-zone3" method="post" enctype="multipart/form-data">
+								
+													<!-- MIDDLE -->
+													<div class="middle" style="pointer-events: none">
+
+														<p class="text-x-medium top">
+															Drag 5 photos here
+														</p>
+
+														<p class="text-medium down">
+															Or, if you prefer...
+														</p>
+
+														<input id="upload-files3" type="file" name="file" multiple />
+														<label for="upload-files3" class="button-normal text-small">
+															Select a file from your device
+														</label>
+
+													</div><!-- END MIDDLE -->
+
+												</form><!-- END FORM -->
+
+											</div><!-- END COL -->
+
+										</div><!-- END ROW -->
+										
+										<!-- SLIDER NAV -->
+										<div class="slider-nav">
+
+											<a href="#quote-submitted" data-fancybox class="text-medium purple-bt">
+												Request Multiple Quotes
+											</a>
+
+											<div class="cf"></div>
+											
+										</div><!-- END SLIDER NAV -->
+
+									</div><!-- END SLICK SLIDE / MULTIPLE -->
+
+									<!-- SLICK SLIDE / SLIDE 03 -->
+									<div class="slick-slide slide-03">
+
+										<!-- TOP -->
+										<div class="top">
+											
+											<!-- TITLE -->
+											<div class="title">
+												<p class="text-large">
+													<span>4.</span> Confirm you location
+												</p>
+											</div><!-- END TITLE -->
+
+											<!-- LINE -->
+											<div class="line">
+
+												<img src="assets/img/svg/icon-location.svg" alt="Location" class="svg">
+
+												<input type="text" value="Rua Emilio de Meneses 1258" placeholder="Input address here" class="text-medium">
+												
+											</div><!-- END LINE -->
+
+											<div class="cf"></div>
+
+										</div><!-- END TOP -->
+
+										<!-- MAP -->
+										<div id="map">
+											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.7807240976153!2d-49.27967958445818!3d-25.412149538412375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce6a9c1fd9c7b%3A0x86638c31b04d3834!2sR.%20Em%C3%ADlio%20de%20Menezes%2C%201258%20-%20S%C3%A3o%20Francisco%2C%20Curitiba%20-%20PR%2C%2080520-240%2C%20Brasil!5e0!3m2!1spt-BR!2sie!4v1598213406227!5m2!1spt-BR!2sie"  frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+										</div><!-- END MAP -->
+										
+										<!-- SLIDER NAV -->
+										<div class="slider-nav">
+
+											<!-- BUTTON / BACK -->
+											<button class="back text-medium hollow-gray-bt" id="back-to-02">
+												Previous
+											</button><!-- END BUTTON / BACK -->
+
+											<!-- BUTTON / NEXT -->
+											<a href="#searching-mender" data-loader class="text-medium purple-bt" id="next-to-04">
+												Next
+											</a><!-- END BUTTON / NEXT -->
+
+											<div class="cf"></div>
+											
+										</div><!-- END SLIDER NAV -->
+
+									</div><!-- END SLICK SLIDE / SLIDE 03 -->
+
+									<!-- SLICK SLIDE / SLIDE 04 -->
+									<div class="slick-slide slide-04">
+
+										<!-- TITLE -->
+										<div class="title">
+											<p class="text-large">
+												<span>5.</span> Mender found
+											</p>
+										</div><!-- END TITLE -->
+
+										
+										
+										<!-- SLIDER NAV -->
+										<div class="slider-nav">
+
+											<!-- BUTTON / BACK -->
+											<button class="back text-medium hollow-gray-bt" id="back-to-03">
+												Previous
+											</button><!-- END BUTTON / BACK -->
+
+											<!-- BUTTON / NEXT -->
+											<button class="text-medium purple-bt" id="hire">
+												Hire
+											</button><!-- END BUTTON / NEXT -->
+
+											<div class="cf"></div>
+											
+										</div><!-- END SLIDER NAV -->
+										
+									</div><!-- END SLICK SLIDE / SLIDE 04 -->
+
+									<!-- SLICK SLIDE / SLIDE 05 -->
+									<div class="slick-slide slide-05">
+
+										<!-- LINE -->
+										<div class="line">
+											<div class="box">
+												
+												<!-- PHOTO -->
+												<div class="photo" style="background-image: url(assets/img/cleanner.jpg);"></div>
+
+												<!-- ROW -->
+												<div class="row">
+													
+													<!-- COL / LEFT -->
+													<div class="col-md-6 left">
+
+														<p class="text-large name">
+															Jane Doe
+														</p>
+
+														<div class="text-medium place">
+															San Francisco
+														</div>
+
+														<p class="text-medium age">
+															20 years
+														</p>
+
+														<a href="#mender-profile" data-fancybox class="text-medium hvr-underline-from-left">
+															More Info
+														</a>
+														
+													</div><!-- END COL / LEFT -->
+
+													<!-- COL / RIGHT -->
+													<div class="col-md-6 right">
+
+														<!-- TOP -->
+														<div class="top">
+
+															<p class="text-medium">
+																Member since: <br />
+																<span>2 years</span>
+															</p>
+
+														</div><!-- END TOP -->
+
+														<!-- EVALUATION -->
+														<div class="evaluation">
+
+															<p class="text-small rating">
+																4.9
+															</p>
+
+															<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+
+														</div><!-- END EVALUATION -->
+
+													</div><!-- END COL / RIGHT -->
+
+												</div><!-- END ROW -->
+											</div><!-- END BOX -->
+										</div><!-- END LINE -->
+
+										<!-- HIRED SERVICE -->
+										<div class="hired-service">
+											<div class="row">
+												
+												<!-- COL / LEFT -->
+												<div class="col-md-7 col-xl-6 left">
+
+													<p class="text-small">
+														Service
+													</p>
+
+													<p class="text-x-medium">
+														Cleaning & House-Keeping
+													</p>
+
+													<img src="assets/img/services/home-services/cleaning-and-housekeeping.jpg" alt="Cleaning & House-Keeping" class="service-icon">
+													
+												</div><!-- END COL / LEFT -->
+
+												<!-- COL / RIGHT -->
+												<div class="col-md-5 col-xl-6 right">
+
+													<!-- SEP -->
+													<div class="sep">
+														
+														<p class="text-small">
+															Date
+														</p>
+
+														<p class="text-medium">
+															1 hour - Wednesday, 09 December 2020
+														</p>
+
+													</div><!-- END SEP -->
+
+													<!-- SEP -->
+													<div class="sep">
+
+														<p class="text-small">
+															Payment Method
+														</p>
+
+														<!-- WRAP -->
+														<div class="wrap">
+
+															<img src="assets/img/svg/icon-master.svg" alt="Mastercard" class="svg">
+
+															<p class="text-medium">
+																XXXX XXXX XXXX 0278
+															</p>
+
+														</div><!-- END WRAP -->
+
+													</div><!-- END SEP -->
+													
+												</div><!-- END COL / RIGHT -->
+
+											</div><!-- END ROW -->
+										</div><!-- END HIRED SERVICE -->
+
+										<!-- FINAL NAV -->
+										<div class="final-nav">
+
+											<!-- BUTTON / BACK -->
+											<a href="#invoice" data-fancybox class="left text-medium purple-bt">
+												Invoice
+											</a><!-- END BUTTON / BACK -->
+
+											<!-- BUTTON / NEXT -->
+											<a href="#" class="right text-medium hollow-purple-bt">
+												Chat with Provider
+											</a><!-- END BUTTON / NEXT -->
+
+											<div class="cf"></div>
+											
+										</div><!-- END FINAL NAV -->
+										
+									</div><!-- END SLICK SLIDE / SLIDE 05 -->
+
+								</div><!-- END MAIN SLIDER -->
+
 							</div><!-- END COL -->
 						</div><!-- END ROW -->
 					</div><!-- END CONTAINER -->
@@ -814,6 +1811,30 @@
 				</div><!-- END BOX -->
 			</div><!-- END SEARCHING MENDER -->
 
+			<!-- QUOTE SUBMITTED -->
+			<div id="quote-submitted">
+				<div class="box">
+
+					<div class="icon">
+						<img src="assets/img/loading-circle.png" alt="Loading" class="loading">
+						<img src="assets/img/logo-icon.png" alt="Mender" class="logo">
+					</div>
+					
+					<p class="text-large">
+						Your quote has been submitted!
+					</p>
+
+					<p class="text-x-medium">
+						We will let you know as soon the provider replies.
+					</p>
+
+					<button class="text-medium purple-bt" onclick="$.fancybox.close();">
+						Done
+					</button>
+
+				</div><!-- END BOX -->
+			</div><!-- END QUOTE SUBMITTED -->
+
 			<!-- MENDER PROFILE -->
 			<div id="mender-profile">
 				<div class="box">
@@ -831,28 +1852,48 @@
 						<!-- INFOS -->
 						<div class="infos">
 
-							<p class="text-large name">
-								Jane Doe
-							</p>
+							<!-- LEFT -->
+							<div class="left">
 
-							<p class="text-x-medium location">
-								San Francisco, CA
-							</p>
-
-							<p class="text-medium age">
-								20 years
-							</p>
-
-							<!-- EVALUATION -->
-							<div class="evaluation">
-
-								<p class="text-small rating">
-									4.9
+								<p class="text-large name">
+									Jane Doe
 								</p>
 
-								<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+								<p class="text-x-medium location">
+									San Francisco, CA
+								</p>
 
-							</div><!-- END EVALUATION -->
+								<p class="text-medium age">
+									20 years
+								</p>
+
+								<!-- EVALUATION -->
+								<div class="evaluation">
+
+									<p class="text-small rating">
+										4.9
+									</p>
+
+									<img src="assets/img/svg/icon-star.svg" alt="Star" class="svg">
+
+								</div><!-- END EVALUATION -->
+
+							</div><!-- END LEFT -->
+
+							<!-- RIGHT -->
+							<div class="right">
+
+								<span class="text-small hollow-purple-bt hire-slide" onclick="$.fancybox.close();">
+									Hire now
+								</span>
+
+								<span class="text-small hollow-purple-bt schedule-slide" onclick="$.fancybox.close();">
+									Schedule
+								</span>
+								
+							</div><!-- END RIGHT -->
+
+							<div class="cf"></div>
 
 							<p class="text-medium desc">
 								The company owner most often does the work or supervises. The company with few employees are more detailed and tend to do a better job. We are not concerned with finishing quickly to go to the next client but doing a great job...

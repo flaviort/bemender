@@ -32,7 +32,7 @@
 			<!-- COL / LEFT -->
 			<div class="col-md-6 col-md-pull-6 left">
 
-				<a href="provider-sign-in.php" class="text-small hollow-gray-bt wow fadeInUp">
+				<a href="sign-in.php" class="text-small hollow-gray-bt wow fadeInUp">
 					Sign-out
 				</a>
 

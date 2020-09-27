@@ -1,4 +1,8 @@
 body.internal {
+	.wrap {
+		overflow: hidden;
+	} // END WRAP
+
 	#banner {
 		height: 826px;
 		padding-top: 70px;
@@ -106,12 +110,15 @@ body.internal {
 				top: -30px;
 				right: 0;
 				z-index: 0;
+				width: 90%;
+				height: 100%;
 
 				@media #{$mq-xxl-max} {
-					right: -100px;
+					width: 100%;
 				}
 
 				@media #{$mq-xl-max} {
+					width: 91%;
 					right: -150px;
 				}
 

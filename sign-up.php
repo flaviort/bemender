@@ -79,34 +79,11 @@
 								<img src="assets/img/users.png" alt="Mender App" class="rellax" data-rellax-speed="3" data-rellax-tablet-speed="2" data-rellax-xs-speed="0">
 							</div>
 
-							<!-- SELECT -->
-							<div class="select wow fadeInUp">
-								
-								<p class="text-medium">
-									I'm a
-								</p>
-
-								<!-- LINE -->
-								<div class="line">
-									
-									<select id="user-or-provider">
-										<option value="user-sign-in" selected>User</option>
-										<option value="provider-sign-in">Provider</option>
-									</select>
-
-									<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg">
-
-								</div><!-- END LINE -->
-
-							</div><!-- END SELECT -->
-
-							<h1 class="text-large wow fadeInUp">
-								Glad to see you!
-							</h1>
+							<div class="select"></div>
 							
-							<h1 class="text-giant contact wow fadeInUp">
+							<h1 class="text-giant sign-up wow fadeInUp">
 								<strong>
-									Welcome back.
+									Sign up today!
 								</strong>
 							</h1>
 
@@ -122,49 +99,35 @@
 
 						<!-- COL / LEFT -->
 						<div class="col-lg-6 left">
-							<form action="">
+							<form action="" class="sign-up">
 
 								<div class="line wow fadeInUp">
-									<img src="assets/img/svg/icon-user.svg" alt="Email Address" class="svg">
-									<input type="email" class="text-medium input" required placeholder="Email Address">
+									<input type="text" class="text-medium input" required placeholder="Full Name *">
 								</div>
 
 								<div class="line wow fadeInUp">
-									<img src="assets/img/svg/icon-password.svg" alt="Password" class="svg">
+									<input type="email" class="text-medium input" required placeholder="Email Address *">
+								</div>
+
+								<div class="line wow fadeInUp">
+									<input type="text" class="text-medium input" placeholder="Phone Number">
+								</div>
+
+								<div class="line wow fadeInUp">
+									<input type="text" class="text-medium input" required placeholder="ZIPCode *">
+								</div>
+
+								<div class="line wow fadeInUp">
 									<input type="password" class="text-medium input password" placeholder="Password">
-									<a href="user-forgot-password.php" class="forgot text-medium-small">Forgot password?</a>
 								</div>
 
 								<input type="submit" id="send-user" style="display: none;">
-								<!--label for="send-user" class="purple-bt text-medium wow fadeInUp">Sign in</label-->
-								<a href="dashboard-user-history.php" class="purple-bt text-medium wow fadeInUp">Sign in</a>
-
-								<div class="line wow fadeInUp">
-									<div class="or-line"></div>
-									<p class="text-medium or">
-										or
-									</p>
-								</div>
-
-								<!-- LOGIN BUTTONS -->
-								<div class="login-buttons wow fadeInUp">
-									
-									<a href="#" class="login-bt google">
-										<img src="assets/img/svg/login-google.svg" alt="Google" class="svg">
-									</a>
-
-									<a href="#" class="login-bt facebook">
-										<img src="assets/img/svg/login-facebook.svg" alt="Facebook" class="svg">
-									</a>
-
-									<div class="cf"></div>
-
-								</div><!-- END LOGIN BUTTONS -->
+								<label for="send-user" class="purple-bt text-medium wow fadeInUp">Sign up</label>
 
 								<!-- FINAL -->
 								<div class="final wow fadeInUp">
 									<p class="text-medium">
-										Don't have an account? <a href="user-sign-up.php" class="text-medium hvr-underline-from-left">Sign up</a>
+										Already have an account? <a href="sign-in.php" class="text-medium hvr-underline-from-left">Sign in</a>
 									</p>
 								</div><!-- END FINAL -->
 

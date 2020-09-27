@@ -74,7 +74,7 @@
 			</li>
 
 			<li>
-				<a href="provider-sign-in.php">
+				<a href="sign-in.php">
 					<img src="assets/img/svg/icon-sign-out.svg" alt="Sign-out" class="svg">
 					<p class="text-medium">
 						Sign-out

@@ -170,9 +170,9 @@
 														<!-- ACTIONS -->
 														<div class="actions">
 
-															<button class="text-medium hvr-underline-from-left accept">
+															<a href="#more-details" data-fancybox class="text-medium hvr-underline-from-left accept">
 																Accept
-															</button>
+															</a>
 
 															<button class="text-medium hvr-underline-from-left decline">
 																Decline
@@ -498,6 +498,238 @@
 										</div><!-- END LINE -->
 
 									</div><!-- END FINISHED REQUESTS -->
+
+									<!-- MORE DETAILS -->
+									<div id="more-details">
+
+										<h2 class="text-large">
+											New Request
+										</h2>
+
+										<div class="fields">
+											<div class="row">
+
+												<!-- COL -->
+												<div class="col-lg-6">
+
+													<p class="text-x-medium label">
+														Category
+													</p>
+
+													<div class="cf"></div>
+
+													<!-- LINE -->
+													<div class="line">
+														
+														<input type="text" readonly disabled class="text-medium" value="House Services">
+
+													</div><!-- END LINE -->
+
+												</div><!-- END COL -->
+
+												<!-- COL -->
+												<div class="col-lg-6">
+
+													<p class="text-x-medium label">
+														Sub Category
+													</p>
+
+													<div class="cf"></div>
+
+													<!-- LINE -->
+													<div class="line">
+														
+														<input type="text" readonly disabled class="text-medium" value="Cleaning & Housekeeping">
+
+													</div><!-- END LINE -->
+
+												</div><!-- END COL -->
+
+												<!-- COL -->
+												<div class="col-lg-6">
+
+													<p class="text-x-medium label">
+														Place
+													</p>
+
+													<div class="cf"></div>
+
+													<!-- LINE -->
+													<div class="line">
+														
+														<input type="text" readonly disabled class="text-medium" value="Business">
+
+													</div><!-- END LINE -->
+
+												</div><!-- END COL -->
+
+												<!-- COL -->
+												<div class="col-lg-6">
+
+													<p class="text-x-medium label">
+														Work to be performed
+													</p>
+
+													<div class="cf"></div>
+
+													<!-- LINE -->
+													<div class="line">
+														
+														<input type="text" readonly disabled class="text-medium" value="Indoor">
+
+													</div><!-- END LINE -->
+
+												</div><!-- END COL -->
+
+												<!-- COL -->
+												<div class="col-lg-6">
+
+													<p class="text-x-medium label">
+														How long it may take
+													</p>
+
+													<div class="cf"></div>
+
+													<!-- LINE -->
+													<div class="line">
+														
+														<input type="text" readonly disabled class="text-medium" value="4 hours">
+
+													</div><!-- END LINE -->
+
+												</div><!-- END COL -->
+
+												<!-- COL -->
+												<div class="col-lg-6">
+
+													<p class="text-x-medium label">
+														Extra Person
+													</p>
+
+													<div class="cf"></div>
+
+													<!-- LINE -->
+													<div class="line">
+														
+														<input type="text" readonly disabled class="text-medium" value="4">
+
+													</div><!-- END LINE -->
+
+												</div><!-- END COL -->
+
+												<!-- COL -->
+												<div class="col-12">
+
+													<p class="text-x-medium label">
+														Extra Tools
+													</p>
+
+													<div class="cf"></div>
+
+													<!-- LINE -->
+													<div class="line">
+														
+														<input type="text" readonly disabled class="text-medium" value="XYZ">
+
+													</div><!-- END LINE -->
+
+												</div><!-- END COL -->
+
+												<!-- COL -->
+												<div class="col-12">
+
+													<p class="text-x-medium label">
+														Description
+													</p>
+
+													<!-- LINE -->
+													<div class="line">
+
+														<textarea readonly disabled class="text-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus nisi tellus, id mattis erat aliquet at. Vivamus quis lectus non ipsum elementum tristique in id ipsum. Pellentesque malesuada tortor eu nisl imperdiet, vel fermentum nibh dignissim. Proin id mattis quam. In hac habitasse platea dictumst. Ut congue, sapien a vulputate consectetur, odio metus maximus sapien, fringilla venenatis est lectus eget risus. Quisque sit amet cursus lacus.</textarea>
+
+													</div><!-- END LINE -->
+
+												</div><!-- END COL -->
+
+												<!-- COL -->
+												<div class="col-12">
+
+													<p class="text-x-medium label">
+														Photos
+													</p>
+
+													<!-- LINE -->
+													<div class="line">
+														<div class="boxes">
+															<div class="row">
+
+																<!-- COL -->
+																<div class="col col-five">
+																	<div class="box">
+																		<div class="image" style="background-image: url(assets/img/gallery/01.jpg);"></div>
+																	</div><!-- END BOX -->
+																</div><!-- END COL -->
+
+																<!-- COL -->
+																<div class="col col-five">
+																	<div class="box">
+																		<div class="image" style="background-image: url(assets/img/gallery/02.jpg);"></div>
+																	</div><!-- END BOX -->
+																</div><!-- END COL -->
+
+																<!-- COL -->
+																<div class="col col-five">
+																	<div class="box">
+																		<div class="image" style="background-image: url(assets/img/gallery/03.jpg);"></div>
+																	</div><!-- END BOX -->
+																</div><!-- END COL -->
+
+																<!-- COL -->
+																<div class="col col-five">
+																	<div class="box">
+																		<div class="image" style="background-image: url(assets/img/gallery/01.jpg);"></div>
+																	</div><!-- END BOX -->
+																</div><!-- END COL -->
+
+																<!-- COL -->
+																<div class="col col-five">
+																	<div class="box">
+																		<div class="image" style="background-image: url(assets/img/gallery/01.jpg);"></div>
+																	</div><!-- END BOX -->
+																</div><!-- END COL -->
+
+															</div><!-- END ROW -->
+														</div><!-- END BOXES -->
+													</div><!-- END LINE -->
+
+												</div><!-- END COL -->
+
+												<!-- COL -->
+												<div class="col-12">
+
+													<p class="text-x-medium label last">
+														Provide a Quote
+													</p>
+
+													<div class="cf"></div>
+
+													<!-- LINE -->
+													<div class="line">
+														
+														<input type="text" class="text-medium" placeholder="Add Price">
+
+														<button class="text-medium purple-bt" onclick="$.fancybox.close();">
+															Submit
+														</button>
+
+													</div><!-- END LINE -->
+
+												</div><!-- END COL -->
+
+											</div><!-- END ROW -->
+										</div><!-- END FIELDS -->
+
+									</div><!-- END MORE DETAILS -->
 
 								</div><!-- END JOBS -->
 

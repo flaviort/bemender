@@ -115,13 +115,12 @@ body.home {
 					top: -30px;
 					right: 0;
 					z-index: 0;
-
-					@media #{$mq-xxl-max} {
-						right: -100px;
-					}
+					width: 100%;
+					height: 100%;
 
 					@media #{$mq-xl-max} {
 						right: -150px;
+						width: 90%;
 					}
 
 					@media #{$mq-lg-max} {
@@ -368,10 +367,11 @@ body.home {
 								}
 
 								&.input-what {
-									width: calc(100% / 2 + 40px);
+									// width: calc(100% / 2 + 40px);
+									width: calc(100% - 80px);
 
 									@media #{$mq-xl-max} {
-										width: calc(100% / 2 + 20px);
+										// width: calc(100% / 2 + 20px);
 									}
 
 									@media #{$mq-sm-max} {
@@ -379,6 +379,7 @@ body.home {
 									}
 								} // END INPUT WHAT
 
+								/*
 								&.input-zip {
 									width: calc(100% / 2 - 130px);
 
@@ -390,8 +391,10 @@ body.home {
 										width: 100%;
 									}
 								} // END INPUT ZIP
+								*/
 							} // END INPUT
 
+							/*
 							.sep {
 								float: left;
 								display: block;
@@ -412,6 +415,7 @@ body.home {
 									float: none;
 								}
 							} // END SEP
+							*/
 
 							.button-go {
 								float: right;

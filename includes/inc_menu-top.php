@@ -38,25 +38,45 @@
 
 						<?php if(strpos($_SERVER['REQUEST_URI'], 'dashboard-user-') !== false):?>
 							
-							<li class="wow fadeInUp last" data-wow-delay=".8s">
-								<a href="dashboard-user-history.php" class="text-medium">
+							<li class="wow fadeInUp" data-wow-delay=".8s">
+								<a href="dashboard-user-history.php" class="text-medium white-button">
 									Hi, Jane
 								</a>
 							</li>
 
 						<?php elseif(strpos($_SERVER['REQUEST_URI'], 'dashboard-provider-') !== false):?>
 
-							<li class="wow fadeInUp last" data-wow-delay=".8s">
-								<a href="dashboard-provider-profile.php" class="text-medium">
+							<li class="wow fadeInUp" data-wow-delay=".8s">
+								<a href="dashboard-provider-profile.php" class="text-medium white-button">
+									Hi, Jane
+								</a>
+							</li>
+
+						<?php elseif(strpos($_SERVER['REQUEST_URI'], 'hire') !== false):?>
+
+							<li class="wow fadeInUp" data-wow-delay=".8s">
+								<a href="dashboard-user-history.php" class="text-medium white-button">
 									Hi, Jane
 								</a>
 							</li>
 
 						<?php else: ?>
 							
-							<li class="wow fadeInUp last" data-wow-delay=".8s">
-								<a href="user-sign-in.php" class="text-medium">
+							<li class="wow fadeInUp" data-wow-delay=".8s">
+								<a href="sign-in.php" class="text-medium hollow-button">
 									Sign In
+								</a>
+							</li>
+
+							<li class="wow fadeInUp or" data-wow-delay=".9s">
+								<p class="text-medium">
+									or
+								</p>
+							</li>
+
+							<li class="wow fadeInUp" data-wow-delay="1s">
+								<a href="sign-up.php" class="text-medium white-button">
+									Sign Up
 								</a>
 							</li>
 

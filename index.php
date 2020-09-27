@@ -103,9 +103,9 @@
 
 										<input type="text" placeholder="What's on your to-do list?" class="text-small input input-what" id="search-what" required>
 
-										<div class="sep"></div>
+										<!--div class="sep"></div>
 
-										<input type="text" placeholder="Zip Code" class="text-small input input-zip" id="search-zipcode" required>
+										<input type="text" placeholder="Zip Code" class="text-small input input-zip" id="search-zipcode" required-->
 
 										<input type="submit" id="search-send" style="display: none;">
 										<!--label for="search-send" class="text-medium button-go">
