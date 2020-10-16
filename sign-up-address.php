@@ -80,14 +80,10 @@
 							</div>
 
 							<div class="select"></div>
-
-							<h1 class="text-large wow fadeInUp">
-								Glad to see you!
-							</h1>
 							
-							<h1 class="text-giant contact wow fadeInUp">
+							<h1 class="text-giant sign-up wow fadeInUp">
 								<strong>
-									Welcome back.
+									Almost there!
 								</strong>
 							</h1>
 
@@ -103,53 +99,40 @@
 
 						<!-- COL / LEFT -->
 						<div class="col-lg-6 left">
-							<form action="" class="form">
+							<div class="sign-up form">
 
 								<div class="line wow fadeInUp">
-									<img src="assets/img/svg/icon-user.svg" alt="Email Address" class="svg">
-									<input type="email" class="text-medium input" required placeholder="Email Address">
+									<input type="text" class="text-medium input" required placeholder="Address *">
 								</div>
 
 								<div class="line wow fadeInUp">
-									<img src="assets/img/svg/icon-password.svg" alt="Password" class="svg">
-									<input type="password" class="text-medium input password" placeholder="Password">
-									<a href="forgot-password.php" class="forgot text-medium-small">Forgot password?</a>
+									<input type="text" class="text-medium input" placeholder="Apt, Suite, etc (optional)">
+								</div>
+
+								<div class="line wow fadeInUp">
+									<input type="text" class="text-medium input" required placeholder="City *">
+								</div>
+
+								<div class="line wow fadeInUp">
+									<input type="text" class="text-medium input" required placeholder="State *">
+								</div>
+
+								<div class="line wow fadeInUp">
+									<input type="text" class="text-medium input" required placeholder="ZIP Conde *">
 								</div>
 
 								<input type="submit" id="send-user" style="display: none;">
-								<!--label for="send-user" class="purple-bt text-medium wow fadeInUp">Sign in</label-->
-								<a href="dashboard-user-history.php" class="purple-bt text-medium wow fadeInUp">Sign in</a>
-
-								<div class="line wow fadeInUp">
-									<div class="or-line"></div>
-									<p class="text-medium or">
-										or
-									</p>
-								</div>
-
-								<!-- LOGIN BUTTONS -->
-								<div class="login-buttons wow fadeInUp">
-									
-									<a href="#" class="login-bt google">
-										<img src="assets/img/svg/login-google.svg" alt="Google" class="svg">
-									</a>
-
-									<a href="#" class="login-bt facebook">
-										<img src="assets/img/svg/login-facebook.svg" alt="Facebook" class="svg">
-									</a>
-
-									<div class="cf"></div>
-
-								</div><!-- END LOGIN BUTTONS -->
+								<!--label for="send-user" class="purple-bt text-medium wow fadeInUp">Next</label-->
+								<a href="sign-up-tec.php" class="purple-bt text-medium wow fadeInUp">Next</a>
 
 								<!-- FINAL -->
 								<div class="final wow fadeInUp">
 									<p class="text-medium">
-										Don't have an account? <a href="sign-up.php" class="text-medium hvr-underline-from-left">Sign up</a>
+										<a href="sign-up.php" class="text-medium hvr-underline-from-left">Back</a>
 									</p>
 								</div><!-- END FINAL -->
 
-							</form><!-- END FORM -->
+							</div><!-- END SIGN UP -->
 						</div><!-- END COL / LEFT -->
 
 						<!-- COL / RIGHT -->

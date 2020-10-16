@@ -103,7 +103,7 @@
 
 						<!-- COL / LEFT -->
 						<div class="col-lg-6 left">
-							<form action="">
+							<form action="" class="form">
 
 								<div class="line wow fadeInUp">
 									<img src="assets/img/svg/icon-user.svg" alt="Email Address" class="svg">

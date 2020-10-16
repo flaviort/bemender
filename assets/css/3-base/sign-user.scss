@@ -157,15 +157,256 @@ body.sign-user {
 		z-index: 4;
 
 		.left {
-			form {
+			.form {
 				display: block;
 				width: 100%;
 
 				&.sign-up {
+					.dropzone {
+						min-height: 250px;
+						height: auto;
+						border-width: 2px;
+						border-color: $gray-lighter;
+						border-style: dashed;
+						border-radius: 20px;
+						background: $white;
+						position: relative;
+						padding-bottom: 160px;
+						margin-bottom: 20px;
+						transition: all .3s;
+						width: 100%;
+
+						@media #{$mq-xxl-max} {
+							min-height: 200px;
+							background-image: none;
+						}
+
+						@media #{$mq-sm-max} {
+							padding-bottom: 140px;
+						}
+
+						@media #{$mq-xs-max} {
+							margin-top: 20px;
+							padding-left: 10px;
+							padding-right: 10px;
+						}
+
+						.dz-default {
+							display: none;
+						} // END DZ DEFAULT
+
+						#upload-files {
+							display: none;
+						} // END UPLOAD FILES
+
+						.dz-preview {
+							position: relative;
+
+							@media #{$mq-xs-max} {
+								margin: 10px;
+								min-height: 80px;
+							}
+
+							.dz-details {
+								@media #{$mq-xs-max} {
+									padding: 23px 7px 0 4px;
+									font-size: 10px;
+								}
+
+								.dz-size {
+									@media #{$mq-xs-max} {
+										margin-bottom: 5px;
+										font-size: 12px;
+									}
+								} // END DZ DETAIL
+							} // END DZ DETAILS
+
+							.dz-progress {
+								@media #{$mq-xs-max} {
+									margin-top: -7px;
+									width: 70px;
+									margin-left: -35px;
+								}
+							} // END DZ PROGRESS
+
+							.dz-image {
+								@media #{$mq-sm-max} {
+									width: 100px;
+									height: 100px;
+								}
+
+								@media #{$mq-xs-max} {
+									width: 80px;
+									height: 80px;
+								}
+							} // END DZ IMAGE
+
+							.dz-error-message {
+								@media #{$mq-sm-max} {
+									top: 110px;
+									left: -20px;
+								}
+
+								@media #{$mq-xs-max} {
+									top: 90px;
+									left: -30px;
+								}
+							} // END DZ ERROR MESSAGE
+
+							.dz-success-mark {
+								@media #{$mq-xs-max} {
+									margin-top: -27px;
+									transform: scale(.8);
+								}
+							} // END DZ SUCCESS MARK
+
+							.dz-error-mark {
+								background-color: $white;
+								border-radius: 50%;
+
+								@media #{$mq-xs-max} {
+									margin-top: -27px;
+									transform: scale(.8);
+								}
+
+								svg {
+									g {
+										stroke: $red;
+										stroke-opacity: 1;
+										stroke-width: 2px;
+										fill: $red;
+										fill-opacity: 1;
+									} // END G
+								} // END SVG
+							} // END DZ ERROR MARK
+
+							.dz-remove {
+								position: absolute;
+								top: -10px;
+								right: -10px;
+								z-index: 99;
+								display: block;
+								width: 30px;
+								height: 30px;
+								border-radius: 50%;
+								background: $red url(../img/icon-close.png) center center no-repeat;
+								cursor: pointer;
+								color: transparent;
+								font-size: 0;
+								padding: 0;
+								text-align: center;
+							} // END DZ REMOVE
+						} // END DZ PREVIEW
+
+						.middle {
+							position: absolute;
+							bottom: 30px;
+							left: 0;
+							right: 0;
+							text-align: center;
+							margin: 0 auto;
+
+							.top {
+								font-weight: $bold;
+								color: $gray-dark;
+								margin-bottom: 20px;
+							} // END TOP
+
+							.down {
+								color: $gray-light;
+								font-weight: $bold;
+								display: block;
+								margin: 10px auto;
+							} // END DOWN
+
+							.button-normal {
+								background-color: $almost-white;
+								padding: 5px 20px;
+								border-radius: 50px;
+
+								@media #{$mq-sm-max} {
+									max-width: 90%;
+									margin: 0 auto;
+								}
+							} // END BUTTON NORMAL
+						} // END MIDDLE
+
+						.purple-bt {
+							position: absolute;
+							bottom: -95px;
+							left: 0;
+							right: 0;
+							margin: 0 auto;
+							text-align: center;
+							opacity: 0;
+							visibility: hidden;
+							transition: all .3s;
+							cursor: pointer;
+
+							@media #{$mq-xs-max} {
+								max-width: 100%;
+								bottom: -90px;
+							}
+
+							&:hover {
+								background-color: $purple-dark;
+								color: $white;
+							} // END HOVER
+						} // END PURPLE BT
+
+						&.dz-success {
+							margin-bottom: 120px;
+
+							@media #{$mq-xs-max} {
+								margin-bottom: 110px;
+							}
+
+							.purple-bt {
+								opacity: 1;
+								visibility: visible;
+							} // END BUTTON BIG
+						} // END DZ SUCCESS
+
+					} // END DROPZONE
+
 					.line {
 						.input {
 							padding-left: 30px;
 						} // END INPUT
+
+						select {
+							appearance: none;
+							cursor: pointer;
+						} // END SELECT
+
+						img,
+						svg {
+							left: auto;
+							display: block;
+							position: absolute;
+							right: 10px;
+							top: 50%;
+							transform: translateY(-50%);
+							width: 20px;
+							height: 20px;
+							z-index: 2;
+							pointer-events: none;
+
+							path {
+								fill: $gray-light;
+							} // END PATH
+						} // END IMG / SVG
+
+						.tec-box {
+							display: block;
+							overflow-y: scroll;
+							overflow-x: hidden;
+							width: 100%;
+							height: 500px;
+							text-align: left;
+							background-color: $white;
+							padding: 30px;
+						} // END TEC BOX
 					} // END LINE
 				} // END SING UP
 
@@ -374,4 +615,8 @@ body.sign-user {
 			} // END FORM
 		} // END LEFT
 	} // END CONTENT
+
+	.dz-hidden-input {
+		display: none;
+	} // END DZ HIDDEN INPUT
 } // END BODY / SIGN USER

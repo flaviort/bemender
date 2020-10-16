@@ -70,7 +70,7 @@
 								<div class="title wow fadeInUp">
 									
 									<h2 class="text-large">
-										Jobs
+										Quotes
 									</h2>
 
 									<div class="line"></div>

@@ -191,7 +191,7 @@
 										<div class="title">
 
 											<p class="text-large">
-												<span>1.</span> Chose your Provider
+												Chose your Provider
 											</p>
 
 											<span class="purple-bt text-medium multiple-slide">
@@ -546,7 +546,7 @@
 												<div class="title">
 
 													<p class="text-large">
-														<span>2.</span> Hire now
+														Hire now
 													</p>
 
 													<span class="text-medium hvr-underline-from-left back-to-list">
@@ -872,7 +872,7 @@
 												<div class="title">
 
 													<p class="text-large">
-														<span>2.</span> Schedule
+														Schedule
 													</p>
 
 													<span class="text-medium hvr-underline-from-left back-to-list">
@@ -1198,7 +1198,7 @@
 												<div class="title">
 
 													<p class="text-large">
-														<span>2.</span> Request Multiple Quotes
+														Request Multiple Quotes
 													</p>
 
 													<span class="text-medium hvr-underline-from-left back-to-list">
@@ -1518,7 +1518,7 @@
 											<!-- TITLE -->
 											<div class="title">
 												<p class="text-large">
-													<span>4.</span> Confirm you location
+													Confirm you location
 												</p>
 											</div><!-- END TITLE -->
 
@@ -1565,7 +1565,7 @@
 										<!-- TITLE -->
 										<div class="title">
 											<p class="text-large">
-												<span>5.</span> Mender found
+												Mender found
 											</p>
 										</div><!-- END TITLE -->
 

@@ -23,5 +23,11 @@ $( document ).ready(function() {
 	$("#edit-address .save").click(function() {
 		$("#edit-address").slideUp();
 	});
+
+	// FAQ
+	$(".accordion .line").click(function() {
+		$(this).toggleClass('active');
+		$(this).siblings('.content').slideToggle();
+	});
 	
 });

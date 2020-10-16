@@ -3144,6 +3144,95 @@ body.dashboard-provider .wrap {
         @media only screen and (max-width: 575px) {
           body.dashboard-provider .wrap #content #main .right .profile .reviews .boxes .load-more {
             width: 100%; } }
+    body.dashboard-provider .wrap #content #main .right .accordion .question {
+      margin-bottom: 30px; }
+      @media only screen and (max-width: 992px) {
+        body.dashboard-provider .wrap #content #main .right .accordion .question {
+          margin-bottom: 20px; } }
+      @media only screen and (max-width: 575px) {
+        body.dashboard-provider .wrap #content #main .right .accordion .question {
+          margin-bottom: 10px; } }
+      body.dashboard-provider .wrap #content #main .right .accordion .question .line {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 20px 30px;
+        -webkit-box-shadow: inset 0 0 0 1px #aaa;
+                box-shadow: inset 0 0 0 1px #aaa;
+        border-radius: 10px;
+        cursor: pointer;
+        -webkit-transition: .3s;
+        transition: .3s;
+        background-color: #fff; }
+        body.dashboard-provider .wrap #content #main .right .accordion .question .line:hover {
+          background-color: #eee; }
+        body.dashboard-provider .wrap #content #main .right .accordion .question .line.active {
+          background-color: #623e77; }
+          body.dashboard-provider .wrap #content #main .right .accordion .question .line.active p {
+            color: #fff; }
+          body.dashboard-provider .wrap #content #main .right .accordion .question .line.active .circle {
+            -webkit-box-shadow: inset 0 0 0 1px #fff;
+                    box-shadow: inset 0 0 0 1px #fff; }
+            body.dashboard-provider .wrap #content #main .right .accordion .question .line.active .circle img path,
+            body.dashboard-provider .wrap #content #main .right .accordion .question .line.active .circle svg path {
+              fill: #fff; }
+        body.dashboard-provider .wrap #content #main .right .accordion .question .line p {
+          color: #623e77;
+          font-weight: bold;
+          -webkit-transition: .3s;
+          transition: .3s; }
+        body.dashboard-provider .wrap #content #main .right .accordion .question .line .circle {
+          position: absolute;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+                  transform: translateY(-50%);
+          right: 20px;
+          display: block;
+          width: 40px;
+          height: 40px;
+          border-radius: 50px;
+          -webkit-box-shadow: inset 0 0 0 1px #623e77;
+                  box-shadow: inset 0 0 0 1px #623e77;
+          -webkit-transition: .3s;
+          transition: .3s; }
+          body.dashboard-provider .wrap #content #main .right .accordion .question .line .circle img,
+          body.dashboard-provider .wrap #content #main .right .accordion .question .line .circle svg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+            display: block;
+            width: 20px;
+            height: 20px; }
+            body.dashboard-provider .wrap #content #main .right .accordion .question .line .circle img path,
+            body.dashboard-provider .wrap #content #main .right .accordion .question .line .circle svg path {
+              fill: #623e77;
+              -webkit-transition: .3s;
+              transition: .3s; }
+      body.dashboard-provider .wrap #content #main .right .accordion .question .content {
+        color: #777;
+        padding: 30px;
+        display: none; }
+        @media only screen and (max-width: 575px) {
+          body.dashboard-provider .wrap #content #main .right .accordion .question .content {
+            padding: 20px 30px; } }
+    body.dashboard-provider .wrap #content #main .right .tec .text-large {
+      display: block;
+      margin: 100px 0 30px 0;
+      color: #623e77;
+      font-weight: bold; }
+      @media only screen and (max-width: 992px) {
+        body.dashboard-provider .wrap #content #main .right .tec .text-large {
+          margin: 70px 0 20px 0; } }
+      @media only screen and (max-width: 767px) {
+        body.dashboard-provider .wrap #content #main .right .tec .text-large {
+          margin-top: 50px; } }
+      @media only screen and (max-width: 575px) {
+        body.dashboard-provider .wrap #content #main .right .tec .text-large {
+          margin-top: 40px; } }
+    body.dashboard-provider .wrap #content #main .right .tec .text-medium {
+      color: #777; }
     body.dashboard-provider .wrap #content #main .right .edit-service .fields h2,
     body.dashboard-provider .wrap #content #main .right .add-service .fields h2 {
       font-weight: bold;
@@ -4866,6 +4955,9 @@ body.dashboard-provider #more-details {
       width: 100%;
       margin-top: 30px; }
 
+body.dashboard-provider .dz-hidden-input {
+  display: none; }
+
 /*----------------------------------------
 ------------------------------------------
 	## DASHBOARD USER
@@ -5415,6 +5507,91 @@ body.dashboard-user .wrap {
                 @media only screen and (max-width: 575px) {
                   body.dashboard-user .wrap #content #main .right .history .line .box .inner-row .inner-right .service .row > div img {
                     display: none; } }
+    body.dashboard-user .wrap #content #main .right .accordion .question {
+      margin-bottom: 30px; }
+      @media only screen and (max-width: 992px) {
+        body.dashboard-user .wrap #content #main .right .accordion .question {
+          margin-bottom: 20px; } }
+      @media only screen and (max-width: 575px) {
+        body.dashboard-user .wrap #content #main .right .accordion .question {
+          margin-bottom: 10px; } }
+      body.dashboard-user .wrap #content #main .right .accordion .question .line {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 20px 30px;
+        -webkit-box-shadow: inset 0 0 0 1px #aaa;
+                box-shadow: inset 0 0 0 1px #aaa;
+        border-radius: 10px;
+        cursor: pointer;
+        -webkit-transition: .3s;
+        transition: .3s;
+        background-color: #fff; }
+        body.dashboard-user .wrap #content #main .right .accordion .question .line:hover {
+          background-color: #eee; }
+        body.dashboard-user .wrap #content #main .right .accordion .question .line.active {
+          background-color: #623e77; }
+          body.dashboard-user .wrap #content #main .right .accordion .question .line.active p {
+            color: #fff; }
+          body.dashboard-user .wrap #content #main .right .accordion .question .line.active .circle {
+            -webkit-box-shadow: inset 0 0 0 1px #fff;
+                    box-shadow: inset 0 0 0 1px #fff; }
+            body.dashboard-user .wrap #content #main .right .accordion .question .line.active .circle img path,
+            body.dashboard-user .wrap #content #main .right .accordion .question .line.active .circle svg path {
+              fill: #fff; }
+        body.dashboard-user .wrap #content #main .right .accordion .question .line p {
+          color: #623e77;
+          font-weight: bold;
+          -webkit-transition: .3s;
+          transition: .3s; }
+        body.dashboard-user .wrap #content #main .right .accordion .question .line .circle {
+          position: absolute;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+                  transform: translateY(-50%);
+          right: 20px;
+          display: block;
+          width: 40px;
+          height: 40px;
+          border-radius: 50px;
+          -webkit-box-shadow: inset 0 0 0 1px #623e77;
+                  box-shadow: inset 0 0 0 1px #623e77;
+          -webkit-transition: .3s;
+          transition: .3s; }
+          body.dashboard-user .wrap #content #main .right .accordion .question .line .circle img,
+          body.dashboard-user .wrap #content #main .right .accordion .question .line .circle svg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+            display: block;
+            width: 20px;
+            height: 20px; }
+            body.dashboard-user .wrap #content #main .right .accordion .question .line .circle img path,
+            body.dashboard-user .wrap #content #main .right .accordion .question .line .circle svg path {
+              fill: #623e77;
+              -webkit-transition: .3s;
+              transition: .3s; }
+      body.dashboard-user .wrap #content #main .right .accordion .question .content {
+        color: #777;
+        padding: 30px;
+        display: none; }
+        @media only screen and (max-width: 575px) {
+          body.dashboard-user .wrap #content #main .right .accordion .question .content {
+            padding: 20px 30px; } }
+    body.dashboard-user .wrap #content #main .right .tutorials .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      display: block;
+      margin-bottom: 50px; }
+      body.dashboard-user .wrap #content #main .right .tutorials .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; }
     body.dashboard-user .wrap #content #main .right .payment-method .saved .text-x-medium {
       font-weight: bold;
       color: #777;
@@ -5758,6 +5935,9 @@ body.dashboard-user #are-you-sure {
     body.dashboard-user #are-you-sure button.purple-bt:hover {
       background-color: #491266;
       color: #fff; }
+
+body.dashboard-user .dz-hidden-input {
+  display: none; }
 
 /*----------------------------------------
 ------------------------------------------
@@ -10383,6 +10563,9 @@ body.users .wrap {
           body.users .wrap #content #how-it-works .container .last-row .text-medium {
             color: #777; }
 
+body.users .dz-hidden-input {
+  display: none; }
+
 /*----------------------------------------
 ------------------------------------------
 	## SERVICE
@@ -10788,19 +10971,199 @@ body.sign-user #banner {
 
 body.sign-user #content {
   z-index: 4; }
-  body.sign-user #content .left form {
+  body.sign-user #content .left .form {
     display: block;
     width: 100%; }
-    body.sign-user #content .left form.sign-up .line .input {
+    body.sign-user #content .left .form.sign-up .dropzone {
+      min-height: 250px;
+      height: auto;
+      border-width: 2px;
+      border-color: #ccc;
+      border-style: dashed;
+      border-radius: 20px;
+      background: #fff;
+      position: relative;
+      padding-bottom: 160px;
+      margin-bottom: 20px;
+      -webkit-transition: all .3s;
+      transition: all .3s;
+      width: 100%; }
+      @media only screen and (max-width: 1660px) {
+        body.sign-user #content .left .form.sign-up .dropzone {
+          min-height: 200px;
+          background-image: none; } }
+      @media only screen and (max-width: 767px) {
+        body.sign-user #content .left .form.sign-up .dropzone {
+          padding-bottom: 140px; } }
+      @media only screen and (max-width: 575px) {
+        body.sign-user #content .left .form.sign-up .dropzone {
+          margin-top: 20px;
+          padding-left: 10px;
+          padding-right: 10px; } }
+      body.sign-user #content .left .form.sign-up .dropzone .dz-default {
+        display: none; }
+      body.sign-user #content .left .form.sign-up .dropzone #upload-files {
+        display: none; }
+      body.sign-user #content .left .form.sign-up .dropzone .dz-preview {
+        position: relative; }
+        @media only screen and (max-width: 575px) {
+          body.sign-user #content .left .form.sign-up .dropzone .dz-preview {
+            margin: 10px;
+            min-height: 80px; } }
+        @media only screen and (max-width: 575px) {
+          body.sign-user #content .left .form.sign-up .dropzone .dz-preview .dz-details {
+            padding: 23px 7px 0 4px;
+            font-size: 10px; } }
+        @media only screen and (max-width: 575px) {
+          body.sign-user #content .left .form.sign-up .dropzone .dz-preview .dz-details .dz-size {
+            margin-bottom: 5px;
+            font-size: 12px; } }
+        @media only screen and (max-width: 575px) {
+          body.sign-user #content .left .form.sign-up .dropzone .dz-preview .dz-progress {
+            margin-top: -7px;
+            width: 70px;
+            margin-left: -35px; } }
+        @media only screen and (max-width: 767px) {
+          body.sign-user #content .left .form.sign-up .dropzone .dz-preview .dz-image {
+            width: 100px;
+            height: 100px; } }
+        @media only screen and (max-width: 575px) {
+          body.sign-user #content .left .form.sign-up .dropzone .dz-preview .dz-image {
+            width: 80px;
+            height: 80px; } }
+        @media only screen and (max-width: 767px) {
+          body.sign-user #content .left .form.sign-up .dropzone .dz-preview .dz-error-message {
+            top: 110px;
+            left: -20px; } }
+        @media only screen and (max-width: 575px) {
+          body.sign-user #content .left .form.sign-up .dropzone .dz-preview .dz-error-message {
+            top: 90px;
+            left: -30px; } }
+        @media only screen and (max-width: 575px) {
+          body.sign-user #content .left .form.sign-up .dropzone .dz-preview .dz-success-mark {
+            margin-top: -27px;
+            -webkit-transform: scale(0.8);
+                    transform: scale(0.8); } }
+        body.sign-user #content .left .form.sign-up .dropzone .dz-preview .dz-error-mark {
+          background-color: #fff;
+          border-radius: 50%; }
+          @media only screen and (max-width: 575px) {
+            body.sign-user #content .left .form.sign-up .dropzone .dz-preview .dz-error-mark {
+              margin-top: -27px;
+              -webkit-transform: scale(0.8);
+                      transform: scale(0.8); } }
+          body.sign-user #content .left .form.sign-up .dropzone .dz-preview .dz-error-mark svg g {
+            stroke: #b6302e;
+            stroke-opacity: 1;
+            stroke-width: 2px;
+            fill: #b6302e;
+            fill-opacity: 1; }
+        body.sign-user #content .left .form.sign-up .dropzone .dz-preview .dz-remove {
+          position: absolute;
+          top: -10px;
+          right: -10px;
+          z-index: 99;
+          display: block;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background: #b6302e url(../img/icon-close.png) center center no-repeat;
+          cursor: pointer;
+          color: transparent;
+          font-size: 0;
+          padding: 0;
+          text-align: center; }
+      body.sign-user #content .left .form.sign-up .dropzone .middle {
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 0 auto; }
+        body.sign-user #content .left .form.sign-up .dropzone .middle .top {
+          font-weight: bold;
+          color: #333;
+          margin-bottom: 20px; }
+        body.sign-user #content .left .form.sign-up .dropzone .middle .down {
+          color: #aaa;
+          font-weight: bold;
+          display: block;
+          margin: 10px auto; }
+        body.sign-user #content .left .form.sign-up .dropzone .middle .button-normal {
+          background-color: #eee;
+          padding: 5px 20px;
+          border-radius: 50px; }
+          @media only screen and (max-width: 767px) {
+            body.sign-user #content .left .form.sign-up .dropzone .middle .button-normal {
+              max-width: 90%;
+              margin: 0 auto; } }
+      body.sign-user #content .left .form.sign-up .dropzone .purple-bt {
+        position: absolute;
+        bottom: -95px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        cursor: pointer; }
+        @media only screen and (max-width: 575px) {
+          body.sign-user #content .left .form.sign-up .dropzone .purple-bt {
+            max-width: 100%;
+            bottom: -90px; } }
+        body.sign-user #content .left .form.sign-up .dropzone .purple-bt:hover {
+          background-color: #491266;
+          color: #fff; }
+      body.sign-user #content .left .form.sign-up .dropzone.dz-success {
+        margin-bottom: 120px; }
+        @media only screen and (max-width: 575px) {
+          body.sign-user #content .left .form.sign-up .dropzone.dz-success {
+            margin-bottom: 110px; } }
+        body.sign-user #content .left .form.sign-up .dropzone.dz-success .purple-bt {
+          opacity: 1;
+          visibility: visible; }
+    body.sign-user #content .left .form.sign-up .line .input {
       padding-left: 30px; }
-    body.sign-user #content .left form .line {
+    body.sign-user #content .left .form.sign-up .line select {
+      -webkit-appearance: none;
+         -moz-appearance: none;
+              appearance: none;
+      cursor: pointer; }
+    body.sign-user #content .left .form.sign-up .line img,
+    body.sign-user #content .left .form.sign-up .line svg {
+      left: auto;
+      display: block;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+      width: 20px;
+      height: 20px;
+      z-index: 2;
+      pointer-events: none; }
+      body.sign-user #content .left .form.sign-up .line img path,
+      body.sign-user #content .left .form.sign-up .line svg path {
+        fill: #aaa; }
+    body.sign-user #content .left .form.sign-up .line .tec-box {
+      display: block;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      width: 100%;
+      height: 500px;
+      text-align: left;
+      background-color: #fff;
+      padding: 30px; }
+    body.sign-user #content .left .form .line {
       position: relative;
       display: block;
       margin-bottom: 20px;
       width: 100%;
       text-align: center; }
-      body.sign-user #content .left form .line img,
-      body.sign-user #content .left form .line svg {
+      body.sign-user #content .left .form .line img,
+      body.sign-user #content .left .form .line svg {
         position: absolute;
         top: 50%;
         -webkit-transform: translateY(-50%);
@@ -10811,10 +11174,10 @@ body.sign-user #content {
         height: 20px;
         z-index: 2;
         pointer-events: none; }
-        body.sign-user #content .left form .line img path,
-        body.sign-user #content .left form .line svg path {
+        body.sign-user #content .left .form .line img path,
+        body.sign-user #content .left .form .line svg path {
           fill: #aaa; }
-      body.sign-user #content .left form .line .input {
+      body.sign-user #content .left .form .line .input {
         display: block;
         width: 100%;
         padding: 20px 20px 20px 60px;
@@ -10823,9 +11186,9 @@ body.sign-user #content {
         border-radius: 10px;
         background-color: #fff;
         text-align: left; }
-        body.sign-user #content .left form .line .input.password {
+        body.sign-user #content .left .form .line .input.password {
           padding-right: 200px; }
-      body.sign-user #content .left form .line .forgot {
+      body.sign-user #content .left .form .line .forgot {
         position: absolute;
         right: 30px;
         top: 50%;
@@ -10839,9 +11202,9 @@ body.sign-user #content {
         line-height: 1;
         -webkit-transition: .3s;
         transition: .3s; }
-        body.sign-user #content .left form .line .forgot:hover {
+        body.sign-user #content .left .form .line .forgot:hover {
           color: #7c5196; }
-      body.sign-user #content .left form .line .or-line {
+      body.sign-user #content .left .form .line .or-line {
         position: absolute;
         display: block;
         width: 100%;
@@ -10852,12 +11215,12 @@ body.sign-user #content {
                 transform: translateY(-50%);
         z-index: 0; }
         @media only screen and (max-width: 575px) {
-          body.sign-user #content .left form .line .or-line {
+          body.sign-user #content .left .form .line .or-line {
             width: 80%;
             margin: 0 auto;
             left: 0;
             right: 0; } }
-      body.sign-user #content .left form .line .or {
+      body.sign-user #content .left .form .line .or {
         display: inline-block;
         margin: 0 auto;
         text-align: center;
@@ -10868,29 +11231,29 @@ body.sign-user #content {
         background-color: #fff;
         padding: 50px 20px; }
         @media only screen and (max-width: 575px) {
-          body.sign-user #content .left form .line .or {
+          body.sign-user #content .left .form .line .or {
             padding: 40px 20px; } }
-    body.sign-user #content .left form .purple-bt {
+    body.sign-user #content .left .form .purple-bt {
       display: block;
       width: 100%;
       text-align: center; }
-      body.sign-user #content .left form .purple-bt:hover {
+      body.sign-user #content .left .form .purple-bt:hover {
         background-color: #491266;
         color: #fff; }
-    body.sign-user #content .left form .back {
+    body.sign-user #content .left .form .back {
       display: block;
       margin: 0 auto;
       text-align: center;
       padding-top: 50px; }
       @media only screen and (max-width: 575px) {
-        body.sign-user #content .left form .back {
+        body.sign-user #content .left .form .back {
           padding-top: 30px; } }
-    body.sign-user #content .left form .login-buttons {
+    body.sign-user #content .left .form .login-buttons {
       position: relative;
       display: block;
       width: 100%;
       margin-top: -20px; }
-      body.sign-user #content .left form .login-buttons .login-bt {
+      body.sign-user #content .left .form .login-buttons .login-bt {
         display: block;
         width: calc(50% - 10px);
         padding: 20px;
@@ -10899,54 +11262,57 @@ body.sign-user #content {
         cursor: pointer;
         -webkit-transition: background-color .3s;
         transition: background-color .3s; }
-        body.sign-user #content .left form .login-buttons .login-bt.google {
+        body.sign-user #content .left .form .login-buttons .login-bt.google {
           float: left;
           -webkit-box-shadow: inset 0 0 0 1px #aaa;
                   box-shadow: inset 0 0 0 1px #aaa; }
           @media only screen and (max-width: 575px) {
-            body.sign-user #content .left form .login-buttons .login-bt.google {
+            body.sign-user #content .left .form .login-buttons .login-bt.google {
               float: none;
               display: block;
               margin-bottom: 10px;
               width: 100%; } }
-          body.sign-user #content .left form .login-buttons .login-bt.google:hover {
+          body.sign-user #content .left .form .login-buttons .login-bt.google:hover {
             background-color: #eee; }
-        body.sign-user #content .left form .login-buttons .login-bt.facebook {
+        body.sign-user #content .left .form .login-buttons .login-bt.facebook {
           float: right;
           background-color: #3b4db3; }
           @media only screen and (max-width: 575px) {
-            body.sign-user #content .left form .login-buttons .login-bt.facebook {
+            body.sign-user #content .left .form .login-buttons .login-bt.facebook {
               float: none;
               display: block;
               margin-bottom: 10px;
               width: 100%; } }
-          body.sign-user #content .left form .login-buttons .login-bt.facebook:hover {
+          body.sign-user #content .left .form .login-buttons .login-bt.facebook:hover {
             background-color: #455bd6; }
-          body.sign-user #content .left form .login-buttons .login-bt.facebook img path,
-          body.sign-user #content .left form .login-buttons .login-bt.facebook svg path {
+          body.sign-user #content .left .form .login-buttons .login-bt.facebook img path,
+          body.sign-user #content .left .form .login-buttons .login-bt.facebook svg path {
             fill: #fff; }
-    body.sign-user #content .left form .final {
+    body.sign-user #content .left .form .final {
       display: block;
       margin-top: 40px;
       padding-bottom: 30px; }
       @media only screen and (max-width: 575px) {
-        body.sign-user #content .left form .final {
+        body.sign-user #content .left .form .final {
           margin-top: 30px;
           text-align: center; } }
-      body.sign-user #content .left form .final.forgot {
+      body.sign-user #content .left .form .final.forgot {
         text-align: center; }
-      body.sign-user #content .left form .final p {
+      body.sign-user #content .left .form .final p {
         color: #777;
         display: inline-block;
         vertical-align: top; }
-        body.sign-user #content .left form .final p a {
+        body.sign-user #content .left .form .final p a {
           color: #623e77;
           font-weight: bold;
           display: inline-block;
           vertical-align: top; }
-          body.sign-user #content .left form .final p a:before {
+          body.sign-user #content .left .form .final p a:before {
             height: 2px;
             background-color: #623e77; }
+
+body.sign-user .dz-hidden-input {
+  display: none; }
 
 /*----------------------------------------
 ------------------------------------------

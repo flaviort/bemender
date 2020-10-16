@@ -38,10 +38,10 @@
 			</li>
 
 			<li>
-				<a href="dashboard-provider-jobs.php" class="<?= ($activePage == 'dashboard-provider-jobs') ? 'active':''; ?>">
-					<img src="assets/img/svg/icon-jobs.svg" alt="Jobs" class="svg">
+				<a href="dashboard-provider-quotes.php" class="<?= ($activePage == 'dashboard-provider-quotes') ? 'active':''; ?>">
+					<img src="assets/img/svg/icon-jobs.svg" alt="Quotes" class="svg">
 					<p class="text-medium">
-						Jobs
+						Quotes
 					</p>
 				</a>
 			</li>
@@ -57,9 +57,36 @@
 
 			<li>
 				<a href="#" class="<?= ($activePage == 'dashboard-user-need-help') ? 'active':''; ?>">
-					<img src="assets/img/svg/icon-need-help.svg" alt="Need Help" class="svg">
+					<img src="assets/img/svg/icon-message.svg" alt="Message" class="svg">
 					<p class="text-medium">
-						Need Help
+						Message
+					</p>
+				</a>
+			</li>
+
+			<li>
+				<a href="#" class="<?= ($activePage == 'dashboard-provider-earnings') ? 'active':''; ?>">
+					<img src="assets/img/svg/icon-earnings.svg" alt="Earnings" class="svg">
+					<p class="text-medium">
+						Earnings
+					</p>
+				</a>
+			</li>
+
+			<li>
+				<a href="dashboard-provider-terms-and-conditions.php" class="<?= ($activePage == 'dashboard-provider-terms-and-conditions') ? 'active':''; ?>">
+					<img src="assets/img/svg/icon-tec.svg" alt="Terms and Conditions" class="svg">
+					<p class="text-medium">
+						Terms and Conditions
+					</p>
+				</a>
+			</li>
+
+			<li>
+				<a href="dashboard-provider-faq.php" class="<?= ($activePage == 'dashboard-provider-faq') ? 'active':''; ?>">
+					<img src="assets/img/svg/icon-faq.svg" alt="FAQ" class="svg">
+					<p class="text-medium">
+						FAQ
 					</p>
 				</a>
 			</li>

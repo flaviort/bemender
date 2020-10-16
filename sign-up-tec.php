@@ -80,14 +80,10 @@
 							</div>
 
 							<div class="select"></div>
-
-							<h1 class="text-large wow fadeInUp">
-								Glad to see you!
-							</h1>
 							
-							<h1 class="text-giant contact wow fadeInUp">
+							<h1 class="text-giant sign-up wow fadeInUp">
 								<strong>
-									Welcome back.
+									Terms & Conditions
 								</strong>
 							</h1>
 
@@ -103,53 +99,36 @@
 
 						<!-- COL / LEFT -->
 						<div class="col-lg-6 left">
-							<form action="" class="form">
+							<div class="sign-up form">
 
-								<div class="line wow fadeInUp">
-									<img src="assets/img/svg/icon-user.svg" alt="Email Address" class="svg">
-									<input type="email" class="text-medium input" required placeholder="Email Address">
-								</div>
+								<div class="line">
+									<div class="tec-box">
+										<p class="text-medium">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus mi at dictum dictum. Donec ac consequat orci. Curabitur et mollis ex. Vestibulum vitae blandit urna, vitae pretium velit. In hac habitasse platea dictumst. Donec efficitur urna sit amet ullamcorper efficitur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin consectetur ante eu mattis pharetra. Maecenas facilisis lacus lobortis ex viverra, quis tincidunt tortor blandit. Sed a lacus ipsum. Aliquam fermentum dui ac sagittis tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ac mi semper, tempor urna quis, pellentesque arcu. Mauris et elementum ex. Aliquam erat volutpat.<br /><br />
 
-								<div class="line wow fadeInUp">
-									<img src="assets/img/svg/icon-password.svg" alt="Password" class="svg">
-									<input type="password" class="text-medium input password" placeholder="Password">
-									<a href="forgot-password.php" class="forgot text-medium-small">Forgot password?</a>
+											Maecenas in nunc ac odio venenatis suscipit. Proin viverra urna sollicitudin risus facilisis, ut posuere sem faucibus. Fusce eu maximus odio. Morbi dictum tellus eu varius pulvinar. In hac habitasse platea dictumst. Aliquam accumsan eros non tortor pulvinar pellentesque. Phasellus aliquam leo sit amet eros mollis, vehicula vestibulum enim aliquet.<br /><br />
+
+											Etiam eu nibh id purus laoreet dapibus eu et quam. Mauris tincidunt enim eget tellus viverra aliquet. Cras tristique tellus eget feugiat rhoncus. Duis turpis erat, feugiat eget fringilla convallis, dapibus vitae nisi. Pellentesque odio erat, pretium vitae risus sed, varius eleifend ligula. Aenean lobortis quis velit et dictum. Aenean erat dui, auctor imperdiet finibus eu, tempus in lectus.<br /><br />
+
+											Mauris semper lacus id lectus imperdiet, vitae sodales neque luctus. Vestibulum imperdiet lectus sit amet est interdum, sed sagittis nisi condimentum. Sed sit amet egestas massa. Morbi ultrices consectetur elit, eu rhoncus lectus luctus ac. Vivamus vel lorem fermentum, interdum lacus vel, porta augue. Nulla sagittis diam id efficitur convallis. Aenean at dictum nunc, egestas gravida sapien.<br /><br />
+
+											Sed et semper erat. Morbi ante elit, lacinia vitae felis at, dapibus vulputate magna. Vestibulum cursus lorem vitae nunc commodo, non iaculis mi elementum. Fusce consequat quam a tellus fringilla dignissim. Vivamus enim augue, bibendum eget auctor eget, ultricies vitae mi. Donec maximus sem nulla, consequat convallis orci lacinia vel. Pellentesque nec eleifend neque, id aliquam sem. Cras quis odio a odio dapibus blandit. In pretium lorem eget lorem cursus, vel porttitor ex auctor. Nullam ac felis urna. Ut felis mauris, tempus vitae maximus ut, mattis sed nunc. Nullam metus ante, porta sit amet massa at, aliquam scelerisque lacus.
+										</p>
+									</div>
 								</div>
 
 								<input type="submit" id="send-user" style="display: none;">
-								<!--label for="send-user" class="purple-bt text-medium wow fadeInUp">Sign in</label-->
-								<a href="dashboard-user-history.php" class="purple-bt text-medium wow fadeInUp">Sign in</a>
-
-								<div class="line wow fadeInUp">
-									<div class="or-line"></div>
-									<p class="text-medium or">
-										or
-									</p>
-								</div>
-
-								<!-- LOGIN BUTTONS -->
-								<div class="login-buttons wow fadeInUp">
-									
-									<a href="#" class="login-bt google">
-										<img src="assets/img/svg/login-google.svg" alt="Google" class="svg">
-									</a>
-
-									<a href="#" class="login-bt facebook">
-										<img src="assets/img/svg/login-facebook.svg" alt="Facebook" class="svg">
-									</a>
-
-									<div class="cf"></div>
-
-								</div><!-- END LOGIN BUTTONS -->
+								<!--label for="send-user" class="purple-bt text-medium wow fadeInUp">Next</label-->
+								<a href="sign-up-tec.php" class="purple-bt text-medium wow fadeInUp">Sign Up</a>
 
 								<!-- FINAL -->
 								<div class="final wow fadeInUp">
 									<p class="text-medium">
-										Don't have an account? <a href="sign-up.php" class="text-medium hvr-underline-from-left">Sign up</a>
+										<a href="sign-up-address.php" class="text-medium hvr-underline-from-left">Back</a>
 									</p>
 								</div><!-- END FINAL -->
 
-							</form><!-- END FORM -->
+							</div><!-- END SIGN UP -->
 						</div><!-- END COL / LEFT -->
 
 						<!-- COL / RIGHT -->

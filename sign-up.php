@@ -99,10 +99,33 @@
 
 						<!-- COL / LEFT -->
 						<div class="col-lg-6 left">
-							<form action="" class="sign-up">
+							<div class="sign-up form">
+
+								<!-- FORM -->
+								<form action="#" class="dropzone" id="upload-zone" method="post" enctype="multipart/form-data">
+				
+									<!-- MIDDLE -->
+									<div class="middle" style="pointer-events: none">
+
+										<p class="text-x-medium top">
+											Upload your photo
+										</p>
+
+										<input id="upload-files" type="file" name="file" multiple />
+										<label for="upload-files" class="button-normal text-small">
+											Select a file from your device
+										</label>
+
+									</div><!-- END MIDDLE -->
+
+								</form><!-- END FORM -->
 
 								<div class="line wow fadeInUp">
-									<input type="text" class="text-medium input" required placeholder="Full Name *">
+									<input type="text" class="text-medium input" required placeholder="First Name *">
+								</div>
+
+								<div class="line wow fadeInUp">
+									<input type="text" class="text-medium input" required placeholder="Last Name *">
 								</div>
 
 								<div class="line wow fadeInUp">
@@ -110,19 +133,26 @@
 								</div>
 
 								<div class="line wow fadeInUp">
-									<input type="text" class="text-medium input" placeholder="Phone Number">
+									<select class="text-medium input">
+										<option value="" disabled selected>Gender</option>
+										<option value="Male">Male</option>
+										<option value="Female">Female</option>
+										<option value="Prefer not to say">Prefer not to say</option>
+									</select>
+									<img src="assets/img/svg/icon-down.svg" alt="More" class="svg">
 								</div>
 
 								<div class="line wow fadeInUp">
-									<input type="text" class="text-medium input" required placeholder="ZIPCode *">
+									<input type="password" class="text-medium input" placeholder="Password">
 								</div>
 
 								<div class="line wow fadeInUp">
-									<input type="password" class="text-medium input password" placeholder="Password">
+									<input type="password" class="text-medium input" placeholder="Confirm Password">
 								</div>
 
 								<input type="submit" id="send-user" style="display: none;">
-								<label for="send-user" class="purple-bt text-medium wow fadeInUp">Sign up</label>
+								<!--label for="send-user" class="purple-bt text-medium wow fadeInUp">Next</label-->
+								<a href="sign-up-address.php" class="purple-bt text-medium wow fadeInUp">Next</a>
 
 								<!-- FINAL -->
 								<div class="final wow fadeInUp">
@@ -131,7 +161,7 @@
 									</p>
 								</div><!-- END FINAL -->
 
-							</form><!-- END FORM -->
+							</div><!-- END SIGN UP -->
 						</div><!-- END COL / LEFT -->
 
 						<!-- COL / RIGHT -->

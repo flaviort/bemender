@@ -23,7 +23,16 @@
 				<a href="dashboard-user-history.php" class="<?= ($activePage == 'dashboard-user-history') ? 'active':''; ?>">
 					<img src="assets/img/svg/icon-history.svg" alt="History" class="svg">
 					<p class="text-medium">
-						History
+						Jobs
+					</p>
+				</a>
+			</li>
+
+			<li>
+				<a href="dashboard-user-quote-request.php" class="<?= ($activePage == 'dashboard-user-quote-request') ? 'active':''; ?>">
+					<img src="assets/img/svg/icon-quote.svg" alt="Quote Request" class="svg">
+					<p class="text-medium">
+						Quote Request
 					</p>
 				</a>
 			</li>
@@ -38,28 +47,28 @@
 			</li>
 
 			<li>
-				<a href="dashboard-user-address.php" class="<?= ($activePage == 'dashboard-user-address') ? 'active':''; ?>">
-					<img src="assets/img/svg/icon-address.svg" alt="Address" class="svg">
+				<a href="dashboard-user-faq.php" class="<?= ($activePage == 'dashboard-user-faq') ? 'active':''; ?>">
+					<img src="assets/img/svg/icon-faq.svg" alt="FAQ" class="svg">
 					<p class="text-medium">
-						Address
+						FAQ
 					</p>
 				</a>
 			</li>
 
 			<li>
-				<a href="dashboard-user-edit-account.php" class="<?= ($activePage == 'dashboard-user-edit-account') ? 'active':''; ?>">
-					<img src="assets/img/svg/icon-edit-account.svg" alt="Edit Account" class="svg">
+				<a href="#" class="<?= ($activePage == 'dashboard-user-message') ? 'active':''; ?>">
+					<img src="assets/img/svg/icon-message.svg" alt="Message" class="svg">
 					<p class="text-medium">
-						Edit Account
+						Message
 					</p>
 				</a>
 			</li>
 
 			<li>
-				<a href="#" class="<?= ($activePage == 'dashboard-user-need-help') ? 'active':''; ?>">
-					<img src="assets/img/svg/icon-need-help.svg" alt="Need Help" class="svg">
+				<a href="dashboard-user-tutorials.php" class="<?= ($activePage == 'dashboard-user-tutorials') ? 'active':''; ?>">
+					<img src="assets/img/svg/icon-tutorials.svg" alt="Tutorials" class="svg">
 					<p class="text-medium">
-						Need Help
+						Tutorials
 					</p>
 				</a>
 			</li>

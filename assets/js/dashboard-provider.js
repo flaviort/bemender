@@ -72,6 +72,12 @@ $( document ).ready(function() {
 	$("#gallery-done").click(function(e) {
 		e.preventDefault();
 	});
+
+	// FAQ
+	$(".accordion .line").click(function() {
+		$(this).toggleClass('active');
+		$(this).siblings('.content').slideToggle();
+	});
 	
 });
 

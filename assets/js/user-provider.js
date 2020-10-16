@@ -23,3 +23,21 @@ $( document ).ready(function() {
 	});
 
 });
+
+// DROPZONE
+Dropzone.autoDiscover = false;
+var that = $("#upload-zone");
+var myDropzone = new Dropzone('#upload-zone', {
+	addRemoveLinks: true,
+	uploadMultiple: false,
+	autoProcessQueue: true,
+	acceptedFiles: "image/*",
+	init: function(){
+		this.on("successmultiple", function(file, data) {
+			$(that).addClass("dz-success");
+		});
+		this.on("reset", function(file) {
+			$(that).removeClass("dz-success");
+		});
+	},
+}); // END DROPZONE

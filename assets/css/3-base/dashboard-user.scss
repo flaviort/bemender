@@ -724,6 +724,118 @@ body.dashboard-user {
 						} // END LINE
 					} // END HISTORY
 
+					.accordion {
+						.question {
+							margin-bottom: 30px;
+
+							@media #{$mq-md-max} {
+								margin-bottom: 20px;
+							}
+
+							@media #{$mq-xs-max} {
+								margin-bottom: 10px;
+							}
+
+							.line {
+								position: relative;
+								display: block;
+								width: 100%;
+								padding: 20px 30px;
+								box-shadow: inset 0 0 0 1px $gray-light;
+								border-radius: 10px;
+								cursor: pointer;
+								transition: .3s;
+								background-color: $white;
+
+								&:hover {
+									background-color: $almost-white;
+								} // END HOVER
+
+								&.active {
+									background-color: $purple-medium;
+
+									p {
+										color: $white;
+									} // END P
+
+									.circle {
+										box-shadow: inset 0 0 0 1px $white;
+
+										img,
+										svg {
+											path {
+												fill: $white;
+											} // END PATH
+										} // END IMG / SVG
+									} // END CIRCLE
+								} // END ACTIVE
+
+								p {
+									color: $purple-medium;
+									font-weight: $bold;
+									transition: .3s;
+								} // END P
+
+								.circle {
+									position: absolute;
+									top: 50%;
+									transform: translateY(-50%);
+									right: 20px;
+									display: block;
+									width: 40px;
+									height: 40px;
+									border-radius: 50px;
+									box-shadow: inset 0 0 0 1px $purple-medium;
+									transition: .3s;
+
+									img,
+									svg {
+										position: absolute;
+										top: 50%;
+										left: 50%;
+										transform: translate(-50%, -50%);
+										display: block;
+										width: 20px;
+										height: 20px;
+
+										path {
+											fill: $purple-medium;
+											transition: .3s;
+										} // END PATH
+									} // END IMG / SVG
+								} // END CIRCLE
+							} // END LINE
+
+							.content {
+								color: $gray-medium;
+								padding: 30px;
+								display: none;
+
+								@media #{$mq-xs-max} {
+									padding: 20px 30px;
+								}
+							} // END CONTENT
+						} // END QUESTION
+					} // END ACCORDION
+
+					.tutorials {
+						.video-wrapper {
+							position: relative;
+							padding-bottom: 56.25%;
+							height: 0;
+							display: block;
+							margin-bottom: 50px;
+							
+							iframe {
+								position: absolute;
+								top: 0;
+								left: 0;
+								width: 100%;
+								height: 100%;
+							} // END IFRAME
+						} // END VIDEO WRAPPER
+					} // END TUTORIALS
+
 					.payment-method {
 						.saved {
 							.text-x-medium {
@@ -1193,4 +1305,8 @@ body.dashboard-user {
 			} // END PURPLE BT
 		} // END BUTTON
 	} // END ARE YOU SURE
+
+	.dz-hidden-input {
+		display: none;
+	} // END DZ HIDDEN INPUT
 } // END BODY / DASHBOARD USER
