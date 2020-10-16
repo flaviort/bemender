@@ -851,9 +851,9 @@
 												Chat with Provider
 											</button>
 
-											<a href="#quote-submitted" data-fancybox class="text-medium purple-bt">
+											<button class="text-medium purple-bt location-slide">
 												Hire now
-											</a>
+											</button>
 
 											<div class="cf"></div>
 											
@@ -1509,8 +1509,8 @@
 
 									</div><!-- END SLICK SLIDE / MULTIPLE -->
 
-									<!-- SLICK SLIDE / SLIDE 03 -->
-									<div class="slick-slide slide-03">
+									<!-- SLICK SLIDE / SLIDE LOCATION -->
+									<div class="slick-slide slide-location">
 
 										<!-- TOP -->
 										<div class="top">
@@ -1543,52 +1543,111 @@
 										<!-- SLIDER NAV -->
 										<div class="slider-nav">
 
-											<!-- BUTTON / BACK -->
-											<button class="back text-medium hollow-gray-bt" id="back-to-02">
-												Previous
-											</button><!-- END BUTTON / BACK -->
-
 											<!-- BUTTON / NEXT -->
-											<a href="#searching-mender" data-loader class="text-medium purple-bt" id="next-to-04">
+											<button class="text-medium purple-bt coupon-slide">
 												Next
-											</a><!-- END BUTTON / NEXT -->
-
-											<div class="cf"></div>
-											
-										</div><!-- END SLIDER NAV -->
-
-									</div><!-- END SLICK SLIDE / SLIDE 03 -->
-
-									<!-- SLICK SLIDE / SLIDE 04 -->
-									<div class="slick-slide slide-04">
-
-										<!-- TITLE -->
-										<div class="title">
-											<p class="text-large">
-												Mender found
-											</p>
-										</div><!-- END TITLE -->
-
-										
-										
-										<!-- SLIDER NAV -->
-										<div class="slider-nav">
-
-											<!-- BUTTON / BACK -->
-											<button class="back text-medium hollow-gray-bt" id="back-to-03">
-												Previous
-											</button><!-- END BUTTON / BACK -->
-
-											<!-- BUTTON / NEXT -->
-											<button class="text-medium purple-bt" id="hire">
-												Hire
 											</button><!-- END BUTTON / NEXT -->
 
 											<div class="cf"></div>
 											
 										</div><!-- END SLIDER NAV -->
-										
-									</div><!-- END SLICK SLIDE / SLIDE 04 -->
+
+									</div><!-- END SLICK SLIDE / SLIDE LOCATION -->
+
+									<!-- SLICK SLIDE / SLIDE COUPON -->
+										<div class="slick-slide slide-coupon">
+
+											<!-- ROW -->
+											<div class="row">
+
+												<!-- COL / LEFT -->
+												<div class="col-md-6 left">
+
+													<!-- TITLE -->
+													<div class="title">
+														<p class="text-large">
+															Payment Method
+														</p>
+													</div><!-- END TITLE -->
+
+													<!-- WRAP -->
+													<div class="wrap">
+														
+														<p class="text-small">
+															Select a Payment Method
+														</p>
+
+														<a href="#add-new-card" data-fancybox class="text-small hvr-underline-from-left">
+															Add New Card
+														</a>
+
+														<div class="cf"></div>
+
+														<!-- BOX -->
+														<div class="box">
+															
+															<img src="assets/img/svg/icon-master.svg" alt="Mastercard" class="svg card">
+
+															<select class="text-medium">
+																<option value="" disabled="">Please select a card to use</option>
+																<option value="XXXX XXXX XXXX 0278" selected>XXXX XXXX XXXX 0278</option>
+																<option value="XXXX XXXX XXXX 0278">XXXX XXXX XXXX 4567</option>
+																<option value="XXXX XXXX XXXX 0278">XXXX XXXX XXXX 9865</option>
+															</select>
+
+															<img src="assets/img/svg/icon-down.svg" alt="Select" class="svg icon">
+
+														</div><!-- END BOX -->
+
+													</div><!-- END WRAP -->
+													
+												</div><!-- END COL / LEFT -->
+
+												<!-- COL / RIGHT -->
+												<div class="col-md-6 right">
+													<div class="box">
+														
+														<p class="text-x-medium">
+															Do you have a Disccount Coupon?
+														</p>
+
+														<!-- LINE -->
+														<div class="line">
+															
+															<input type="text" class="text-medium" placeholder="Enter Promo Code">
+															
+															<button class="text-medium" id="promo-code">
+																Apply
+															</button>
+
+														</div><!-- END LINE -->
+
+														<p class="coupon-alert text-small success">
+															Coupon successfully applied!
+														</p>
+
+														<p class="coupon-alert text-small error">
+															Invalid coupon!
+														</p>
+
+													</div><!-- END BOX -->
+												</div><!-- END COL / RIGHT -->
+
+											</div><!-- END ROW -->
+											
+											<!-- SLIDER NAV -->
+											<div class="slider-nav">
+
+												<!-- BUTTON / NEXT -->
+												<button class="next text-medium purple-bt" id="next-to-03">
+													Request Mender
+												</button><!-- END BUTTON / NEXT -->
+
+												<div class="cf"></div>
+												
+											</div><!-- END SLIDER NAV -->
+
+										</div><!-- END SLICK SLIDE / SLIDE COUPON -->
 
 									<!-- SLICK SLIDE / SLIDE 05 -->
 									<div class="slick-slide slide-05">
@@ -1718,8 +1777,13 @@
 										<div class="final-nav">
 
 											<!-- BUTTON / BACK -->
-											<a href="#invoice" data-fancybox class="left text-medium purple-bt">
+											<!--a href="#invoice" data-fancybox class="left text-medium purple-bt">
 												Invoice
+											</a--><!-- END BUTTON / BACK -->
+
+											<!-- BUTTON / BACK -->
+											<a href="https://g.page/mob-museum-las-vegas?share" data-fancybox class="left text-medium purple-bt">
+												Track Provider
 											</a><!-- END BUTTON / BACK -->
 
 											<!-- BUTTON / NEXT -->
@@ -1879,19 +1943,6 @@
 								</div><!-- END EVALUATION -->
 
 							</div><!-- END LEFT -->
-
-							<!-- RIGHT -->
-							<div class="right">
-
-								<span class="text-small hollow-purple-bt hire-slide" onclick="$.fancybox.close();">
-									Hire now
-								</span>
-
-								<span class="text-small hollow-purple-bt schedule-slide" onclick="$.fancybox.close();">
-									Schedule
-								</span>
-								
-							</div><!-- END RIGHT -->
 
 							<div class="cf"></div>
 

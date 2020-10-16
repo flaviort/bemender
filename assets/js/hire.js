@@ -52,6 +52,15 @@ $( document ).ready(function() {
 		$('.main-slider').slick('slickGoTo', 3);
 	});
 
+	$('.location-slide').click(function() {
+		$('.main-slider').slick('slickGoTo', 4);
+	});
+
+	$('.coupon-slide').click(function() {
+		$('.main-slider').slick('slickGoTo', 5);
+	});
+
+
 	// TIME / HOUR FADE
 	$('#by-time').click(function() {
 		$('.slide-01 .selects .by-hour').fadeOut("fast", function(){
@@ -84,6 +93,7 @@ $( document ).ready(function() {
 
 	$('#next-to-03').click(function() {
 		$('#line-payment').slideDown();
+		$('.main-slider').slick('slickGoTo', 6);
 	});
 
 	$('#back-to-02').click(function() {

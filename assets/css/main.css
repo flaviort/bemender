@@ -7062,76 +7062,76 @@ body.hire .wrap {
               body.hire .wrap #content #slider-section .main-slider .slide-01 .line .selects .wrap img path,
               body.hire .wrap #content #slider-section .main-slider .slide-01 .line .selects .wrap svg path {
                 fill: #aaa; }
-    body.hire .wrap #content #slider-section .main-slider .slide-02 .row {
+    body.hire .wrap #content #slider-section .main-slider .slide-coupon .row {
       padding-right: 1px;
       margin-top: 50px;
       margin-bottom: 100px; }
       @media only screen and (max-width: 1360px) {
-        body.hire .wrap #content #slider-section .main-slider .slide-02 .row {
+        body.hire .wrap #content #slider-section .main-slider .slide-coupon .row {
           margin-bottom: 70px; } }
       @media only screen and (max-width: 1200px) {
-        body.hire .wrap #content #slider-section .main-slider .slide-02 .row {
+        body.hire .wrap #content #slider-section .main-slider .slide-coupon .row {
           margin-bottom: 50px; } }
       @media only screen and (max-width: 992px) {
-        body.hire .wrap #content #slider-section .main-slider .slide-02 .row {
+        body.hire .wrap #content #slider-section .main-slider .slide-coupon .row {
           margin-top: 0; } }
       @media only screen and (max-width: 767px) {
-        body.hire .wrap #content #slider-section .main-slider .slide-02 .row {
+        body.hire .wrap #content #slider-section .main-slider .slide-coupon .row {
           margin-top: 30px; } }
       @media only screen and (max-width: 575px) {
-        body.hire .wrap #content #slider-section .main-slider .slide-02 .row {
+        body.hire .wrap #content #slider-section .main-slider .slide-coupon .row {
           margin-top: 20px; } }
-      body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .title {
+      body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .title {
         display: block;
         margin-bottom: 50px; }
         @media only screen and (max-width: 992px) {
-          body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .title {
+          body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .title {
             margin-bottom: 30px; } }
-        body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .title .text-large {
+        body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .title .text-large {
           font-weight: bold;
           color: #777;
           line-height: 1; }
-          body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .title .text-large span {
+          body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .title .text-large span {
             color: #623e77;
             font-weight: inherit; }
-      body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .wrap {
+      body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .wrap {
         position: relative;
         display: block;
         padding: 20px; }
         @media only screen and (max-width: 992px) {
-          body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .wrap {
+          body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .wrap {
             padding: 10px; } }
         @media only screen and (max-width: 767px) {
-          body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .wrap {
+          body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .wrap {
             padding: 0; } }
-        body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .wrap p {
+        body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .wrap p {
           float: left;
           color: #777;
           font-weight: bold;
           margin-left: 10px; }
           @media only screen and (max-width: 1200px) {
-            body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .wrap p {
+            body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .wrap p {
               float: none;
               display: block;
               margin-bottom: 10px; } }
-        body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .wrap a {
+        body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .wrap a {
           float: right;
           font-weight: bold;
           color: #623e77;
           margin-right: 10px; }
           @media only screen and (max-width: 1200px) {
-            body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .wrap a {
+            body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .wrap a {
               float: none;
               margin-right: 0;
               margin-left: 10px; } }
-          body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .wrap a:before {
+          body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .wrap a:before {
             background-color: #623e77;
             height: 2px; }
-        body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .wrap .box {
+        body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .wrap .box {
           position: relative;
           display: block;
           margin-top: 20px; }
-          body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .wrap .box .card {
+          body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .wrap .box .card {
             position: absolute;
             top: 50%;
             -webkit-transform: translateY(-50%);
@@ -7142,9 +7142,9 @@ body.hire .wrap {
             height: 30px;
             z-index: 2;
             pointer-events: none; }
-            body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .wrap .box .card path {
+            body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .wrap .box .card path {
               fill: #623e77; }
-          body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .wrap .box select {
+          body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .wrap .box select {
             display: block;
             position: relative;
             z-index: 1;
@@ -7162,16 +7162,16 @@ body.hire .wrap {
             cursor: pointer;
             border-radius: 60px; }
             @media only screen and (max-width: 992px) {
-              body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .wrap .box select {
+              body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .wrap .box select {
                 -webkit-box-shadow: inset 0 0 0 1px #aaa, 0 0 10px 0 rgba(0, 0, 0, 0.1);
                         box-shadow: inset 0 0 0 1px #aaa, 0 0 10px 0 rgba(0, 0, 0, 0.1); } }
             @media only screen and (max-width: 767px) {
-              body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .wrap .box select {
+              body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .wrap .box select {
                 -webkit-box-shadow: inset 0 0 0 1px #aaa;
                         box-shadow: inset 0 0 0 1px #aaa; } }
-            body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .wrap .box select::-ms-expand {
+            body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .wrap .box select::-ms-expand {
               display: none; }
-          body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .wrap .box .icon {
+          body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .wrap .box .icon {
             position: absolute;
             top: 50%;
             -webkit-transform: translateY(-50%);
@@ -7182,9 +7182,9 @@ body.hire .wrap {
             height: 20px;
             z-index: 2;
             pointer-events: none; }
-            body.hire .wrap #content #slider-section .main-slider .slide-02 .row .left .wrap .box .icon path {
+            body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .left .wrap .box .icon path {
               fill: #aaa; }
-      body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box {
+      body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box {
         display: block;
         border-radius: 20px;
         -webkit-box-shadow: inset 0 0 0 1px #aaa;
@@ -7192,26 +7192,26 @@ body.hire .wrap {
         background: url(../img/bg-coupon.png) right top no-repeat;
         padding: 70px; }
         @media only screen and (max-width: 1360px) {
-          body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box {
+          body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box {
             padding: 50px; } }
         @media only screen and (max-width: 1200px) {
-          body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box {
+          body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box {
             padding: 30px; } }
         @media only screen and (max-width: 767px) {
-          body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box {
+          body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box {
             margin-top: 30px; } }
         @media only screen and (max-width: 375px) {
-          body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box {
+          body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box {
             text-align: center; } }
-        body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box .text-x-medium {
+        body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box .text-x-medium {
           font-weight: bold;
           color: #777;
           display: block;
           margin-bottom: 40px; }
           @media only screen and (max-width: 575px) {
-            body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box .text-x-medium {
+            body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box .text-x-medium {
               margin-bottom: 30px; } }
-        body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box .line {
+        body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box .line {
           position: relative;
           display: block;
           -webkit-box-shadow: 0 0 0 1px #aaa;
@@ -7219,7 +7219,7 @@ body.hire .wrap {
           border-radius: 10px;
           overflow: hidden;
           margin-bottom: 20px; }
-          body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box .line input {
+          body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box .line input {
             position: relative;
             display: block;
             width: 100%;
@@ -7229,12 +7229,12 @@ body.hire .wrap {
             border: none;
             background: #fff; }
             @media only screen and (max-width: 575px) {
-              body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box .line input {
+              body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box .line input {
                 padding: 15px 20px; } }
             @media only screen and (max-width: 375px) {
-              body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box .line input {
+              body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box .line input {
                 text-align: center; } }
-          body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box .line button {
+          body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box .line button {
             position: absolute;
             right: 0;
             top: 0;
@@ -7247,10 +7247,10 @@ body.hire .wrap {
             -webkit-transition: .3s;
             transition: .3s; }
             @media only screen and (max-width: 575px) {
-              body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box .line button {
+              body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box .line button {
                 padding: 15px 20px; } }
             @media only screen and (max-width: 375px) {
-              body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box .line button {
+              body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box .line button {
                 display: block;
                 width: 100%;
                 text-align: center;
@@ -7258,58 +7258,58 @@ body.hire .wrap {
                 position: relative;
                 right: auto;
                 top: auto; } }
-            body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box .line button:hover, body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box .line button:focus {
+            body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box .line button:hover, body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box .line button:focus {
               background-color: #491266; }
-        body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box .coupon-alert {
+        body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box .coupon-alert {
           display: block;
           font-weight: bold; }
-          body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box .coupon-alert.success {
+          body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box .coupon-alert.success {
             color: #30bb43; }
-          body.hire .wrap #content #slider-section .main-slider .slide-02 .row .right .box .coupon-alert.error {
+          body.hire .wrap #content #slider-section .main-slider .slide-coupon .row .right .box .coupon-alert.error {
             color: #b6302e; }
-    body.hire .wrap #content #slider-section .main-slider .slide-03 {
+    body.hire .wrap #content #slider-section .main-slider .slide-location {
       margin-top: 50px; }
       @media only screen and (max-width: 992px) {
-        body.hire .wrap #content #slider-section .main-slider .slide-03 {
+        body.hire .wrap #content #slider-section .main-slider .slide-location {
           margin-top: 0; } }
       @media only screen and (max-width: 767px) {
-        body.hire .wrap #content #slider-section .main-slider .slide-03 {
+        body.hire .wrap #content #slider-section .main-slider .slide-location {
           margin-top: 30px; } }
       @media only screen and (max-width: 575px) {
-        body.hire .wrap #content #slider-section .main-slider .slide-03 {
+        body.hire .wrap #content #slider-section .main-slider .slide-location {
           margin-top: 20px; } }
-      body.hire .wrap #content #slider-section .main-slider .slide-03 .top .title {
+      body.hire .wrap #content #slider-section .main-slider .slide-location .top .title {
         display: block;
         float: left;
         width: 60%; }
         @media only screen and (max-width: 992px) {
-          body.hire .wrap #content #slider-section .main-slider .slide-03 .top .title {
+          body.hire .wrap #content #slider-section .main-slider .slide-location .top .title {
             float: none;
             width: 100%; } }
-        body.hire .wrap #content #slider-section .main-slider .slide-03 .top .title .text-large {
+        body.hire .wrap #content #slider-section .main-slider .slide-location .top .title .text-large {
           padding-top: 10px;
           font-weight: bold;
           color: #777;
           line-height: 1; }
           @media only screen and (max-width: 767px) {
-            body.hire .wrap #content #slider-section .main-slider .slide-03 .top .title .text-large {
+            body.hire .wrap #content #slider-section .main-slider .slide-location .top .title .text-large {
               padding-top: 0; } }
-          body.hire .wrap #content #slider-section .main-slider .slide-03 .top .title .text-large span {
+          body.hire .wrap #content #slider-section .main-slider .slide-location .top .title .text-large span {
             color: #623e77;
             font-weight: inherit; }
-      body.hire .wrap #content #slider-section .main-slider .slide-03 .top .line {
+      body.hire .wrap #content #slider-section .main-slider .slide-location .top .line {
         float: right;
         width: 40%;
         position: relative;
         padding-right: 1px; }
         @media only screen and (max-width: 992px) {
-          body.hire .wrap #content #slider-section .main-slider .slide-03 .top .line {
+          body.hire .wrap #content #slider-section .main-slider .slide-location .top .line {
             float: none;
             display: block;
             width: 100%;
             margin-top: 30px; } }
-        body.hire .wrap #content #slider-section .main-slider .slide-03 .top .line img,
-        body.hire .wrap #content #slider-section .main-slider .slide-03 .top .line svg {
+        body.hire .wrap #content #slider-section .main-slider .slide-location .top .line img,
+        body.hire .wrap #content #slider-section .main-slider .slide-location .top .line svg {
           display: block;
           width: 25px;
           height: 25px;
@@ -7320,10 +7320,10 @@ body.hire .wrap {
                   transform: translateY(-50%);
           z-index: 2;
           pointer-events: none; }
-          body.hire .wrap #content #slider-section .main-slider .slide-03 .top .line img path,
-          body.hire .wrap #content #slider-section .main-slider .slide-03 .top .line svg path {
+          body.hire .wrap #content #slider-section .main-slider .slide-location .top .line img path,
+          body.hire .wrap #content #slider-section .main-slider .slide-location .top .line svg path {
             fill: #623e77; }
-        body.hire .wrap #content #slider-section .main-slider .slide-03 .top .line input {
+        body.hire .wrap #content #slider-section .main-slider .slide-location .top .line input {
           display: block;
           width: 100%;
           border-radius: 15px;
@@ -7336,19 +7336,19 @@ body.hire .wrap {
           padding: 17px 20px 17px 60px;
           color: #777; }
           @media only screen and (max-width: 767px) {
-            body.hire .wrap #content #slider-section .main-slider .slide-03 .top .line input {
+            body.hire .wrap #content #slider-section .main-slider .slide-location .top .line input {
               border-radius: 10px; } }
-      body.hire .wrap #content #slider-section .main-slider .slide-03 #map {
+      body.hire .wrap #content #slider-section .main-slider .slide-location #map {
         display: block;
         margin: 50px 1px 70px 1px; }
         @media only screen and (max-width: 992px) {
-          body.hire .wrap #content #slider-section .main-slider .slide-03 #map {
+          body.hire .wrap #content #slider-section .main-slider .slide-location #map {
             margin-top: 30px; } }
         @media only screen and (max-width: 767px) {
-          body.hire .wrap #content #slider-section .main-slider .slide-03 #map {
+          body.hire .wrap #content #slider-section .main-slider .slide-location #map {
             margin-bottom: 50px;
             margin-top: 20px; } }
-        body.hire .wrap #content #slider-section .main-slider .slide-03 #map iframe {
+        body.hire .wrap #content #slider-section .main-slider .slide-location #map iframe {
           display: block;
           width: calc(100% - 2px);
           height: 500px;
@@ -7358,10 +7358,10 @@ body.hire .wrap {
           position: relative;
           overflow: hidden; }
           @media only screen and (max-width: 992px) {
-            body.hire .wrap #content #slider-section .main-slider .slide-03 #map iframe {
+            body.hire .wrap #content #slider-section .main-slider .slide-location #map iframe {
               height: 400px; } }
           @media only screen and (max-width: 767px) {
-            body.hire .wrap #content #slider-section .main-slider .slide-03 #map iframe {
+            body.hire .wrap #content #slider-section .main-slider .slide-location #map iframe {
               height: 300px;
               border-radius: 10px; } }
     body.hire .wrap #content #slider-section .main-slider .slide-04 {
@@ -7571,6 +7571,341 @@ body.hire .wrap {
                     @media only screen and (max-width: 575px) {
                       body.hire .wrap #content #slider-section .main-slider .slide-04 .line .box .row .right .service .row > div img {
                         display: none; } }
+    body.hire .wrap #content #slider-section .main-slider .slide-05 .line {
+      margin-top: 20px;
+      margin-bottom: 50px;
+      display: block;
+      padding-right: 1px; }
+      @media only screen and (max-width: 1360px) {
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .line {
+          margin-top: 50px; } }
+      @media only screen and (max-width: 1200px) {
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .line {
+          margin-bottom: 30px; } }
+      @media only screen and (max-width: 992px) {
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .line {
+          margin-top: 20px; } }
+      @media only screen and (max-width: 575px) {
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .line {
+          margin-top: 30px;
+          margin-bottom: 20px; } }
+      body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box {
+        position: relative;
+        display: block;
+        border-radius: 20px;
+        -webkit-box-shadow: inset 0 0 0 1px #aaa;
+                box-shadow: inset 0 0 0 1px #aaa;
+        background-color: #fff;
+        min-height: 250px; }
+        @media only screen and (max-width: 1200px) {
+          body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box {
+            min-height: 150px; } }
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box:before {
+          content: "";
+          position: absolute;
+          z-index: 0;
+          top: 0;
+          left: 0;
+          width: 300px;
+          height: 100%;
+          background-color: #491266;
+          display: block;
+          border-top-left-radius: 20px;
+          border-bottom-left-radius: 20px; }
+          @media only screen and (max-width: 1200px) {
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box:before {
+              width: 170px; } }
+          @media only screen and (max-width: 575px) {
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box:before {
+              width: 100%;
+              height: 80px;
+              border-bottom-left-radius: 0;
+              border-top-right-radius: 20px; } }
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .photo {
+          position: absolute;
+          z-index: 2;
+          top: -20px;
+          left: 20px;
+          display: block;
+          width: 250px;
+          height: 250px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-color: #111;
+          overflow: hidden;
+          border-radius: 10px; }
+          @media only screen and (max-width: 1200px) {
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .photo {
+              width: 130px;
+              height: 130px; } }
+          @media only screen and (max-width: 575px) {
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .photo {
+              position: relative;
+              top: auto;
+              left: auto;
+              margin: 0 0 0 20px;
+              -webkit-transform: translateY(-20px);
+                      transform: translateY(-20px); } }
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row {
+          padding-left: 340px;
+          padding-top: 40px;
+          padding-bottom: 40px;
+          position: relative;
+          z-index: 1;
+          padding-right: 1px; }
+          @media only screen and (max-width: 1200px) {
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row {
+              padding-left: 190px; } }
+          @media only screen and (max-width: 767px) {
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row {
+              padding-top: 30px;
+              padding-bottom: 20px; } }
+          @media only screen and (max-width: 575px) {
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row {
+              padding-left: 20px;
+              padding-right: 20px;
+              padding-top: 0; } }
+          body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .left .name {
+            font-weight: bold;
+            color: #491266;
+            margin-top: -10px;
+            display: block; }
+            @media only screen and (max-width: 767px) {
+              body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .left .name {
+                font-size: 30px; } }
+            @media only screen and (max-width: 575px) {
+              body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .left .name {
+                font-size: 28px; } }
+          body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .left .place {
+            display: block;
+            color: #777;
+            margin: 5px 0;
+            line-height: 1.2; }
+            @media only screen and (max-width: 1200px) {
+              body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .left .place {
+                margin: 10px 0; } }
+          body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .left .age {
+            color: #aaa;
+            display: inline-block;
+            vertical-align: middle;
+            font-weight: bold; }
+          body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .left a {
+            display: inline-block;
+            vertical-align: middle;
+            font-weight: bold;
+            color: #623e77;
+            line-height: 1.2;
+            margin-left: 20px; }
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .left a:before {
+              height: 2px;
+              background-color: #623e77; }
+          body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .right {
+            text-align: left;
+            padding-right: 50px;
+            padding-top: 5px; }
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .right .top p {
+              color: #777;
+              font-weight: bold;
+              line-height: 1.2; }
+              body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .right .top p span {
+                color: #623e77;
+                font-weight: inherit; }
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .right .evaluation {
+              margin-top: 35px;
+              display: block; }
+              @media only screen and (max-width: 767px) {
+                body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .right .evaluation {
+                  margin-top: 10px; } }
+              body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .right .evaluation .rating {
+                display: inline-block;
+                vertical-align: middle;
+                color: #777;
+                font-weight: bold; }
+              body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .right .evaluation img,
+              body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .right .evaluation svg {
+                display: inline-block;
+                vertical-align: middle;
+                width: 22px;
+                height: 22px;
+                -webkit-transform: translateY(-2px);
+                        transform: translateY(-2px);
+                padding-left: 2px; }
+                body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .right .evaluation img path,
+                body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .right .evaluation svg path {
+                  fill: #f9c12c; }
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .right .service {
+              display: block;
+              margin-top: 10px; }
+              @media only screen and (max-width: 575px) {
+                body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .right .service {
+                  margin-top: 15px; } }
+              body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .right .service .row > div {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                -webkit-box-pack: start;
+                    -ms-flex-pack: start;
+                        justify-content: flex-start; }
+                body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .right .service .row > div p {
+                  font-weight: bold;
+                  color: #777;
+                  line-height: 1.2; }
+                body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .right .service .row > div img {
+                  display: block;
+                  width: 150px;
+                  margin: 0 auto; }
+                  @media only screen and (max-width: 1200px) {
+                    body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .right .service .row > div img {
+                      width: 130px; } }
+                  @media only screen and (max-width: 575px) {
+                    body.hire .wrap #content #slider-section .main-slider .slide-05 .line .box .row .right .service .row > div img {
+                      display: none; } }
+    body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service {
+      position: relative;
+      display: block;
+      border-radius: 20px;
+      -webkit-box-shadow: inset 0 0 0 1px #aaa;
+              box-shadow: inset 0 0 0 1px #aaa;
+      background-color: #fff;
+      padding: 50px;
+      min-height: 250px;
+      width: calc(100% - 1px); }
+      @media only screen and (max-width: 1200px) {
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service {
+          min-height: auto;
+          padding: 30px; } }
+      @media only screen and (max-width: 575px) {
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service {
+          padding: 20px; } }
+      body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .left {
+        position: relative; }
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .left .text-small {
+          font-weight: bold;
+          color: #aaa;
+          display: block;
+          margin-bottom: 10px;
+          line-height: 1.2;
+          padding-right: 270px; }
+          @media only screen and (max-width: 1200px) {
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .left .text-small {
+              padding-right: 210px; } }
+          @media only screen and (max-width: 767px) {
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .left .text-small {
+              padding-right: 160px; } }
+          @media only screen and (max-width: 575px) {
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .left .text-small {
+              padding-right: 110px; } }
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .left .text-x-medium {
+          font-weight: bold;
+          color: #623e77;
+          line-height: 1.2;
+          margin: 0;
+          max-width: none;
+          padding-right: 270px; }
+          @media only screen and (max-width: 1200px) {
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .left .text-x-medium {
+              padding-right: 210px; } }
+          @media only screen and (max-width: 767px) {
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .left .text-x-medium {
+              padding-right: 160px; } }
+          @media only screen and (max-width: 575px) {
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .left .text-x-medium {
+              padding-right: 110px; } }
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .left .service-icon {
+          position: absolute;
+          right: 0;
+          top: -10px;
+          width: 250px; }
+          @media only screen and (max-width: 1200px) {
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .left .service-icon {
+              width: 200px; } }
+          @media only screen and (max-width: 767px) {
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .left .service-icon {
+              width: 150px; } }
+          @media only screen and (max-width: 575px) {
+            body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .left .service-icon {
+              width: 100px;
+              top: -5px; } }
+      @media only screen and (max-width: 767px) {
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .right {
+          margin-top: 50px;
+          display: block; } }
+      @media only screen and (max-width: 575px) {
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .right {
+          margin-top: 30px; } }
+      body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .right .sep {
+        display: block;
+        margin-bottom: 30px; }
+        @media only screen and (max-width: 767px) {
+          body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .right .sep {
+            margin-bottom: 20px; } }
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .right .sep .text-small {
+          font-weight: bold;
+          color: #aaa;
+          display: block;
+          margin-bottom: 10px;
+          line-height: 1.2; }
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .right .sep .text-medium {
+          color: #aaa;
+          line-height: 1.4;
+          margin: 0;
+          max-width: none;
+          padding: 0; }
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .right .sep .wrap img,
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .right .sep .wrap svg {
+          width: 30px;
+          height: 30px;
+          display: inline-block;
+          vertical-align: middle;
+          margin-right: 5px; }
+          body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .right .sep .wrap img path,
+          body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .right .sep .wrap svg path {
+            fill: #aaa; }
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .hired-service .right .sep .wrap .text-medium {
+          line-height: 1;
+          display: inline-block;
+          vertical-align: middle; }
+    body.hire .wrap #content #slider-section .main-slider .slide-05 .final-nav {
+      border-top: 1px solid #ccc;
+      padding-top: 50px;
+      margin-top: 50px;
+      margin-bottom: 100px;
+      padding-right: 1px; }
+      @media only screen and (max-width: 992px) {
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .final-nav {
+          margin-bottom: 70px; } }
+      @media only screen and (max-width: 767px) {
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .final-nav {
+          margin-bottom: 50px; } }
+      @media only screen and (max-width: 575px) {
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .final-nav {
+          padding-top: 30px;
+          margin-top: 30px; } }
+      body.hire .wrap #content #slider-section .main-slider .slide-05 .final-nav .left {
+        float: left; }
+        @media only screen and (max-width: 575px) {
+          body.hire .wrap #content #slider-section .main-slider .slide-05 .final-nav .left {
+            display: block;
+            width: 100%;
+            float: none;
+            text-align: center;
+            margin: 0 auto; } }
+        body.hire .wrap #content #slider-section .main-slider .slide-05 .final-nav .left:hover, body.hire .wrap #content #slider-section .main-slider .slide-05 .final-nav .left:focus {
+          background-color: #491266;
+          color: #fff; }
+      body.hire .wrap #content #slider-section .main-slider .slide-05 .final-nav .right {
+        float: right; }
+        @media only screen and (max-width: 575px) {
+          body.hire .wrap #content #slider-section .main-slider .slide-05 .final-nav .right {
+            display: block;
+            width: 100%;
+            float: none;
+            text-align: center;
+            margin: 10px auto 0 auto; } }
     body.hire .wrap #content #slider-section .main-slider .slider-nav {
       border-top: 1px solid #ccc;
       padding-top: 50px;
